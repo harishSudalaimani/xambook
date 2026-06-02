@@ -2,9 +2,11 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 import { useAuth } from '../context/AuthContext'
+
+import { API_URL, AUTH_DISABLED } from '../lib/config'
 
 import '../styles/Home.css'
 
@@ -109,8 +111,32 @@ export default function Home() {
 
   const isLoggedIn = authenticated
 
-  // temporary
-  const isPremium = false
+  // Real premium status, fetched from the backend.
+  const [isPremium, setIsPremium] =
+    useState(false)
+
+  useEffect(() => {
+    if (!authenticated) return
+
+    const token = localStorage.getItem('kc_token')
+
+    if (!token && !AUTH_DISABLED) return
+
+    const headers: Record<string, string> = {}
+
+    if (token) {
+      headers['Authorization'] = `Bearer ${token}`
+    }
+
+    fetch(`${API_URL}/api/user/me`, { headers })
+      .then(r => (r.ok ? r.json() : null))
+      .then(data => {
+        if (data) {
+          setIsPremium(!!data.is_premium)
+        }
+      })
+      .catch(() => {})
+  }, [authenticated])
 
   function handlePremiumClick(
     e: React.MouseEvent
@@ -211,70 +237,72 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Premium CTA */}
-      <div className="homeCtaSection">
-        <div className="homeCta">
-          <div className="homePremiumBadge">
-            ⚡ LIMITED OFFER
-          </div>
+      {/* Premium CTA — hidden for premium users */}
+      {!isPremium && (
+        <div className="homeCtaSection">
+          <div className="homeCta">
+            <div className="homePremiumBadge">
+              ⚡ LIMITED OFFER
+            </div>
 
-          <h2 className="homeCtaTitle">
-            Unlock Full Access
-          </h2>
+            <h2 className="homeCtaTitle">
+              Unlock Full Access
+            </h2>
 
-          <p className="homeCtaSub">
-            Get all 20 test series across
-            Biology, Physics & Chemistry —
-            subject-wise tests + full mocks.
-          </p>
+            <p className="homeCtaSub">
+              Get all 20 test series across
+              Biology, Physics & Chemistry —
+              subject-wise tests + full mocks.
+            </p>
 
-          <div className="homePremiumPriceRow">
-            <span className="homePremiumPrice">
-              ₹99
-            </span>
+            <div className="homePremiumPriceRow">
+              <span className="homePremiumPrice">
+                ₹99
+              </span>
 
-            <span className="homePremiumPriceNote">
-              one-time · lifetime access
-            </span>
-          </div>
+              <span className="homePremiumPriceNote">
+                one-time · lifetime access
+              </span>
+            </div>
 
-          <div className="homePremiumPerks">
-            {[
-              '✅ 20 subject-wise & full mock tests',
-              '✅ Instant score & analysis after each test',
-              '✅ NEET NTA exam pattern questions',
-              '✅ Free sample test included',
-            ].map(perk => (
-              <p
-                key={perk}
-                className="homePremiumPerk"
+            <div className="homePremiumPerks">
+              {[
+                '✅ 20 subject-wise & full mock tests',
+                '✅ Instant score & analysis after each test',
+                '✅ NEET NTA exam pattern questions',
+                '✅ Free sample test included',
+              ].map(perk => (
+                <p
+                  key={perk}
+                  className="homePremiumPerk"
+                >
+                  {perk}
+                </p>
+              ))}
+            </div>
+
+            {!isLoggedIn ? (
+              <button
+                onClick={() => login()}
+                className="homeCtaBtn"
               >
-                {perk}
-              </p>
-            ))}
+                Buy Premium — ₹99 →
+              </button>
+            ) : (
+              <Link
+                to="/payment"
+                className="homeCtaBtn"
+              >
+                Buy Premium — ₹99 →
+              </Link>
+            )}
+
+            <p className="homeCtaDisclaimer">
+              Login required · Secure payment
+            </p>
           </div>
-
-          {!isLoggedIn ? (
-            <button
-              onClick={() => login()}
-              className="homeCtaBtn"
-            >
-              Buy Premium — ₹99 →
-            </button>
-          ) : (
-            <Link
-              to="/payment"
-              className="homeCtaBtn"
-            >
-              Buy Premium — ₹99 →
-            </Link>
-          )}
-
-          <p className="homeCtaDisclaimer">
-            Login required · Secure payment
-          </p>
         </div>
-      </div>
+      )}
 
       {/* Subjects */}
       <section className="homeSection">
@@ -318,7 +346,7 @@ export default function Home() {
                 </span>
 
                 <span className="homeSubjectArrow">
-                  🔒 Premium
+                  {isPremium ? '🚀 Open' : '🔒 Premium'}
                 </span>
               </div>
             </Link>

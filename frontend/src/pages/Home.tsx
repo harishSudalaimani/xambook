@@ -174,9 +174,6 @@ export default function Home() {
 
       {/* Hero */}
       <section className="homeHero">
-        <div className="homeHeroBadge">
-          NEET PREPARATION PLATFORM
-        </div>
 
         <h1 className="homeHeroTitle">
           Crack NEET with
@@ -188,9 +185,7 @@ export default function Home() {
         </h1>
 
         <p className="homeHeroSub">
-          Subject-wise tests, full mock exams,
-          and instant analysis — everything you
-          need to score higher in NEET.
+          Subject-wise tests, full mock exams, instant analysis and everything you need to score higher in NEET.
         </p>
 
         <div className="homeHeroBtns">

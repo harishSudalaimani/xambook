@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+
 import '../styles/Footer.css'
 
 export default function Footer() {
@@ -26,14 +27,17 @@ export default function Footer() {
             </Link>
 
             <p className="siteFooterTagline">
-              India's modern NEET preparation platform built for smart practice,
-              real exam patterns, and performance tracking.
+              India's modern NEET preparation
+              platform built for smart practice,
+              real exam patterns, and performance
+              tracking.
             </p>
           </div>
 
           {/* LINKS */}
           <div className="siteFooterLinksWrap">
 
+            {/* NAVIGATION */}
             <div className="siteFooterColumn">
 
               <Link
@@ -56,6 +60,29 @@ export default function Footer() {
               >
                 About
               </Link>
+
+            </div>
+
+            {/* SOCIALS */}
+            <div className="siteFooterColumn">
+
+              <a
+                href="https://www.youtube.com/@XamBook"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="siteFooterLink"
+              >
+                YouTube
+              </a>
+
+              <a
+                href="https://www.instagram.com/xambook/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="siteFooterLink"
+              >
+                Instagram
+              </a>
 
             </div>
 

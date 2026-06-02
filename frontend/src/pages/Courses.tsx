@@ -3,9 +3,11 @@ import Footer from '../components/Footer'
 
 import { Link, useNavigate } from 'react-router-dom'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 import { useAuth } from '../context/AuthContext'
+
+import { API_URL, AUTH_DISABLED } from '../lib/config'
 
 import '../styles/Courses.css'
 
@@ -229,9 +231,32 @@ export default function Courses() {
 
   const isLoggedIn = authenticated
 
-  // TEMPORARY
-  // Replace later with backend premium check
-  const isPremium = false
+  // Real premium status, fetched from the backend.
+  const [isPremium, setIsPremium] =
+    useState(false)
+
+  useEffect(() => {
+    if (!authenticated) return
+
+    const token = localStorage.getItem('kc_token')
+
+    if (!token && !AUTH_DISABLED) return
+
+    const headers: Record<string, string> = {}
+
+    if (token) {
+      headers['Authorization'] = `Bearer ${token}`
+    }
+
+    fetch(`${API_URL}/api/user/me`, { headers })
+      .then(r => (r.ok ? r.json() : null))
+      .then(data => {
+        if (data) {
+          setIsPremium(!!data.is_premium)
+        }
+      })
+      .catch(() => {})
+  }, [authenticated])
 
   const [showPremiumPopup, setShowPremiumPopup] =
     useState(false)

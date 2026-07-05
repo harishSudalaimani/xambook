@@ -1,0 +1,551 @@
+{
+  "test_number": 4,
+  "subject": "Physics",
+  "questions": [
+    {
+      "id": 1,
+      "question": "A particle of mass \\( m \\) is moving in a circular path of radius \\( r \\) under a central force \\( F = -\\frac{k}{r^2} \\). What is the total energy of the system?",
+      "options": {
+        "a": "\\(-\\frac{k}{2r}\\)",
+        "b": "\\(-\\frac{k}{r}\\)",
+        "c": "\\(\\frac{k}{2r}\\)",
+        "d": "\\(\\frac{k}{r}\\)"
+      },
+      "correct_option": "a",
+      "explanation": "The potential energy in such an inverse-square central force field is given by \\( U = -\\frac{k}{r} \\). For uniform circular motion, the centripetal force is provided by the central force: \\( \\frac{mv^2}{r} = \\frac{k}{r^2} \\Rightarrow mv^2 = \\frac{k}{r} \\). The kinetic energy is then \\( KE = \\frac{1}{2} m v^2 = \\frac{k}{2r} \\). Total energy is \\( E = KE + U = \\frac{k}{2r} - \\frac{k}{r} = -\\frac{k}{2r} \\)."
+    },
+    {
+      "id": 2,
+      "question": "A body slides down a frictionless track from height \\( h \\) and loops a vertical loop of radius \\( R \\). What is the minimum value of \\( h \\) for the body to complete the loop?",
+      "options": {
+        "a": "\\( R \\)",
+        "b": "\\( 2R \\)",
+        "c": "\\( 2.5R \\)",
+        "d": "\\( \\frac{5R}{2} \\)"
+      },
+      "correct_option": "d",
+      "explanation": "For the body to maintain contact at the top of the loop, the centripetal force must equal the weight: \\( \\frac{mv^2}{R} = mg \\Rightarrow v^2 = gR \\). Using energy conservation from the bottom: total height drop = potential energy change + kinetic energy at the top. At the top, height = \\( 2R \\), so \\( mgh = mg(2R) + \\frac{1}{2} m (gR) \\). This simplifies to \\( mgh = 2mgR + \\frac{1}{2} mgR = \\frac{5}{2} mgR \\), hence \\( h = \\frac{5R}{2} \\)."
+    },
+    {
+      "id": 3,
+      "question": "A charged particle is moving in a uniform magnetic field in a helical path. What determines the pitch of the helix?",
+      "options": {
+        "a": "Charge only",
+        "b": "Perpendicular component of velocity",
+        "c": "Parallel component of velocity",
+        "d": "Magnetic field strength only"
+      },
+      "correct_option": "c",
+      "explanation": "The pitch of the helical path is the distance moved along the magnetic field in one complete revolution. This is given by \\( p = v_{\\parallel} \\times T \\), where \\( v_{\\parallel} \\) is the velocity component parallel to \\( \\vec{B} \\) and \\( T = \\frac{2\\pi m}{qB} \\) is the period of circular motion. The perpendicular component affects the radius, not the pitch."
+    },
+    {
+      "id": 4,
+      "question": "A capacitor is charged and disconnected from the battery. A dielectric slab of dielectric constant \\( K \\) is inserted. What happens to the stored energy?",
+      "options": {
+        "a": "Increases by \\( K \\) times",
+        "b": "Remains same",
+        "c": "Decreases",
+        "d": "Becomes zero"
+      },
+      "correct_option": "c",
+      "explanation": "When disconnected, the charge \\( Q \\) remains constant. Inserting a dielectric increases the capacitance: \\( C' = KC \\). The stored energy is \\( U = \\frac{Q^2}{2C} \\). Since \\( C \\) increases, \\( U \\) decreases by a factor of \\( 1/K \\)."
+    },
+    {
+      "id": 5,
+      "question": "Two identical conducting spheres with charges \\( +Q \\) and \\( -Q \\) are brought into contact and then separated. What is the final electrostatic potential energy?",
+      "options": {
+        "a": "Zero",
+        "b": "Negative",
+        "c": "Positive",
+        "d": "Cannot be determined"
+      },
+      "correct_option": "a",
+      "explanation": "When the two spheres are in contact, the total charge is \\( +Q + (-Q) = 0 \\). They share this equally, so each sphere has zero charge after separation. With no charges, the electrostatic potential energy becomes zero."
+    },
+    {
+      "id": 6,
+      "question": "A particle is thrown vertically upward. Time to reach maximum height is \\( t \\). What is the total distance traveled in \\( 2t \\)?",
+      "options": {
+        "a": "Zero",
+        "b": "Equal to height",
+        "c": "Twice the height",
+        "d": "Four times the height"
+      },
+      "correct_option": "c",
+      "explanation": "In vertical motion under gravity, the particle first rises to the maximum height \\( h \\) in time \\( t \\) and then falls back the same distance in the next \\( t \\). Therefore, the total distance covered is \\( h + h = 2h \\). Using \\( h = \\frac{1}{2} g t^2 \\), we can confirm both segments are equal. The upward and downward displacements are opposite in direction but distances add up.",
+      "diagram_url": "https://xambooktest.s3.ap-south-1.amazonaws.com/diagrams/physics/test4/6.png"
+    },
+    {
+      "id": 7,
+      "question": "For a progressive wave \\( y = A \\sin(kx - \\omega t) \\), what is the expression for particle velocity?",
+      "options": {
+        "a": "\\( \\omega A \\cos(kx - \\omega t) \\)",
+        "b": "\\( -\\omega A \\cos(kx - \\omega t) \\)",
+        "c": "\\( kA \\cos(kx - \\omega t) \\)",
+        "d": "\\( A\\omega \\sin(kx - \\omega t) \\)"
+      },
+      "correct_option": "b",
+      "explanation": "Particle velocity is the time derivative of displacement: \\( v_p = \\frac{\\partial y}{\\partial t} \\). Differentiating \\( y = A \\sin(kx - \\omega t) \\) with respect to time gives \\( v_p = -\\omega A \\cos(kx - \\omega t) \\). The negative sign indicates that when the sine term is increasing, the velocity is in the opposite direction to the wave’s phase advance."
+    },
+    {
+      "id": 8,
+      "question": "In Young’s double slit experiment, the slit separation is halved. How does this affect the fringe width?",
+      "options": {
+        "a": "Doubles",
+        "b": "Halves",
+        "c": "Four times",
+        "d": "Unchanged"
+      },
+      "correct_option": "a",
+      "explanation": "The fringe width is given by \\( \\beta = \\frac{\\lambda D}{d} \\), where \\( \\lambda \\) is the wavelength, \\( D \\) is the screen distance, and \\( d \\) is the slit separation. If \\( d \\) is reduced to \\( d/2 \\), then \\( \\beta' = \\frac{\\lambda D}{d/2} = 2\\beta \\). Hence, the fringe width doubles."
+    },
+    {
+      "id": 9,
+      "question": "A body is projected vertically from the Earth's surface with speed \\( v = \\sqrt{3gR} \\), where \\( R \\) is Earth's radius. What is the maximum height reached above the surface?",
+      "options": {
+        "a": "\\( R/2 \\)",
+        "b": "\\( R \\)",
+        "c": "\\( 2R \\)",
+        "d": "\\( 3R \\)"
+      },
+      "correct_option": "b",
+      "explanation": "Using energy conservation: Initial kinetic energy \\( \\frac{1}{2} m v^2 = \\frac{1}{2} m (3gR) \\). Gravitational potential energy at height \\( h \\) is \\( -\\frac{GMm}{R+h} \\), and at the surface it is \\( -\\frac{GMm}{R} \\). The energy difference equals the kinetic energy lost. Solving gives \\( h = R \\), so the body rises to one Earth radius above the surface."
+    },
+    {
+      "id": 10,
+      "question": "A ring of mass \\( M \\) and radius \\( R \\) rotates about its central axis with angular velocity \\( \\omega \\). What is its angular momentum?",
+      "options": {
+        "a": "\\( MR^2\\omega \\)",
+        "b": "\\( \\frac{1}{2}MR^2\\omega \\)",
+        "c": "\\( 2MR\\omega \\)",
+        "d": "\\( M\\omega^2R \\)"
+      },
+      "correct_option": "a",
+      "explanation": "For a ring of mass \\( M \\) and radius \\( R \\), the moment of inertia about its symmetry axis is \\( I = MR^2 \\). Angular momentum is given by \\( L = I \\omega = MR^2 \\omega \\). This relation holds regardless of whether the object is solid or hollow, as long as the correct moment of inertia is used."
+    },
+    {
+      "id": 11,
+      "question": "A satellite orbits the Earth in a circular orbit at height \\( h \\) from the surface. If the orbital speed is \\( v \\), what is the expression for \\( h \\) in terms of Earth's radius \\( R \\) and \\( v \\)?",
+      "options": {
+        "a": "\\( h = \\frac{GM}{v^2} - R \\)",
+        "b": "\\( h = R - \\frac{GM}{v^2} \\)",
+        "c": "\\( h = \\frac{GM}{v^2} + R \\)",
+        "d": "\\( h = \\frac{v^2}{GM} - R \\)"
+      },
+      "correct_option": "a",
+      "explanation": "The orbital speed for a satellite is given by \\( v = \\sqrt{\\frac{GM}{R + h}} \\), where \\( G \\) is the gravitational constant and \\( M \\) is Earth's mass. Squaring gives \\( v^2 = \\frac{GM}{R + h} \\). Rearranging: \\( R + h = \\frac{GM}{v^2} \\), so \\( h = \\frac{GM}{v^2} - R \\)."
+    },
+    {
+      "id": 12,
+      "question": "An inductor (\\( L \\)) and capacitor (\\( C \\)) are connected in series. At resonance, what is the impedance?",
+      "options": {
+        "a": "Zero",
+        "b": "Infinite",
+        "c": "Equal to resistance",
+        "d": "Depends on \\( L \\) and \\( C \\)"
+      },
+      "correct_option": "c",
+      "explanation": "In a series LCR circuit, the total impedance is \\( Z = \\sqrt{R^2 + (X_L - X_C)^2} \\). At resonance, the inductive reactance \\( X_L \\) equals the capacitive reactance \\( X_C \\), so \\( X_L - X_C = 0 \\) and \\( Z = R \\). Therefore, the impedance equals the resistance of the circuit."
+    },
+    {
+      "id": 13,
+      "question": "A photon collides with a stationary electron. Which conservation law does NOT apply in the classical sense?",
+      "options": {
+        "a": "Energy",
+        "b": "Momentum",
+        "c": "Charge",
+        "d": "Mass"
+      },
+      "correct_option": "d",
+      "explanation": "In relativistic physics, mass is not conserved separately as in classical mechanics; instead, total mass-energy is conserved. However, energy, momentum, and charge remain conserved in all frames of reference for such interactions."
+    },
+    {
+      "id": 14,
+      "question": "In a photoelectric experiment, the stopping potential \\( V_0 \\) varies linearly with frequency \\( \\nu \\). What does the slope of the \\( V_0 \\) vs \\( \\nu \\) graph represent?",
+      "options": {
+        "a": "Planck’s constant \\( h \\)",
+        "b": "Work function",
+        "c": "\\( e/h \\)",
+        "d": "\\( h/e \\)"
+      },
+      "correct_option": "d",
+      "explanation": "From Einstein's photoelectric equation: \\( eV_0 = h\\nu - \\phi \\), we can write \\( V_0 = \\frac{h}{e} \\nu - \\frac{\\phi}{e} \\). Comparing with \\( y = mx + c \\), the slope of \\( V_0 \\) vs \\( \\nu \\) is \\( h/e \\), where \\( h \\) is Planck's constant and \\( e \\) is the electronic charge."
+    },
+    {
+      "id": 15,
+      "question": "An object in SHM at displacement \\( x \\) has speed \\( v \\). What is its maximum speed \\( v_{\\max} \\)?",
+      "options": {
+        "a": "\\( \\sqrt{v^2 + \\omega^2 x^2} \\)",
+        "b": "\\( \\sqrt{v^2 - \\omega^2 x^2} \\)",
+        "c": "\\( \\sqrt{\\omega^2 x^2 - v^2} \\)",
+        "d": "\\( v/\\cos(\\omega t) \\)"
+      },
+      "correct_option": "a",
+      "explanation": "In SHM, the speed is given by \\( v^2 = \\omega^2(A^2 - x^2) \\), where \\( A \\) is amplitude and \\( \\omega \\) is angular frequency. Rearranging gives \\( \\omega^2 A^2 = v^2 + \\omega^2 x^2 \\). Since maximum speed occurs at \\( x = 0 \\), we have \\( v_{\\max} = \\omega A = \\sqrt{v^2 + \\omega^2 x^2} \\)."
+    },
+    {
+      "id": 16,
+      "question": "The decay constant \\( \\lambda = 0.693\\,\\mathrm{s^{-1}} \\). What is the half-life?",
+      "options": {
+        "a": "0.693 s",
+        "b": "1 s",
+        "c": "2 s",
+        "d": "0.5 s"
+      },
+      "correct_option": "b",
+      "explanation": "Half-life is given by \\( t_{1/2} = \\frac{\\ln 2}{\\lambda} \\). Substituting \\( \\lambda = 0.693 \\, \\mathrm{s^{-1}} \\), we get \\( t_{1/2} = \\frac{0.693}{0.693} = 1\\,\\mathrm{s} \\)."
+    },
+    {
+      "id": 17,
+      "question": "If a body is dropped into a tunnel through Earth’s diameter, what is its motion?",
+      "options": {
+        "a": "Uniform",
+        "b": "Non-uniform",
+        "c": "Simple harmonic",
+        "d": "Exponential decay"
+      },
+      "correct_option": "c",
+      "explanation": "Inside a uniformly dense Earth, the gravitational force is directly proportional to displacement from the center and directed towards it, \\( F = -kx \\). This is the condition for simple harmonic motion (SHM)."
+    },
+    {
+      "id": 18,
+      "question": "A non-conducting spherical shell has uniform surface charge density \\( \\sigma \\). Electric field inside is:",
+      "options": {
+        "a": "Zero",
+        "b": "\\( \\sigma/\\varepsilon_0 \\)",
+        "c": "Infinite",
+        "d": "Depends on radius"
+      },
+      "correct_option": "a",
+      "explanation": "By Gauss’s law, any Gaussian surface inside the spherical shell encloses zero net charge, so the electric field inside is \\( E = 0 \\)."
+    },
+    {
+      "id": 19,
+      "question": "White light passes through a prism. Which color deviates most and why?",
+      "options": {
+        "a": "Red — lowest energy",
+        "b": "Violet — highest frequency",
+        "c": "Green — central color",
+        "d": "Blue — absorbed most"
+      },
+      "correct_option": "b",
+      "explanation": "Violet light has the highest frequency and hence the highest refractive index in glass. A higher refractive index causes greater bending, so violet deviates the most."
+    },
+    {
+      "id": 20,
+      "question": "An object between \\( F \\) and \\( 2F \\) of a convex lens forms what image?",
+      "options": {
+        "a": "Virtual, erect, between F and lens",
+        "b": "Real, inverted, beyond \\( 2F \\)",
+        "c": "Real, erect, at \\( 2F \\)",
+        "d": "Virtual, magnified, at infinity"
+      },
+      "correct_option": "b",
+      "explanation": "In a convex lens, placing the object between \\( F \\) and \\( 2F \\) produces a real, inverted, magnified image located beyond \\( 2F \\)."
+    },
+    {
+      "id": 21,
+      "question": "A particle is projected with velocity \\( u \\) at an angle \\( \\theta \\). When is it at the same horizontal level as the projection point for the second time?",
+      "options": {
+        "a": "\\( \\frac{u \\sin\\theta}{g} \\)",
+        "b": "\\( \\frac{u}{g} \\)",
+        "c": "\\( \\frac{2u \\sin\\theta}{g} \\)",
+        "d": "\\( \\frac{u \\cos\\theta}{g} \\)"
+      },
+      "correct_option": "c",
+      "explanation": "Time to reach maximum height: \\( t = \\frac{u \\sin\\theta}{g} \\). Total time of flight is twice this: \\( 2t = \\frac{2u \\sin\\theta}{g} \\)."
+    },
+    {
+      "id": 22,
+      "question": "A wire is stretched by a force and its length increases by 0.1\\%. What is the strain energy per unit volume (Young’s modulus = \\( Y \\))?",
+      "options": {
+        "a": "\\( \\frac{1}{2}Y (0.001)^2 \\)",
+        "b": "\\( Y (0.001) \\)",
+        "c": "\\( \\frac{1}{2} \\frac{Y}{0.001} \\)",
+        "d": "\\( Y (0.01)^2 \\)"
+      },
+      "correct_option": "a",
+      "explanation": "Strain energy density: \\( U = \\frac{1}{2}Y \\times \\text{(strain)}^2 \\). Here, strain = 0.001 ⇒ \\( U = \\frac{1}{2}Y (0.001)^2 \\)."
+    },
+    {
+      "id": 23,
+      "question": "In Young’s double slit experiment, the slit separation is halved. What happens to fringe width?",
+      "options": {
+        "a": "Doubles",
+        "b": "Halves",
+        "c": "Becomes four times",
+        "d": "Unchanged"
+      },
+      "correct_option": "a",
+      "explanation": "Fringe width formula: \\( \\beta = \\frac{\\lambda D}{d} \\). Halving \\( d \\) makes \\( \\beta \\) twice as large."
+    },
+    {
+      "id": 24,
+      "question": "Which statement about equipotential surfaces is correct?",
+      "options": {
+        "a": "Parallel to electric field lines",
+        "b": "Work along them is zero",
+        "c": "Intersect at charge center",
+        "d": "Curves of minimum potential"
+      },
+      "correct_option": "b",
+      "explanation": "On an equipotential surface, the electric potential is constant. Therefore, moving a charge along it requires no work."
+    },
+    {
+      "id": 25,
+      "question": "A particle under a central force has which conserved quantity?",
+      "options": {
+        "a": "Linear momentum only",
+        "b": "Angular momentum only",
+        "c": "Kinetic energy only",
+        "d": "All three"
+      },
+      "correct_option": "b",
+      "explanation": "For a central force, torque about the center is zero, so angular momentum is conserved. Linear momentum is not conserved due to the central force."
+    },
+    {
+      "id": 26,
+      "question": "An ideal gas expands isothermally. If volume doubles, work done is:",
+      "options": {
+        "a": "\\( nRT \\)",
+        "b": "\\( nRT \\ln 2 \\)",
+        "c": "\\( \\frac{nRT}{2} \\)",
+        "d": "\\( 2nRT \\)"
+      },
+      "correct_option": "b",
+      "explanation": "For an isothermal process: \\( W = nRT \\ln \\frac{V_f}{V_i} = nRT \\ln 2 \\)."
+    },
+    {
+      "id": 27,
+      "question": "Two capacitors, 4\\,\\( \\mu\\mathrm{F} \\) and 6\\,\\( \\mu\\mathrm{F} \\), are in series across 60\\,V. Voltage across the 6\\,\\( \\mu\\mathrm{F} \\) capacitor is:",
+      "options": {
+        "a": "24 V",
+        "b": "36 V",
+        "c": "60 V",
+        "d": "40 V"
+      },
+      "correct_option": "a",
+      "explanation": "In series, charge is same: \\( V_2 = V_{\\text{total}} \\frac{C_1}{C_1 + C_2} = 60 \\times \\frac{4}{10} = 24\\,V \\).",
+      "diagram_url": "https://xambooktest.s3.ap-south-1.amazonaws.com/diagrams/physics/test4/27.png"
+    },
+    {
+      "id": 28,
+      "question": "Magnetic field at the center of a circular loop (radius \\( R \\), current \\( I \\)) is:",
+      "options": {
+        "a": "\\( \\frac{\\mu_0 I}{4\\pi R} \\)",
+        "b": "\\( \\frac{\\mu_0 I}{2R} \\)",
+        "c": "\\( \\frac{\\mu_0 I}{\\pi R^2} \\)",
+        "d": "\\( \\frac{\\mu_0 I^2}{2\\pi R} \\)"
+      },
+      "correct_option": "b",
+      "explanation": "From Biot–Savart law for a full circle: \\( B = \\frac{\\mu_0 I}{2R} \\)."
+    },
+    {
+      "id": 29,
+      "question": "Energy stored in a 10\\,\\( \\mu\\mathrm{F} \\) capacitor at 100\\,V is:",
+      "options": {
+        "a": "0.05 J",
+        "b": "0.5 J",
+        "c": "1 J",
+        "d": "0.005 J"
+      },
+      "correct_option": "b",
+      "explanation": "Energy: \\( U = \\frac{1}{2} C V^2 = 0.5\\,\\mathrm{J} \\).",
+      "diagram_url": "https://xambooktest.s3.ap-south-1.amazonaws.com/diagrams/physics/test4/29.png"
+    },
+    {
+      "id": 30,
+      "question": "Light enters glass from air at 45° incidence; refraction angle is 30°. Refractive index is:",
+      "options": {
+        "a": "\\( \\sqrt{2} \\)",
+        "b": "1.5",
+        "c": "1.33",
+        "d": "2"
+      },
+      "correct_option": "b",
+      "explanation": "Snell’s law: \\( n = \\frac{\\sin 45^\\circ}{\\sin 30^\\circ} = \\frac{0.707}{0.5} \\approx 1.414 \\) ≈ 1.5.",
+      "diagram_url": "https://xambooktest.s3.ap-south-1.amazonaws.com/diagrams/physics/test4/30.png"
+    },
+    {
+      "id": 31,
+      "question": "A satellite orbits Earth at height \\( h \\) above the surface. If \\( R \\) is Earth's radius, what is its orbital velocity?",
+      "options": {
+        "a": "\\( \\sqrt{gR} \\)",
+        "b": "\\( \\sqrt{g(R + h)} \\)",
+        "c": "\\( \\sqrt{\\frac{GM}{R + h}} \\)",
+        "d": "\\( \\sqrt{\\frac{gR^2}{R + h}} \\)"
+      },
+      "correct_option": "c",
+      "explanation": "Equating gravitational to centripetal force: \\( \\frac{GMm}{(R+h)^2} = \\frac{mv^2}{R+h} \\) ⇒ \\( v = \\sqrt{\\frac{GM}{R+h}} \\).",
+      "diagram_url": "https://xambooktest.s3.ap-south-1.amazonaws.com/diagrams/physics/test4/31.png"
+    },
+    {
+      "id": 32,
+      "question": "A capacitor is charged to voltage \\( V \\) and disconnected. If plate separation is doubled, what happens to potential?",
+      "options": {
+        "a": "Same",
+        "b": "Half",
+        "c": "Double",
+        "d": "Quadruple"
+      },
+      "correct_option": "c",
+      "explanation": "With battery disconnected, charge \\( Q \\) is constant. \\( C \\propto 1/d \\) ⇒ doubling \\( d \\) halves \\( C \\), so \\( V = Q/C \\) doubles."
+    },
+    {
+      "id": 33,
+      "question": "Two thin lenses of focal lengths +10 cm and −15 cm are in contact. What is their equivalent focal length?",
+      "options": {
+        "a": "6 cm",
+        "b": "−6 cm",
+        "c": "30 cm",
+        "d": "−30 cm"
+      },
+      "correct_option": "c",
+      "explanation": "Using \\( \\frac{1}{F} = \\frac{1}{f_1} + \\frac{1}{f_2} \\): \\( \\frac{1}{F} = 0.1 - 0.0667 = 0.0333 \\) ⇒ \\( F = 30\\,\\mathrm{cm} \\) (positive ⇒ converging)."
+    },
+    {
+      "id": 34,
+      "question": "An RC circuit has time constant \\( 1 \\, \\mathrm{ms} \\). If \\( R = 1 \\, \\mathrm{k\\Omega} \\), find \\( C \\).",
+      "options": {
+        "a": "\\( 1 \\, \\mu\\mathrm{F} \\)",
+        "b": "\\( 10 \\, \\mu\\mathrm{F} \\)",
+        "c": "\\( 0.1 \\, \\mu\\mathrm{F} \\)",
+        "d": "\\( 0.01 \\, \\mu\\mathrm{F} \\)"
+      },
+      "correct_option": "a",
+      "explanation": "The time constant is \\( \\tau = R C \\). Substituting \\( \\tau = 1 \\times 10^{-3} \\, \\mathrm{s} \\) and \\( R = 1 \\times 10^{3} \\, \\Omega \\): \\( C = \\frac{1 \\times 10^{-3}}{1 \\times 10^{3}} = 1 \\times 10^{-6} \\, \\mathrm{F} \\) ⇒ \\( 1 \\, \\mu\\mathrm{F} \\)."
+    },
+    {
+      "id": 35,
+      "question": "A particle moves in a circle with uniform speed. Which is true?",
+      "options": {
+        "a": "Velocity constant",
+        "b": "Acceleration zero",
+        "c": "Speed constant, velocity changes",
+        "d": "Kinetic energy changes"
+      },
+      "correct_option": "c",
+      "explanation": "Speed is constant but velocity changes direction ⇒ acceleration toward center."
+    },
+    {
+      "id": 36,
+      "question": "Magnetic moment of a current loop is maximum when loop is:",
+      "options": {
+        "a": "Square",
+        "b": "Triangular",
+        "c": "Circular",
+        "d": "Depends on current"
+      },
+      "correct_option": "c",
+      "explanation": "For fixed perimeter, a circular loop encloses maximum area ⇒ since \\( \\mu = IA \\), magnetic moment is maximum."
+    },
+    {
+      "id": 37,
+      "question": "In a transformer, if \\( N_s = N_p \\), what is \\( V_s \\)?",
+      "options": {
+        "a": "Equal to input",
+        "b": "Twice input",
+        "c": "Zero",
+        "d": "Half input"
+      },
+      "correct_option": "a",
+      "explanation": "\\( \\frac{V_s}{V_p} = \\frac{N_s}{N_p} = 1 \\) ⇒ \\( V_s = V_p \\). This is an isolation transformer."
+    },
+    {
+      "id": 38,
+      "question": "A radioactive substance has half-life 5 days. When will only 12.5\\% remain?",
+      "options": {
+        "a": "10 days",
+        "b": "15 days",
+        "c": "20 days",
+        "d": "5 days"
+      },
+      "correct_option": "b",
+      "explanation": "12.5\\% is \\( \\frac{1}{8} \\) of original ⇒ corresponds to 3 half-lives ⇒ \\( 3 \\times 5 = 15 \\) days."
+    },
+    {
+      "id": 39,
+      "question": "Maximum kinetic energy of a photoelectron is:",
+      "options": {
+        "a": "\\( K_{\\mathrm{max}} = h\\nu - W \\)",
+        "b": "\\( K_{\\mathrm{max}} = h\\nu + W \\)",
+        "c": "\\( K_{\\mathrm{max}} = W - h\\nu \\)",
+        "d": "\\( K_{\\mathrm{max}} = \\frac{h\\nu}{W} \\)"
+      },
+      "correct_option": "a",
+      "explanation": "Einstein’s photoelectric equation: \\( h\\nu = W + K_{\\mathrm{max}} \\) ⇒ \\( K_{\\mathrm{max}} = h\\nu - W \\)."
+    },
+    {
+      "id": 40,
+      "question": "Which quantity has different dimensions?",
+      "options": {
+        "a": "Work",
+        "b": "Energy",
+        "c": "Torque",
+        "d": "Power"
+      },
+      "correct_option": "d",
+      "explanation": "Work, Energy, and Torque have dimensions \\([M L^2 T^{-2}]\\), whereas Power has \\([M L^2 T^{-3}]\\) ⇒ different."
+    },
+    {
+      "id": 41,
+      "question": "A ray parallel to the principal axis passes through the focus after reflection. The mirror is:",
+      "options": {
+        "a": "Plane",
+        "b": "Concave",
+        "c": "Convex",
+        "d": "None"
+      },
+      "correct_option": "b",
+      "explanation": "Concave mirrors focus parallel rays at the focal point."
+    },
+    {
+      "id": 42,
+      "question": "Which EM wave has the highest energy?",
+      "options": {
+        "a": "Microwaves",
+        "b": "Infrared",
+        "c": "X-rays",
+        "d": "Ultraviolet"
+      },
+      "correct_option": "c",
+      "explanation": "Energy \\( E = hf \\) ⇒ higher frequency ⇒ higher energy. Among the given options, X-rays have the highest frequency and hence the highest energy."
+    },
+    {
+      "id": 43,
+      "question": "A 5 A current flows in a 2 m wire in a 0.2 T magnetic field, perpendicular to the wire. What is the force?",
+      "options": {
+        "a": "1 N",
+        "b": "2 N",
+        "c": "0.5 N",
+        "d": "None"
+      },
+      "correct_option": "b",
+      "explanation": "Magnetic force: \\( F = I L B \\sin 90^\\circ = 5 \\times 2 \\times 0.2 = 2\\,\\mathrm{N} \\)."
+    },
+    {
+      "id": 44,
+      "question": "A 10 kg box is lifted 2 m in 5 s. What is the power?",
+      "options": {
+        "a": "20 W",
+        "b": "40 W",
+        "c": "100 W",
+        "d": "400 W"
+      },
+      "correct_option": "b",
+      "explanation": "Work done = \\( m g h = 10 \\times 9.8 \\times 2 \\approx 200\\,\\mathrm{J} \\). Power = \\( 200 / 5 = 40\\,\\mathrm{W} \\)."
+    },
+    {
+      "id": 45,
+      "question": "An object is 15 cm from a convex lens of focal length 10 cm. What is the image distance?",
+      "options": {
+        "a": "30 cm",
+        "b": "10 cm",
+        "c": "6 cm",
+        "d": "None"
+      },
+      "correct_option": "a",
+      "explanation": "Lens formula: \\( \\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u} \\). Substituting: \\( 1/10 = 1/v - 1/15 \\) ⇒ \\( 1/v = 1/10 + 1/15 = 1/6 \\) ⇒ \\( v = 30\\,\\mathrm{cm} \\)."
+    }
+  ]
+}

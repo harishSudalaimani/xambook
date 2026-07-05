@@ -1,0 +1,546 @@
+{
+  "test_number": 4,
+  "subject": "Botany",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Assertion (A): In C3 plants, photorespiration occurs in chloroplast, peroxisome, and mitochondria. Reason (R): Photorespiration is a wasteful process as it leads to loss of fixed carbon and ATP.",
+      "options": {
+        "a": "Both A and R are true, and R is the correct explanation of A",
+        "b": "Both A and R are true, but R is not the correct explanation of A",
+        "c": "A is true but R is false",
+        "d": "A is false but R is true"
+      },
+      "correct_option": "a",
+      "explanation": "Photorespiration in C3 plants involves a pathway where RuBisCO oxygenates RuBP, forming 2-phosphoglycolate. This is processed in three organelles: chloroplast (glycolate), peroxisome (glyoxylate → glycine), and mitochondria (glycine → serine). The process consumes ATP and releases CO2, making it wasteful. Thus, both A and R are true, and R explains A."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following statements are correct about RuBisCO? \n1. It is the most abundant enzyme on Earth. \n2. It has dual activity – carboxylase and oxygenase. \n3. Its affinity for O2 is higher than CO2. \n4. It is absent in C4 plants.",
+      "options": {
+        "a": "1, 2 and 3 only",
+        "b": "1 and 2 only",
+        "c": "2 and 4 only",
+        "d": "1, 2, 3 and 4"
+      },
+      "correct_option": "b",
+      "explanation": "RuBisCO is the most abundant enzyme and catalyzes both carboxylation and oxygenation reactions. Its affinity for CO2 is higher than O2, but high O2 concentration favors oxygenase activity. It is present in both C3 and C4 plants, though concentrated in bundle sheath cells in C4 plants. So, statements 1 and 2 are correct."
+    },
+    {
+      "id": 3,
+      "question": "Which of the following conditions will favor maximum photorespiration? \n1. High light intensity \n2. Low CO2 concentration \n3. High O2 concentration \n4. Low temperature",
+      "options": {
+        "a": "1, 2 and 3 only",
+        "b": "1, 2 and 4 only",
+        "c": "2 and 3 only",
+        "d": "1, 3 and 4 only"
+      },
+      "correct_option": "a",
+      "explanation": "Photorespiration is promoted when O2 concentration is high, CO2 concentration is low, and light intensity is high (since RuBisCO oxygenase activity increases). Low temperature does not favor photorespiration; it is more active at high temperature. Hence, 1, 2, and 3 are correct."
+    },
+    {
+      "id": 4,
+      "question": "In a cross AaBbCc × AaBbCc, what is the probability of getting offspring that are completely homozygous (AA BB CC)?",
+      "options": {
+        "a": "1/4",
+        "b": "1/8",
+        "c": "1/64",
+        "d": "1/16"
+      },
+      "correct_option": "c",
+      "explanation": "For each gene (Aa × Aa), probability of homozygous dominant (AA) = 1/4. Similarly, for B and C. Thus total = 1/4 × 1/4 × 1/4 = 1/64."
+    },
+    {
+      "id": 5,
+      "question": "Assertion (A): CAM plants fix CO2 during night. Reason (R): Stomata of CAM plants remain open at night and PEPcase fixes CO2 into organic acids.",
+      "options": {
+        "a": "Both A and R are true, and R is the correct explanation of A",
+        "b": "Both A and R are true, but R is not the correct explanation of A",
+        "c": "A is true but R is false",
+        "d": "A is false but R is true"
+      },
+      "correct_option": "a",
+      "explanation": "CAM plants open stomata at night to minimize water loss. PEPcase fixes CO2 into malic acid stored in vacuoles. During day, stomata close and CO2 is released for Calvin cycle. Both statements are true and R explains A."
+    },
+    {
+      "id": 6,
+      "question": "Select the incorrect statement about C4 plants: \n1. They show Kranz anatomy. \n2. Bundle sheath cells have RuBisCO but no PEPcase. \n3. CO2 compensation point is low. \n4. They require more ATP per CO2 fixed than C3 plants.",
+      "options": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "3 and 4 only",
+        "d": "All statements are correct"
+      },
+      "correct_option": "b",
+      "explanation": "In C4 plants, mesophyll cells have PEPcase and bundle sheath cells have RuBisCO. Statement 2 is incorrect because bundle sheath cells lack PEPcase, not RuBisCO. Statements 1, 3, and 4 are correct."
+    },
+    {
+      "id": 7,
+      "question": "Which statements about the aleurone layer are correct? \n1. It is a protein-rich layer. \n2. It secretes hydrolytic enzymes during seed germination. \n3. Its activity is regulated by gibberellins. \n4. It stores starch for the embryo.",
+      "options": {
+        "a": "1, 2 and 3 only",
+        "b": "1 and 4 only",
+        "c": "2, 3 and 4 only",
+        "d": "1, 2, 3 and 4"
+      },
+      "correct_option": "a",
+      "explanation": "The aleurone layer is protein-rich and secretes enzymes like α-amylase upon gibberellin stimulation. It does not store starch; starch is stored in endosperm. So, statements 1, 2, and 3 are correct."
+    },
+    {
+      "id": 8,
+      "question": "In which of the following plants does pollen grain germination occur in the stigma before anthesis (flower opening)?",
+      "options": {
+        "a": "Rice",
+        "b": "Wheat",
+        "c": "Pea",
+        "d": "Sunflower"
+      },
+      "correct_option": "c",
+      "explanation": "In cleistogamous flowers like pea, flowers never open and self-pollination occurs within the closed flower. Thus, pollen grains germinate inside before anthesis. Rice, wheat, and sunflower are chasmogamous flowers."
+    },
+    {
+      "id": 9,
+      "question": "Assertion (A): Bryophytes are called amphibians of the plant kingdom. Reason (R): They require water for fertilization but can live on land surfaces.",
+      "options": {
+        "a": "Both A and R are true, and R is the correct explanation of A",
+        "b": "Both A and R are true, but R is not the correct explanation of A",
+        "c": "A is true but R is false",
+        "d": "A is false but R is true"
+      },
+      "correct_option": "a",
+      "explanation": "Bryophytes like mosses and liverworts grow on land but require water for motile sperm to reach the egg. Thus, they are intermediates between aquatic algae and fully terrestrial plants, hence called amphibians of the plant kingdom."
+    },
+    {
+      "id": 10,
+      "question": "How many types of cells are present in a typical angiosperm embryo sac?",
+      "options": {
+        "a": "4 types – egg, synergids, antipodals, central cell",
+        "b": "3 types – egg, synergids, antipodals",
+        "c": "5 types – egg, synergids, antipodals, central cell, polar nuclei",
+        "d": "2 types – egg and antipodals"
+      },
+      "correct_option": "a",
+      "explanation": "The typical Polygonum-type embryo sac is 8-nucleate and 7-celled. It has 1 egg, 2 synergids, 3 antipodals, and 1 central cell (containing 2 polar nuclei). Thus, 4 cell types are present."
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is/are correct about cytochrome-c oxidase? \n1. It is present in mitochondria. \n2. It is the terminal oxidase of electron transport chain. \n3. It transfers electrons to oxygen. \n4. It pumps protons into matrix.",
+      "options": {
+        "a": "1, 2 and 3 only",
+        "b": "2 and 4 only",
+        "c": "1 and 3 only",
+        "d": "All 1, 2, 3 and 4"
+      },
+      "correct_option": "a",
+      "explanation": "Cytochrome-c oxidase (Complex IV) transfers electrons from cytochrome c to oxygen, reducing it to water. It is present in inner mitochondrial membrane. It pumps protons into the intermembrane space, not the matrix. So, statements 1, 2, and 3 are correct."
+    },
+    {
+      "id": 12,
+      "question": "Assertion (A): In pea plants, yellow cotyledons are dominant over green cotyledons. Reason (R): Yellow cotyledon color is due to a plastid gene, while green color is due to nuclear gene.",
+      "options": {
+        "a": "Both A and R are true, and R is the correct explanation",
+        "b": "Both A and R are true, but R is not the correct explanation",
+        "c": "A is true but R is false",
+        "d": "A is false but R is true"
+      },
+      "correct_option": "c",
+      "explanation": "Yellow cotyledon is dominant over green, but both traits are governed by nuclear genes, not plastid genes. Therefore, A is true but R is false."
+    },
+    {
+      "id": 13,
+      "question": "Which statements about CAM metabolism are true? \n1. It occurs in succulents like Opuntia. \n2. CO2 is fixed at night and stored as malic acid. \n3. During day, stomata remain open for Calvin cycle. \n4. It is an adaptation to arid conditions.",
+      "options": {
+        "a": "1, 2 and 4 only",
+        "b": "1 and 2 only",
+        "c": "2, 3 and 4 only",
+        "d": "All 1, 2, 3 and 4"
+      },
+      "correct_option": "a",
+      "explanation": "CAM plants like Opuntia and pineapple open stomata at night, fix CO2 into malic acid, and release it in the day when stomata are closed. Statement 3 is wrong because stomata remain closed during the day. The pathway helps conserve water in arid habitats."
+    },
+    {
+      "id": 14,
+      "question": "In double fertilization of angiosperms, which of the following are formed? \n1. Diploid zygote \n2. Triploid endosperm \n3. Diploid endosperm \n4. Haploid zygote",
+      "options": {
+        "a": "1 and 2 only",
+        "b": "2 and 3 only",
+        "c": "1 and 3 only",
+        "d": "2 and 4 only"
+      },
+      "correct_option": "a",
+      "explanation": "One male gamete fertilizes the egg to form a diploid zygote. The other male gamete fuses with two polar nuclei to form triploid endosperm. Diploid endosperm or haploid zygote is never formed in angiosperms."
+    },
+    {
+      "id": 15,
+      "question": "Assertion (A): Nastic movements are independent of stimulus direction. Reason (R): They are growth movements regulated by hormones.",
+      "options": {
+        "a": "Both A and R are true, and R is the correct explanation",
+        "b": "Both A and R are true, but R is not the correct explanation",
+        "c": "A is true but R is false",
+        "d": "A is false but R is true"
+      },
+      "correct_option": "c",
+      "explanation": "Nastic movements (e.g., folding of Mimosa leaves) are independent of stimulus direction but are due to turgor changes, not growth. Tropic movements are growth-dependent and hormone-regulated. Thus, A is true but R is false."
+    },
+    {
+      "id": 16,
+      "question": "Which of the following statements about photorespiration are correct? \n1. It decreases the efficiency of photosynthesis. \n2. It occurs when O2 concentration is high and CO2 concentration is low. \n3. It produces ATP. \n4. It involves chloroplast, peroxisome, and mitochondria.",
+      "options": {
+        "a": "1, 2 and 4 only",
+        "b": "2, 3 and 4 only",
+        "c": "1 and 3 only",
+        "d": "All 1, 2, 3 and 4"
+      },
+      "correct_option": "a",
+      "explanation": "Photorespiration reduces photosynthetic efficiency by wasting ATP and releasing fixed CO2. It occurs under high O2 and low CO2 conditions. It consumes ATP instead of producing it. It is a unique process involving chloroplasts, peroxisomes, and mitochondria."
+    },
+    {
+      "id": 17,
+      "question": "Assertion (A): Self-pollination maintains genetic purity of a plant species. Reason (R): It involves gametes from different individuals of the same species.",
+      "options": {
+        "a": "Both A and R are true, and R explains A",
+        "b": "Both A and R are true, but R is not the correct explanation",
+        "c": "A is true but R is false",
+        "d": "A is false but R is true"
+      },
+      "correct_option": "c",
+      "explanation": "Self-pollination ensures genetic uniformity because gametes of the same individual combine. The reason given is false, as it describes cross-pollination. Therefore, A is true but R is false."
+    },
+    {
+      "id": 18,
+      "question": "Which statements about nitrogen fixation are correct? \n1. Nitrogenase enzyme functions under aerobic conditions. \n2. Leghaemoglobin protects nitrogenase by binding oxygen. \n3. Rhizobium forms symbiotic association with legumes. \n4. Conversion of atmospheric nitrogen into ammonia requires ATP.",
+      "options": {
+        "a": "2, 3 and 4 only",
+        "b": "1, 2 and 3 only",
+        "c": "1 and 4 only",
+        "d": "All 1, 2, 3 and 4"
+      },
+      "correct_option": "a",
+      "explanation": "Nitrogenase is highly oxygen-sensitive and functions in anaerobic conditions. Leghaemoglobin protects it by binding O2. Rhizobium–legume association fixes nitrogen efficiently, and the process requires ATP. Thus, statements 2, 3, and 4 are correct; statement 1 is false."
+    },
+    {
+      "id": 19,
+      "question": "In a cross AaBb × AaBb, what is the probability of obtaining offspring with genotype aabb?",
+      "options": {
+        "a": "1/16",
+        "b": "1/8",
+        "c": "1/4",
+        "d": "3/16"
+      },
+      "correct_option": "a",
+      "explanation": "For each gene: probability of aa from Aa × Aa = 1/4, probability of bb = 1/4. Combined probability = 1/4 × 1/4 = 1/16."
+    },
+    {
+      "id": 20,
+      "question": "Assertion (A): Water potential of pure water is zero. Reason (R): Addition of solute increases the water potential.",
+      "options": {
+        "a": "Both A and R are true, and R explains A",
+        "b": "Both A and R are true, but R is not the correct explanation",
+        "c": "A is true but R is false",
+        "d": "A is false but R is true"
+      },
+      "correct_option": "c",
+      "explanation": "Water potential of pure water is defined as zero. Addition of solutes lowers water potential (becomes more negative), not increases it. Hence A is true but R is false."
+    },
+    {
+      "id": 21,
+      "question": "Which of the following is/are correct about Calvin cycle? \n1. It occurs in the stroma of chloroplast. \n2. It is light-dependent. \n3. CO2 fixation produces 3-phosphoglycerate. \n4. It requires ATP and NADPH from light reactions.",
+      "options": {
+        "a": "1, 3 and 4 only",
+        "b": "2, 3 and 4 only",
+        "c": "1 and 2 only",
+        "d": "All 1, 2, 3 and 4"
+      },
+      "correct_option": "a",
+      "explanation": "The Calvin cycle is a light-independent pathway (dark reaction) but depends on ATP and NADPH generated during light reactions. It occurs in the stroma, fixing CO2 into 3-phosphoglycerate. Thus, statements 1, 3, and 4 are correct."
+    },
+    {
+      "id": 22,
+      "question": "Which of the following processes in plants is passive? \n1. Diffusion \n2. Osmosis \n3. Active transport \n4. Facilitated diffusion",
+      "options": {
+        "a": "1, 2 and 4 only",
+        "b": "1 and 2 only",
+        "c": "3 only",
+        "d": "All 1, 2, 3 and 4"
+      },
+      "correct_option": "a",
+      "explanation": "Diffusion, osmosis, and facilitated diffusion are passive processes as they do not require ATP. Active transport requires energy (ATP) to move molecules against concentration gradients."
+    },
+    {
+      "id": 23,
+      "question": "Assertion (A): Cytokinins promote cell division. Reason (R): They are synthesized in shoot apices and transported to roots.",
+      "options": {
+        "a": "Both A and R are true, and R explains A",
+        "b": "Both A and R are true, but R is not the correct explanation",
+        "c": "A is true but R is false",
+        "d": "A is false but R is true"
+      },
+      "correct_option": "c",
+      "explanation": "Cytokinins indeed promote cell division, but they are synthesized mainly in root apices and transported upward via xylem. Hence A is true, but R is false."
+    },
+    {
+      "id": 24,
+      "question": "In which of the following conditions will the rate of transpiration be maximum?",
+      "options": {
+        "a": "High humidity, low temperature",
+        "b": "Low humidity, high temperature",
+        "c": "High CO2 concentration, low light",
+        "d": "Low wind velocity, high humidity"
+      },
+      "correct_option": "b",
+      "explanation": "Transpiration is maximum under low humidity (greater vapor pressure gradient) and high temperature (more evaporation). High humidity suppresses transpiration, low light reduces stomatal opening, and low wind velocity reduces water vapor removal."
+    },
+    {
+      "id": 25,
+      "question": "Which statements about endosperm development in angiosperms are correct? \n1. It is usually triploid. \n2. It provides nutrition to the developing embryo. \n3. It is formed after fertilization. \n4. It is always absorbed by embryo before seed maturation.",
+      "options": {
+        "a": "1, 2 and 3 only",
+        "b": "2 and 4 only",
+        "c": "1 and 3 only",
+        "d": "All 1, 2, 3 and 4"
+      },
+      "correct_option": "a",
+      "explanation": "Endosperm is triploid in most angiosperms, forms after double fertilization, and nourishes the embryo. In some species like pea and groundnut, it is absorbed by the embryo before seed maturation, but not in all (e.g., maize, coconut)."
+    },
+    {
+      "id": 26,
+      "question": "Assertion (A): Phloem transport is bidirectional. Reason (R): Food can move both up and down the stem depending on source-sink relationship.",
+      "options": {
+        "a": "Both A and R are true, and R explains A",
+        "b": "Both A and R are true, but R is not the correct explanation",
+        "c": "A is true but R is false",
+        "d": "A is false but R is true"
+      },
+      "correct_option": "a",
+      "explanation": "Phloem transport occurs from source (e.g., leaves) to sink (e.g., roots, fruits, young leaves). Since sources and sinks can change, the direction of transport can be upward or downward, hence bidirectional. Thus, both A and R are true and related."
+    },
+    {
+      "id": 27,
+      "question": "Which statements about alternation of generations in plants are true? \n1. In bryophytes, gametophyte is dominant. \n2. In pteridophytes, sporophyte is dominant. \n3. In gymnosperms and angiosperms, sporophyte is dominant. \n4. In algae, no alternation occurs.",
+      "options": {
+        "a": "1, 2 and 3 only",
+        "b": "2 and 3 only",
+        "c": "1 and 4 only",
+        "d": "All 1, 2, 3 and 4"
+      },
+      "correct_option": "a",
+      "explanation": "Alternation of generations is universal in plants. Bryophytes have dominant gametophyte, while pteridophytes, gymnosperms, and angiosperms have dominant sporophytes. Algae also show alternation in many species (isomorphic or heteromorphic), so statement 4 is false."
+    },
+    {
+      "id": 28,
+      "question": "Assertion (A): Kranz anatomy is found in C4 plants. Reason (R): In these plants, bundle sheath cells have large chloroplasts with RuBisCO for Calvin cycle.",
+      "options": {
+        "a": "Both A and R are true, and R explains A",
+        "b": "Both A and R are true, but R is not the correct explanation",
+        "c": "A is true but R is false",
+        "d": "A is false but R is true"
+      },
+      "correct_option": "a",
+      "explanation": "C4 plants show Kranz anatomy where mesophyll cells have PEPcase for initial fixation and bundle sheath cells contain RuBisCO and large chloroplasts for the Calvin cycle. Both A and R are true and related."
+    },
+    {
+      "id": 29,
+      "question": "Which statements about mitochondria are correct? \n1. They have circular DNA. \n2. They synthesize some of their proteins. \n3. They are called semi-autonomous organelles. \n4. They are found only in animal cells.",
+      "options": {
+        "a": "1, 2 and 3 only",
+        "b": "2, 3 and 4 only",
+        "c": "1 and 4 only",
+        "d": "All 1, 2, 3 and 4"
+      },
+      "correct_option": "a",
+      "explanation": "Mitochondria have circular DNA and ribosomes, synthesize some proteins, and are called semi-autonomous. They occur in both plants and animals, not just animals. Thus, 1, 2, and 3 are correct."
+    },
+    {
+      "id": 30,
+      "question": "In which of the following will you find pyrenoids? \n1. Green algae \n2. Cyanobacteria \n3. Red algae \n4. Brown algae",
+      "options": {
+        "a": "1 only",
+        "b": "1 and 2 only",
+        "c": "1 and 3 only",
+        "d": "2, 3 and 4 only"
+      },
+      "correct_option": "a",
+      "explanation": "Pyrenoids are proteinaceous bodies present in chloroplasts of green algae, serving as centers for starch deposition and carbon fixation. They are not found in red algae, brown algae, or cyanobacteria."
+    },
+    {
+      "id": 31,
+      "question": "Assertion (A): Phloem loading requires ATP. Reason (R): Sucrose is actively transported into companion cells and sieve tubes against concentration gradient.",
+      "options": {
+        "a": "Both A and R are true, and R explains A",
+        "b": "Both A and R are true, but R is not the correct explanation",
+        "c": "A is true but R is false",
+        "d": "A is false but R is true"
+      },
+      "correct_option": "a",
+      "explanation": "Phloem loading requires energy because sucrose is actively pumped into companion cells and sieve tubes against its concentration gradient. This creates high osmotic pressure that drives mass flow. Hence, both A and R are true, and R explains A."
+    },
+    {
+      "id": 32,
+      "question": "Which statements about the apoplast pathway are correct? \n1. It occurs through cell walls and intercellular spaces. \n2. It is faster than the symplast pathway. \n3. It is blocked by Casparian strips in endodermis. \n4. It requires ATP.",
+      "options": {
+        "a": "1, 2 and 3 only",
+        "b": "2 and 4 only",
+        "c": "1 and 4 only",
+        "d": "All 1, 2, 3 and 4"
+      },
+      "correct_option": "a",
+      "explanation": "Apoplast pathway occurs through cell walls and intercellular spaces, is faster, and is blocked by Casparian strips at endodermis. It is a passive process, not requiring ATP. Hence 1, 2, and 3 are correct."
+    },
+    {
+      "id": 33,
+      "question": "Assertion (A): CAM plants have higher water use efficiency than C3 plants. Reason (R): In CAM plants, stomata remain open at night, reducing water loss.",
+      "options": {
+        "a": "Both A and R are true, and R explains A",
+        "b": "Both A and R are true, but R is not the correct explanation",
+        "c": "A is true but R is false",
+        "d": "A is false but R is true"
+      },
+      "correct_option": "a",
+      "explanation": "CAM plants open stomata at night, reducing transpiration. This adaptation gives them higher water use efficiency compared to C3 plants. Both statements are true, and R correctly explains A."
+    },
+    {
+      "id": 34,
+      "question": "Which statements about mycorrhiza are correct? \n1. It is a symbiotic association of fungi and roots. \n2. Fungi help in mineral absorption, especially phosphorus. \n3. Plants provide carbohydrates to fungi. \n4. It occurs only in monocots.",
+      "options": {
+        "a": "1, 2 and 3 only",
+        "b": "2 and 4 only",
+        "c": "1 and 4 only",
+        "d": "All 1, 2, 3 and 4"
+      },
+      "correct_option": "a",
+      "explanation": "Mycorrhiza is mutualism between fungi and roots. Fungi increase mineral absorption (esp. phosphorus), while plants provide food. It occurs in both monocots and dicots. Thus, statements 1, 2, and 3 are correct."
+    },
+    {
+      "id": 35,
+      "question": "In a dihybrid cross AaBb × AaBb, what is the probability of obtaining offspring with genotype A_B_ (at least one dominant allele for each gene)?",
+      "options": {
+        "a": "9/16",
+        "b": "7/16",
+        "c": "3/16",
+        "d": "1/16"
+      },
+      "correct_option": "a",
+      "explanation": "The phenotypic ratio for AaBb × AaBb = 9:3:3:1. Offspring with both dominant traits (A_B_) occur with probability 9/16."
+    },
+    {
+      "id": 36,
+      "question": "Assertion (A): The first stable product of C3 cycle is 3-phosphoglycerate (3-PGA). Reason (R): In C3 plants, CO2 fixation occurs by RuBisCO enzyme in mesophyll cells.",
+      "options": {
+        "a": "Both A and R are true, and R explains A",
+        "b": "Both A and R are true, but R is not the correct explanation",
+        "c": "A is true but R is false",
+        "d": "A is false but R is true"
+      },
+      "correct_option": "a",
+      "explanation": "RuBisCO fixes CO2 into RuBP, forming 3-PGA as the first stable product in C3 plants. Both A and R are true, and R explains A."
+    },
+    {
+      "id": 37,
+      "question": "Which statements about endosperm are correct? \n1. It develops before fertilization. \n2. It is usually triploid. \n3. It nourishes the developing embryo. \n4. In legumes like pea, it is absorbed by embryo before seed maturation.",
+      "options": {
+        "a": "2, 3 and 4 only",
+        "b": "1 and 2 only",
+        "c": "1, 3 and 4 only",
+        "d": "All 1, 2, 3 and 4"
+      },
+      "correct_option": "a",
+      "explanation": "Endosperm forms after double fertilization, not before. It is triploid, provides nutrition, and in non-endospermic seeds like pea, it is absorbed by embryo. Hence, 2, 3, and 4 are correct."
+    },
+    {
+      "id": 38,
+      "question": "Assertion (A): Abscisic acid induces dormancy in seeds. Reason (R): It promotes rapid cell division in the embryo.",
+      "options": {
+        "a": "Both A and R are true, and R explains A",
+        "b": "Both A and R are true, but R is not the correct explanation",
+        "c": "A is true but R is false",
+        "d": "A is false but R is true"
+      },
+      "correct_option": "c",
+      "explanation": "Abscisic acid induces seed dormancy by inhibiting germination and metabolic activities. It does not promote cell division (that is cytokinin’s role). So A is true, but R is false."
+    },
+    {
+      "id": 39,
+      "question": "Which statements about cyclic photophosphorylation are correct? \n1. Only Photosystem I is involved. \n2. Both ATP and NADPH are produced. \n3. Oxygen is evolved. \n4. It occurs in stroma lamellae.",
+      "options": {
+        "a": "1 and 4 only",
+        "b": "2 and 3 only",
+        "c": "1, 2 and 4 only",
+        "d": "All 1, 2, 3 and 4"
+      },
+      "correct_option": "a",
+      "explanation": "Cyclic photophosphorylation involves only Photosystem I, produces only ATP (no NADPH), does not evolve oxygen, and mainly occurs in stroma lamellae. So statements 1 and 4 are correct."
+    },
+    {
+      "id": 40,
+      "question": "Assertion (A): In legumes, Rhizobium fixes nitrogen in root nodules. Reason (R): Nitrogenase enzyme functions efficiently in the presence of high oxygen concentration.",
+      "options": {
+        "a": "Both A and R are true, and R explains A",
+        "b": "Both A and R are true, but R is not the correct explanation",
+        "c": "A is true but R is false",
+        "d": "A is false but R is true"
+      },
+      "correct_option": "c",
+      "explanation": "Rhizobium fixes nitrogen in root nodules, but nitrogenase is highly oxygen-sensitive. Leghaemoglobin maintains low free O2 for its activity. Thus, A is true but R is false."
+    },
+    {
+      "id": 41,
+      "question": "Which statements about bryophytes are correct? \n1. Gametophyte is dominant. \n2. Sporophyte is free-living. \n3. Water is essential for fertilization. \n4. They are amphibians of the plant kingdom.",
+      "options": {
+        "a": "1, 3 and 4 only",
+        "b": "2 and 3 only",
+        "c": "1 and 2 only",
+        "d": "All 1, 2, 3 and 4"
+      },
+      "correct_option": "a",
+      "explanation": "Bryophytes have dominant gametophytes, dependent sporophytes, need water for fertilization (motile sperms), and are called amphibians of the plant kingdom. So, 1, 3, and 4 are correct."
+    },
+    {
+      "id": 42,
+      "question": "Assertion (A): In maize, endosperm is persistent. Reason (R): In monocots, endosperm nourishes the embryo even in mature seeds.",
+      "options": {
+        "a": "Both A and R are true, and R explains A",
+        "b": "Both A and R are true, but R is not the correct explanation",
+        "c": "A is true but R is false",
+        "d": "A is false but R is true"
+      },
+      "correct_option": "a",
+      "explanation": "In monocots like maize, endosperm persists and provides nutrition even in mature seeds. Hence both A and R are true, and R explains A."
+    },
+    {
+      "id": 43,
+      "question": "Which statements about plasmodesmata are correct? \n1. They connect cytoplasm of adjacent cells. \n2. They allow symplastic transport. \n3. They are made of proteins only. \n4. They enable exchange of signaling molecules.",
+      "options": {
+        "a": "1, 2 and 4 only",
+        "b": "2 and 3 only",
+        "c": "1 and 3 only",
+        "d": "All 1, 2, 3 and 4"
+      },
+      "correct_option": "a",
+      "explanation": "Plasmodesmata are cytoplasmic channels connecting adjacent plant cells, allowing symplastic transport and exchange of signaling molecules. They are lined by plasma membrane and contain desmotubules, not purely proteins. So, 1, 2, and 4 are correct."
+    },
+    {
+      "id": 44,
+      "question": "Assertion (A): In pteridophytes, the sporophyte is independent and dominant. Reason (R): Gametophyte is completely absent in pteridophytes.",
+      "options": {
+        "a": "Both A and R are true, and R explains A",
+        "b": "Both A and R are true, but R is not the correct explanation",
+        "c": "A is true but R is false",
+        "d": "A is false but R is true"
+      },
+      "correct_option": "c",
+      "explanation": "In pteridophytes, sporophyte is independent and dominant. Gametophyte is present but small, haploid, and independent. Thus, A is true but R is false."
+    },
+    {
+      "id": 45,
+      "question": "Which statements about electron transport chain in mitochondria are correct? \n1. It occurs in the inner mitochondrial membrane. \n2. It involves complexes I–IV. \n3. Oxygen acts as the final electron acceptor. \n4. Proton gradient is formed in the matrix.",
+      "options": {
+        "a": "1, 2 and 3 only",
+        "b": "2 and 4 only",
+        "c": "1 and 4 only",
+        "d": "All 1, 2, 3 and 4"
+      },
+      "correct_option": "a",
+      "explanation": "ETC occurs in inner mitochondrial membrane, involves complexes I–IV, and oxygen is the final acceptor forming water. Proton gradient is across the membrane, with protons pumped into intermembrane space, not matrix. So 1, 2, and 3 are correct."
+    }
+  ]
+}

@@ -1,0 +1,1247 @@
+{
+  "test_number": 3,
+  "subject": "Full Test",
+  "questions": [
+    {
+      "id": 1,
+      "subject": "Physics",
+      "question": "A particle starts from rest and moves in a straight line with constant acceleration. What distance does it cover in 5 seconds if the acceleration is 2 m/s²?",
+      "options": {
+        "a": "10 m",
+        "b": "25 m",
+        "c": "50 m",
+        "d": "100 m"
+      },
+      "correct_option": "b",
+      "explanation": "For motion with uniform acceleration, the displacement is given by s = ut + ½ a t². The initial speed u is zero, acceleration a is 2 m/s², and time t is 5 s. Substituting: s = 0 + ½ × 2 × (5)² = 1 × 25 = 25 m. Hence the particle travels 25 metres, corresponding to option (b).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/uniform_acceleration.png"
+    },
+    {
+      "id": 2,
+      "subject": "Physics",
+      "question": "A 1000 kg car is moving at a speed of 36 km/h. What is its kinetic energy?",
+      "options": {
+        "a": "5 × 10⁴ J",
+        "b": "1.8 × 10⁵ J",
+        "c": "3.6 × 10⁵ J",
+        "d": "7.2 × 10⁵ J"
+      },
+      "correct_option": "a",
+      "explanation": "First convert the speed to metres per second: 36 km/h = 36 × 1000 m / 3600 s = 10 m/s.  \nKinetic energy is given by KE = ½ m v². Substituting m = 1000 kg and v = 10 m/s:  \nKE = ½ × 1000 kg × (10 m/s)² = 0.5 × 1000 × 100 = 50,000 J = 5 × 10⁴ J.  \nTherefore, the kinetic energy of the car is 5 × 10⁴ joules, matching option (a).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/kinetic_energy.png"
+    },
+    {
+      "id": 3,
+      "subject": "Physics",
+      "question": "The acceleration due to gravity at the surface of the Earth is g. What will be the acceleration due to gravity at a height equal to the radius of the Earth?",
+      "options": {
+        "a": "g/2",
+        "b": "g/3",
+        "c": "g/4",
+        "d": "g/9"
+      },
+      "correct_option": "c",
+      "explanation": "Acceleration due to gravity at a distance r from Earth’s centre is g' = GM / r².  \nAt the surface, r = R and g = GM / R².  \nAt height h = R above the surface, the distance from Earth’s centre is r = R + h = 2R.  \nTherefore g' = GM / (2R)² = GM / (4R²) = g / 4.  \nHence the acceleration due to gravity is g/4, which corresponds to option (c).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/gravity_height.png"
+    },
+    {
+      "id": 4,
+      "subject": "Physics",
+      "question": "Which of the following statements is true about magnetic field lines?",
+      "options": {
+        "a": "They intersect each other",
+        "b": "They form closed loops",
+        "c": "They start from north and end on south pole only outside the magnet",
+        "d": "Both b and c"
+      },
+      "correct_option": "d",
+      "explanation": "Magnetic field lines exhibit two key properties: (1) they always form continuous closed loops, emerging from the north pole of a magnet, passing through the surrounding space, and re-entering at the south pole before returning inside the magnet from south to north; (2) in the region outside the magnet they appear to originate at the north pole and terminate at the south pole. Since both statements (b) and (c) accurately describe these properties—and field lines never intersect—option (d), which combines b and c, is correct.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/magnetic_field_loops.png"
+    },
+    {
+      "id": 5,
+      "subject": "Physics",
+      "question": "A ball is dropped from a height of 80 m. How long does it take to reach the ground? (g = 10 m/s²)",
+      "options": {
+        "a": "2 s",
+        "b": "4 s",
+        "c": "6 s",
+        "d": "8 s"
+      },
+      "correct_option": "b",
+      "explanation": "For an object dropped from rest (initial speed u = 0) and falling freely under gravity, the vertical displacement is given by the kinematic equation s = ½ g t². Here s = 80 m and g = 10 m/s².\n\n80 = ½ × 10 × t²  →  80 = 5 t²  →  t² = 16  →  t = 4 s.\n\nThus the ball takes 4 seconds to reach the ground, matching option (b).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/free_fall.png"
+    },
+    {
+      "id": 6,
+      "subject": "Physics",
+      "question": "What is the work done by the centripetal force on a body moving in a circular path?",
+      "options": {
+        "a": "Positive",
+        "b": "Negative",
+        "c": "Zero",
+        "d": "Infinity"
+      },
+      "correct_option": "c",
+      "explanation": "Work is defined as W = F · s · cos θ, where θ is the angle between the force vector and the displacement vector. In uniform circular motion, the centripetal force always points toward the centre of the circle, while the instantaneous displacement of the body is tangential—perpendicular (θ = 90°) to the centripetal force. Because cos 90° = 0, the work done by the centripetal force over any finite displacement is zero. Hence the correct answer is option (c): zero work is done.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/centripetal_force.png"
+    },
+    {
+      "id": 7,
+      "subject": "Physics",
+      "question": "Which physical quantity has the same unit as power?",
+      "options": {
+        "a": "Work",
+        "b": "Energy",
+        "c": "Rate of work",
+        "d": "Impulse"
+      },
+      "correct_option": "c",
+      "explanation": "In SI units, power is defined as the time rate at which work is done: P = dW/dt. Its unit is the watt (W), equal to one joule per second (J s⁻¹). The phrase “rate of work” describes exactly the same quantity—work done per unit time—so it is measured in watts as well. Work and energy are measured in joules, while impulse is measured in newton-seconds. Therefore, option (c) ‘rate of work’ shares the same unit as power.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/power_unit.png"
+    },
+    {
+      "id": 8,
+      "subject": "Physics",
+      "question": "Which of the following is not a unit of energy?",
+      "options": {
+        "a": "Joule",
+        "b": "Calorie",
+        "c": "Electronvolt",
+        "d": "Watt"
+      },
+      "correct_option": "d",
+      "explanation": "Joule (J), calorie (cal) and electron-volt (eV) all measure energy. A watt (W) measures power, defined as energy per unit time (1 W = 1 J s⁻¹). Therefore, watt is not an energy unit, making option (d) the correct choice.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/energy_units.png"
+    },
+    {
+      "id": 9,
+      "subject": "Physics",
+      "question": "Which of the following graphs represent uniform motion?",
+      "options": {
+        "a": "Displacement-time graph: straight line",
+        "b": "Velocity-time graph: straight horizontal line",
+        "c": "Acceleration-time graph: zero line",
+        "d": "All of the above"
+      },
+      "correct_option": "d",
+      "explanation": "Uniform motion means the object travels with constant velocity.\n• A displacement–time graph with a straight line (constant slope) shows displacement increasing linearly, implying constant velocity.\n• A velocity–time graph that is a horizontal line indicates velocity is constant in time.\n• An acceleration–time graph on the zero line shows acceleration is zero, which is consistent with unchanging velocity.\nBecause each graph correctly depicts a different aspect of the same uniform-motion condition, option (d) ‘All of the above’ is correct.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/uniform_motion_graphs.png"
+    },
+    {
+      "id": 10,
+      "subject": "Physics",
+      "question": "If the current in a wire is 3 A, how many electrons pass through a cross-section of the wire in 1 second? (e = 1.6 × 10⁻¹⁹ C)",
+      "options": {
+        "a": "1.875 × 10¹⁹",
+        "b": "3 × 10¹⁹",
+        "c": "4.5 × 10¹⁸",
+        "d": "6 × 10¹⁸"
+      },
+      "correct_option": "a",
+      "explanation": "Electric charge transported in time t is Q = I × t.  With I = 3 A and t = 1 s, Q = 3 C.\nThe charge of one electron is e = 1.6 × 10⁻¹⁹ C, so the number of electrons is\n  N = Q / e = 3 C ÷ 1.6 × 10⁻¹⁹ C ≈ 1.875 × 10¹⁹ electrons.\nThus about 1.875 × 10¹⁹ electrons pass the cross-section each second, matching option (a).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/current_electrons.png"
+    },
+    {
+      "id": 11,
+      "subject": "Physics",
+      "question": "A wire of resistance 4 Ω is stretched to double its length. What is the new resistance?",
+      "options": {
+        "a": "4 Ω",
+        "b": "8 Ω",
+        "c": "16 Ω",
+        "d": "1 Ω"
+      },
+      "correct_option": "c",
+      "explanation": "When a wire is stretched without adding or removing material, its volume (A·L) remains constant. Doubling the length (L' = 2L) reduces the cross-sectional area to one-half its original value (A' = A/2). Resistance depends on length and area through R = ρL/A, so the new resistance is\n  R' = ρ L' / A' = ρ (2L) / (A/2) = ρ (2L) × (2/A) = 4 ρL/A = 4R.\nWith the original resistance R = 4 Ω, we obtain R' = 4 × 4 Ω = 16 Ω. Therefore the resistance becomes 16 Ω, matching option (c).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/resistance_length.png"
+    },
+    {
+      "id": 12,
+      "subject": "Physics",
+      "question": "Two spheres of masses m and 4m are dropped from the same height. Ignoring air resistance, which statement is true?",
+      "options": {
+        "a": "Heavier body hits ground first",
+        "b": "Lighter body hits ground first",
+        "c": "Both hit at same time",
+        "d": "Cannot determine"
+      },
+      "correct_option": "c",
+      "explanation": "For bodies in free fall with negligible air resistance, the only acceleration acting is gravity (g). The time of descent from height h is t = √(2h / g), which depends solely on h and g and **not** on the mass of the object. Therefore both spheres, regardless of their different masses (m and 4m), experience the same acceleration and take the same time to reach the ground, arriving simultaneously. Hence option (c) is correct.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/free_fall_equal.png"
+    },
+    {
+      "id": 13,
+      "subject": "Physics",
+      "question": "If a satellite moves in a circular orbit close to Earth, what is the nature of its acceleration?",
+      "options": {
+        "a": "Zero",
+        "b": "Tangential",
+        "c": "Radial",
+        "d": "Constant in magnitude and direction"
+      },
+      "correct_option": "c",
+      "explanation": "In uniform circular motion the speed of the satellite remains constant, but its velocity continually changes direction. This change is produced by a centripetal (centre-seeking) acceleration directed toward the centre of the orbit—that is, radially inward toward Earth. The magnitude of this acceleration is v²∕r (or GM∕r²) and is constant for a given orbit, but its direction continuously changes so that it always points to the centre. Hence the acceleration is radial, making option (c) correct.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/centripetal_satellite.png"
+    },
+    {
+      "id": 14,
+      "subject": "Physics",
+      "question": "What is the escape velocity on Earth (approximate)?",
+      "options": {
+        "a": "7 km/s",
+        "b": "11.2 km/s",
+        "c": "15 km/s",
+        "d": "21 km/s"
+      },
+      "correct_option": "b",
+      "explanation": "Escape velocity is the minimum speed required for an object to break free from Earth’s gravitational field without further propulsion. Using the Newtonian formula v = √(2 g R) and substituting Earth’s mean values (g ≈ 9.8 m/s², R ≈ 6.4 × 10⁶ m) gives v ≈ 11.2 km/s. Therefore, option (b) is correct.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/escape_velocity.png"
+    },
+    {
+      "id": 15,
+      "subject": "Physics",
+      "question": "The dimensional formula for power is:",
+      "options": {
+        "a": "[ML²T⁻³]",
+        "b": "[MLT⁻²]",
+        "c": "[ML²T⁻²]",
+        "d": "[M²L²T⁻³]"
+      },
+      "correct_option": "a",
+      "explanation": "Power (P) is defined as the rate of doing work: P = Work / Time. Work itself is Force × Distance. Force has the dimensional formula [MLT⁻²] and distance is [L]. Therefore, Work = [MLT⁻²] × [L] = [ML²T⁻²]. Dividing by time (T) gives Power = [ML²T⁻²] / [T] = [ML²T⁻³]. Hence the correct dimensional formula is [ML²T⁻³], corresponding to option (a).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/dimensional_power.png"
+    },
+    {
+      "id": 16,
+      "subject": "Physics",
+      "question": "The potential energy of a spring is given by:",
+      "options": {
+        "a": "½mv²",
+        "b": "½kx²",
+        "c": "mgx",
+        "d": "kx"
+      },
+      "correct_option": "b",
+      "explanation": "For an ideal spring obeying Hooke’s law (F = kx), the work required to stretch or compress the spring from 0 to x is obtained by integrating the force with respect to displacement: U = ∫₀ˣ kx' dx' = ½ k x². This stored energy is called elastic potential energy. Hence the correct expression is ½ k x², corresponding to option (b).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/spring_energy.png"
+    },
+    {
+      "id": 17,
+      "subject": "Physics",
+      "question": "In a Young's double-slit experiment, if the distance between the slits is doubled, the fringe width:",
+      "options": {
+        "a": "Remains same",
+        "b": "Doubles",
+        "c": "Becomes half",
+        "d": "Becomes four times"
+      },
+      "correct_option": "c",
+      "explanation": "The fringe width in Young’s double-slit experiment is given by β = λD / d, where λ is the wavelength of light, D is the distance from the slits to the screen, and d is the separation between the slits. Since β is inversely proportional to d, doubling d makes β → β/2. Thus the fringe spacing becomes half its original value, corresponding to option (c).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/youngs_experiment.png"
+    },
+    {
+      "id": 18,
+      "subject": "Physics",
+      "question": "Which law states that the induced EMF is proportional to the rate of change of magnetic flux?",
+      "options": {
+        "a": "Lenz’s Law",
+        "b": "Ohm’s Law",
+        "c": "Faraday’s Law",
+        "d": "Ampere’s Law"
+      },
+      "correct_option": "c",
+      "explanation": "Faraday’s law of electromagnetic induction states that the magnitude of the electromotive force (EMF) induced in a circuit is directly proportional to the rate at which magnetic flux through the circuit changes: EMF = −dΦ/dt. (The minus sign is supplied by Lenz’s law to give the direction; the proportionality describes the magnitude.) Therefore, Faraday’s law is the principle that relates induced EMF to the time rate of change of magnetic flux, making option (c) correct.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/faradays_law.png"
+    },
+    {
+      "id": 19,
+      "subject": "Physics",
+      "question": "A 10 μF capacitor is charged to 100 V. What is the energy stored in the capacitor?",
+      "options": {
+        "a": "0.05 J",
+        "b": "0.1 J",
+        "c": "0.5 J",
+        "d": "1 J"
+      },
+      "correct_option": "a",
+      "explanation": "Convert the capacitance to farads: 10 μF = 10 × 10⁻⁶ F = 1 × 10⁻⁵ F.\n\nThe energy stored in a capacitor is U = ½ C V².\n  U = ½ × (1 × 10⁻⁵ F) × (100 V)²\n    = 0.5 × 1 × 10⁻⁵ × 10⁴\n    = 0.5 × 0.1\n    = 0.05 J.\n\nThus the capacitor stores 0.05 joule of energy, corresponding to option (a).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/capacitor_energy.png"
+    },
+    {
+      "id": 20,
+      "subject": "Physics",
+      "question": "In SHM, which of the following remains constant?",
+      "options": {
+        "a": "Acceleration",
+        "b": "Amplitude",
+        "c": "Kinetic energy",
+        "d": "Velocity"
+      },
+      "correct_option": "b",
+      "explanation": "Simple harmonic motion (SHM) is characterised by periodic oscillation about an equilibrium position. The **amplitude** is the maximum displacement from that equilibrium and is fixed by the initial conditions; it remains the same for every cycle as long as no damping or external driving force is present. In contrast, acceleration and velocity continually change in magnitude and direction during the motion, and kinetic energy oscillates between zero and a maximum value. Hence amplitude is the only quantity in the list that stays constant throughout the motion, making option (b) correct.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/shm_amplitude.png"
+    },
+    {
+      "id": 21,
+      "subject": "Physics",
+      "question": "A Carnot engine operates between temperatures 600 K and 300 K. What is its efficiency?",
+      "options": {
+        "a": "25%",
+        "b": "50%",
+        "c": "75%",
+        "d": "60%"
+      },
+      "correct_option": "b",
+      "explanation": "The theoretical (Carnot) efficiency of a heat engine that operates between a hot reservoir at temperature Tₕ and a cold reservoir at temperature T𝒸 is η = 1 − (T𝒸 / Tₕ). Substituting Tₕ = 600 K and T𝒸 = 300 K:\n  η = 1 − (300 / 600) = 1 − 0.5 = 0.50, or 50 %. Therefore the engine can convert, at most, half of the heat it absorbs into useful work, corresponding to option (b).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/carnot_engine.png"
+    },
+    {
+      "id": 22,
+      "subject": "Physics",
+      "question": "A particle is moving in a circular path with constant speed. Which of the following is true?",
+      "options": {
+        "a": "Acceleration is zero",
+        "b": "Velocity is constant",
+        "c": "Kinetic energy is changing",
+        "d": "Direction of velocity changes continuously"
+      },
+      "correct_option": "d",
+      "explanation": "In uniform circular motion the magnitude of the velocity (speed) remains constant, but its direction changes at every instant, always tangential to the circle. Because velocity is a vector, this continuous change of direction means the particle experiences a non-zero centripetal acceleration directed toward the centre. The kinetic energy (½ mv²) stays constant because the speed is constant. Hence the only correct statement is that the direction of the velocity changes continuously, option (d).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/ucm_velocity.png"
+    },
+    {
+      "id": 23,
+      "subject": "Physics",
+      "question": "A transformer has 500 turns in the primary winding and 100 turns in the secondary winding. If the input (primary) voltage is 220 V, what is the output (secondary) voltage?",
+      "options": {
+        "a": "110 V",
+        "b": "44 V",
+        "c": "220 V",
+        "d": "440 V"
+      },
+      "correct_option": "b",
+      "explanation": "For an ideal transformer the voltage ratio equals the turns ratio: V_s / V_p = N_s / N_p.\n• V_p = 220 V, N_p = 500 turns.\n• N_s = 100 turns.\nTherefore V_s = V_p × (N_s / N_p) = 220 V × (100 / 500) = 220 V × 0.20 = 44 V.  \nSince the secondary has fewer turns than the primary, this is a step-down transformer. The correct output voltage is 44 V, matching option (b).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/transformer_ratio.png"
+    },
+    {
+      "id": 24,
+      "subject": "Physics",
+      "question": "Which of the following represents Newton's second law?",
+      "options": {
+        "a": "F = mv",
+        "b": "F = dp/dt",
+        "c": "F = dW/dt",
+        "d": "F = ma²"
+      },
+      "correct_option": "b",
+      "explanation": "Newton’s second law states that the net force acting on a body equals the time rate of change of its linear momentum: **F = dp/dt**. When the mass is constant, this reduces to the familiar F = ma, because p = mv and dp/dt = m dv/dt = ma. Options (a) and (d) are dimensionally incorrect, and option (c) expresses power (rate of doing work), not force.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/newton_second_law.png"
+    },
+    {
+      "id": 25,
+      "subject": "Physics",
+      "question": "If light travels from air into glass, what happens to its speed and wavelength?",
+      "options": {
+        "a": "Both increase",
+        "b": "Speed decreases, wavelength increases",
+        "c": "Both decrease",
+        "d": "Speed and wavelength both decrease"
+      },
+      "correct_option": "d",
+      "explanation": "When light passes from a rarer medium (air, n ≈ 1.0) into a denser medium (glass, n > 1), its frequency remains unchanged because frequency is determined by the source. The speed of light in the medium becomes v = c / n, so it decreases. Because the relation v = λf must still hold and f is constant, the wavelength λ must also decrease proportionally. Therefore, in glass both the speed and the wavelength are lower than in air, making option (d) the correct choice.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/refraction_speed.png"
+    },
+    {
+      "id": 26,
+      "subject": "Physics",
+      "question": "In Bohr’s model, which quantity is quantized?",
+      "options": {
+        "a": "Kinetic energy",
+        "b": "Momentum",
+        "c": "Angular momentum",
+        "d": "Charge"
+      },
+      "correct_option": "c",
+      "explanation": "In Bohr’s atomic model of the hydrogen atom, the electron can occupy only certain allowed orbits. Bohr postulated that the electron’s orbital angular momentum (L) is restricted to discrete values given by L = nħ, where n is a positive integer (1, 2, 3, …) and ħ = h / 2π is the reduced Planck constant. This quantization condition explains the stability of the atom and the discrete spectral lines of hydrogen. Hence, angular momentum is the quantity that is quantized in Bohr’s theory.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/bohr_model.png"
+    },
+    {
+      "id": 27,
+      "subject": "Physics",
+      "question": "A concave mirror has a focal length of 20 cm. What is the radius of curvature?",
+      "options": {
+        "a": "10 cm",
+        "b": "20 cm",
+        "c": "30 cm",
+        "d": "40 cm"
+      },
+      "correct_option": "d",
+      "explanation": "For a spherical mirror, the focal length (f) and the radius of curvature (R) are related by R = 2f. Given f = 20 cm, the radius of curvature is R = 2 × 20 cm = 40 cm. Hence option (d) is correct.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/mirror_radius.png"
+    },
+    {
+      "id": 28,
+      "subject": "Physics",
+      "question": "Which law explains the direction of induced current?",
+      "options": {
+        "a": "Faraday’s Law",
+        "b": "Ohm’s Law",
+        "c": "Kirchhoff’s Law",
+        "d": "Lenz’s Law"
+      },
+      "correct_option": "d",
+      "explanation": "Lenz’s law states that the direction of the induced current (or induced EMF) is such that it opposes the change in magnetic flux that produced it. This opposition ensures conservation of energy and gives a definite direction for the induced current. Faraday’s law provides the magnitude of the EMF, while Lenz’s law supplies the sign (direction), making option (d) correct.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/lenz_law.png"
+    },
+    {
+      "id": 29,
+      "subject": "Physics",
+      "question": "Work done in moving a charge around a closed loop in an electrostatic field is:",
+      "options": {
+        "a": "Maximum",
+        "b": "Positive",
+        "c": "Zero",
+        "d": "Negative"
+      },
+      "correct_option": "c",
+      "explanation": "An electrostatic field is conservative. For any conservative field, the line integral of the force (or field) around a closed path is zero: ∮ E·dl = 0. Consequently, the net work required to move a charge completely around a closed loop in such a field is zero. Hence option (c) is correct.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/conservative_field.png"
+    },
+    {
+      "id": 30,
+      "subject": "Physics",
+      "question": "A 0.1 kg ball moving at 5 m/s strikes a wall and rebounds with the same speed. What is the change in momentum (magnitude)?",
+      "options": {
+        "a": "0",
+        "b": "0.5 kg·m/s",
+        "c": "1 kg·m/s",
+        "d": "2 kg·m/s"
+      },
+      "correct_option": "c",
+      "explanation": "Momentum is a vector, so its direction matters. Let the initial direction toward the wall be positive.\n• Initial momentum: p_i = m v_i = 0.1 kg × (+5 m/s) = +0.5 kg·m/s.\n• After rebounding with the same speed in the opposite direction, v_f = −5 m/s.\n  Final momentum: p_f = m v_f = 0.1 kg × (−5 m/s) = −0.5 kg·m/s.\n• Change in momentum: Δp = p_f − p_i = (−0.5) − (+0.5) = −1 kg·m/s.\n  The negative sign shows the momentum reversed direction; the magnitude of the change is |Δp| = 1 kg·m/s.\nHence the magnitude of the momentum change is 1 kg·m/s, matching option (c).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/momentum_change.png"
+    },
+    {
+      "id": 31,
+      "subject": "Physics",
+      "question": "A capacitor of 4 μF is charged to 100 V. What is the energy stored in it?",
+      "options": {
+        "a": "2 mJ",
+        "b": "20 mJ",
+        "c": "0.02 J",
+        "d": "0.2 J"
+      },
+      "correct_option": "c",
+      "explanation": "First convert the capacitance to farads: 4 μF = 4 × 10⁻⁶ F.  The energy stored in a capacitor is given by U = ½ C V².\n  U = ½ × (4 × 10⁻⁶ F) × (100 V)²\n    = 0.5 × 4 × 10⁻⁶ × 10⁴\n    = 2 × 10⁻² J = 0.02 J.\nThis equals 0.02 joule (or 20 millijoules).  Among the listed choices the value 0.02 J appears explicitly as option (c), so option (c) is the correct answer.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/capacitor_energy.png"
+    },
+    {
+      "id": 32,
+      "subject": "Physics",
+      "question": "Which physical quantity has units N·m²/C²?",
+      "options": {
+        "a": "Electric field",
+        "b": "Electric potential",
+        "c": "Coulomb’s constant",
+        "d": "Capacitance"
+      },
+      "correct_option": "c",
+      "explanation": "The proportionality constant in Coulomb’s law, commonly written as k (or 1/4π ε₀), relates the electrostatic force between two point charges to their separation and magnitudes: F = k q₁ q₂ / r². Rearranging gives k = F r² / (q₁ q₂), so its units are (newton × metre²) per coulomb², i.e., N·m²/C². Electric field has units N/C, electric potential has units J/C (or N·m/C), and capacitance is measured in farads (C/V), none of which match N·m²/C². Therefore Coulomb’s constant is the quantity with these units, making option (c) correct.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/coulomb_constant.png"
+    },
+    {
+      "id": 33,
+      "subject": "Physics",
+      "question": "In the photoelectric effect, the number of electrons emitted per unit time depends primarily on:",
+      "options": {
+        "a": "Frequency of light",
+        "b": "Wavelength of light",
+        "c": "Intensity of light",
+        "d": "Work function"
+      },
+      "correct_option": "c",
+      "explanation": "Photoelectric emission occurs when individual photons transfer their energy to electrons in a material. Once the photon frequency exceeds the threshold (set by the work function), each absorbed photon can free one electron. Therefore, increasing the intensity increases the photon flux (photons per second) but does not change the energy per photon. A higher photon flux liberates more electrons per second, so the photo-current rises proportionally with intensity. The electron *energy* depends on frequency (E_k,max = hν − φ), but the *count* depends on how many photons arrive—that is, the light intensity. Hence option (c) is correct.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/photoelectric_effect.png"
+    },
+    {
+      "id": 34,
+      "subject": "Physics",
+      "question": "A body weighs 100 N on Earth. What would it weigh on the Moon? (g_moon = g/6)",
+      "options": {
+        "a": "600 N",
+        "b": "100 N",
+        "c": "16.6 N",
+        "d": "60 N"
+      },
+      "correct_option": "c",
+      "explanation": "Weight (W) is the gravitational force on a mass and is proportional to the local acceleration due to gravity: W = m g.  If the same mass is taken where gravity is one-sixth of Earth’s, its weight becomes W_moon = m (g/6) = (m g) / 6.  Since its Earth weight is 100 N (m g = 100 N), the Moon weight is 100 N ÷ 6 ≈ 16.6 N.  Therefore option (c) is correct.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/moon_weight.png"
+    },
+    {
+      "id": 35,
+      "subject": "Physics",
+      "question": "Which wave is used in sonar?",
+      "options": {
+        "a": "Microwave",
+        "b": "Ultrasound",
+        "c": "Infrared",
+        "d": "Gamma rays"
+      },
+      "correct_option": "b",
+      "explanation": "SONAR (Sound Navigation and Ranging) systems emit **ultrasonic waves**—sound waves with frequencies above the human hearing range (> 20 kHz). These high-frequency waves have short wavelengths, allowing them to travel long distances underwater with minimal diffraction and to reflect sharply from objects such as the sea floor or submerged vessels. The time taken for the echoes to return is measured to determine distance and create underwater images. Microwaves, infrared, and gamma rays are electromagnetic waves and do not propagate efficiently through water, so they are not used in sonar.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/sonar.png"
+    },
+    {
+      "id": 36,
+      "subject": "Physics",
+      "question": "What is the time period of a simple pendulum of length 1 m? (g = 9.8 m/s²)",
+      "options": {
+        "a": "1.2 s",
+        "b": "2 s",
+        "c": "1.8 s",
+        "d": "0.9 s"
+      },
+      "correct_option": "b",
+      "explanation": "For small oscillations the time period of a simple pendulum is T = 2π√(L / g). Substituting L = 1 m and g = 9.8 m/s²:\n  T = 2π√(1 / 9.8) ≈ 2π × 0.319 ≈ 2.01 s ≈ 2 s.\nHence the period is about 2 seconds, matching option (b).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/pendulum.png"
+    },
+    {
+      "id": 37,
+      "subject": "Physics",
+      "question": "Which principle explains the working of a hydraulic lift?",
+      "options": {
+        "a": "Archimedes’ Principle",
+        "b": "Pascal’s Law",
+        "c": "Bernoulli’s Principle",
+        "d": "Newton’s Third Law"
+      },
+      "correct_option": "b",
+      "explanation": "A hydraulic lift employs an incompressible fluid to transmit pressure from a small-area piston to a large-area piston. According to **Pascal’s law**, any pressure applied to a confined fluid is transmitted undiminished in all directions. Thus a modest force on the small piston produces a proportionally larger force on the large piston, enabling heavy loads to be lifted with comparatively little effort. Archimedes’, Bernoulli’s, and Newton’s principles do not account for this pressure transmission effect, so option (b) is correct.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/pascal_law.png"
+    },
+    {
+      "id": 38,
+      "subject": "Physics",
+      "question": "Two identical resistors in series have an equivalent resistance of 10 Ω. What is their equivalent resistance when connected in parallel?",
+      "options": {
+        "a": "5 Ω",
+        "b": "10 Ω",
+        "c": "2.5 Ω",
+        "d": "20 Ω"
+      },
+      "correct_option": "c",
+      "explanation": "If two identical resistors in series add to 10 Ω, each resistor is R = 10 Ω ÷ 2 = 5 Ω.  For two identical resistors in parallel, the equivalent resistance is R_parallel = R / 2 (or R_parallel = (R × R) / (R + R)).  Substituting R = 5 Ω gives R_parallel = 5 Ω ÷ 2 = 2.5 Ω.  Therefore the equivalent resistance in parallel is 2.5 Ω, matching option (c).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/parallel_resistance.png"
+    },
+    {
+      "id": 39,
+      "subject": "Physics",
+      "question": "If the pressure of an ideal gas is doubled while its temperature remains constant, what happens to its volume?",
+      "options": {
+        "a": "Double",
+        "b": "Half",
+        "c": "Same",
+        "d": "Four times"
+      },
+      "correct_option": "b",
+      "explanation": "For a fixed mass of ideal gas at constant temperature, Boyle’s law states that pressure and volume are inversely proportional: P₁V₁ = P₂V₂.  If the initial pressure P₁ is doubled (P₂ = 2P₁), then  P₁V₁ = 2P₁V₂ ⇒ V₂ = V₁ / 2.  Thus the volume becomes half of its original value.  Therefore option (b) is correct.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/boyles_law.png"
+    },
+    {
+      "id": 40,
+      "subject": "Physics",
+      "question": "Which particle is responsible for beta decay?",
+      "options": {
+        "a": "Photon",
+        "b": "Neutron",
+        "c": "Electron",
+        "d": "Proton"
+      },
+      "correct_option": "b",
+      "explanation": "In β⁻ (beta-minus) decay a neutron inside an unstable nucleus transforms into a proton, emitting an electron (the beta particle) and an antineutrino: n → p + e⁻ + ν̄ₑ. Thus the process is initiated by a neutron. (In β⁺ decay, a proton converts into a neutron, positron, and neutrino.) Because the neutron is the particle that undergoes the primary change in the most common form of beta decay, option (b) is correct.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/beta_decay.png"
+    },
+    {
+      "id": 41,
+      "subject": "Physics",
+      "question": "Electric field inside a conductor is:",
+      "options": {
+        "a": "Maximum",
+        "b": "Zero",
+        "c": "Infinity",
+        "d": "Same as outside"
+      },
+      "correct_option": "b",
+      "explanation": "Under electrostatic conditions, free charges within a conductor redistribute themselves over the surface until the internal electric field cancels out. If any field existed inside, electrons would continue to move. This redistribution stops only when the net electric field inside the conductor is zero. Therefore, inside a conductor in electrostatic equilibrium, the electric field is zero, which corresponds to option (b).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/electric_field_conductor.png"
+    },
+    {
+      "id": 42,
+      "subject": "Physics",
+      "question": "Work function of a metal is 2 eV. What is its threshold frequency?",
+      "options": {
+        "a": "1.21 × 10¹⁴ Hz",
+        "b": "4.84 × 10¹⁴ Hz",
+        "c": "3.25 × 10¹⁴ Hz",
+        "d": "2.5 × 10¹⁴ Hz"
+      },
+      "correct_option": "b",
+      "explanation": "The threshold frequency (f₀) is found from the work-function energy φ using Einstein’s photoelectric relation φ = h f₀.\n• Convert the work function to joules: φ = 2 eV = 2 × 1.6 × 10⁻¹⁹ J = 3.2 × 10⁻¹⁹ J.\n• Planck’s constant: h = 6.63 × 10⁻³⁴ J·s.\n• Compute f₀: f₀ = φ / h = (3.2 × 10⁻¹⁹ J) ÷ (6.63 × 10⁻³⁴ J·s) ≈ 4.83 × 10¹⁴ Hz ≈ 4.84 × 10¹⁴ Hz.\nThus the threshold frequency is about 4.84 × 10¹⁴ Hz, matching option (b).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/work_function.png"
+    },
+    {
+      "id": 43,
+      "subject": "Physics",
+      "question": "What is the dimensional formula of Planck’s constant?",
+      "options": {
+        "a": "ML²T⁻²",
+        "b": "ML²T⁻¹",
+        "c": "MLT⁻²",
+        "d": "M⁻¹L²T"
+      },
+      "correct_option": "b",
+      "explanation": "Planck’s constant (h) links energy and frequency through E = hν. Since energy has dimensions of work (ML²T⁻²) and frequency has dimensions T⁻¹, h must supply an extra factor of time in the numerator: [h] = [E] / [ν] = (ML²T⁻²) / (T⁻¹) = ML²T⁻¹. Thus the dimensional formula for Planck’s constant is ML²T⁻¹, matching option (b).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/planck_constant.png"
+    },
+    {
+      "id": 44,
+      "subject": "Physics",
+      "question": "What is the magnetic field at the center of a circular loop carrying current I and radius r?",
+      "options": {
+        "a": "μ₀I/4πr",
+        "b": "μ₀I/2r",
+        "c": "μ₀I/2πr",
+        "d": "μ₀Ir/2"
+      },
+      "correct_option": "b",
+      "explanation": "According to the Biot–Savart law, integrating around a single-turn circular loop of radius r gives the magnetic field at its center:\n\n\\[ B = \\frac{\\mu_0 I}{2 r} \\]\n\nwhere \\( \\mu_0 \\) is the permeability of free space and I is the current in the loop. Hence option (b) is the correct expression.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/circular_loop_field.png"
+    },
+    {
+      "id": 45,
+      "subject": "Physics",
+      "question": "Which of the following is dimensionless?",
+      "options": {
+        "a": "Gravitational constant",
+        "b": "Refractive index",
+        "c": "Planck’s constant",
+        "d": "Force"
+      },
+      "correct_option": "b",
+      "explanation": "A **dimensionless quantity** has no fundamental dimensions (M, L, T, etc.) because it is formed from a ratio of two like quantities. The refractive index n is defined as the ratio of the speed of light in vacuum (c) to the speed of light in the medium (v): n = c / v. Since both numerator and denominator have the same units (m s⁻¹), the units cancel, leaving n without dimensions. The gravitational constant (G) carries dimensions, Planck’s constant (h) carries dimensions, and force has dimensions of [MLT⁻²], so only the refractive index is dimensionless. Therefore option (b) is correct.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/refractive_index.png"
+    },
+    {
+      "id": 46,
+      "subject": "Chemistry",
+      "question": "Which of the following is a strong electrolyte?",
+      "options": {
+        "a": "CH₃COOH",
+        "b": "NaCl",
+        "c": "C₂H₅OH",
+        "d": "Glucose"
+      },
+      "correct_option": "b",
+      "explanation": "NaCl completely dissociates in water, making it a strong electrolyte."
+    },
+    {
+      "id": 91,
+      "subject": "Botany",
+      "question": "Which scientist first identified DNA as the genetic material using experiments with Streptococcus pneumoniae?",
+      "options": {
+        "a": "Watson",
+        "b": "Avery",
+        "c": "Griffith",
+        "d": "Hershey"
+      },
+      "correct_option": "c",
+      "explanation": "Frederick Griffith, in 1928, demonstrated the phenomenon of transformation in Streptococcus pneumoniae. He showed that heat-killed virulent bacteria could transfer a 'transforming principle' to live non-virulent bacteria, making them virulent. Although he did not identify DNA as the transforming principle, his work laid the foundation for later experiments by Avery, MacLeod, and McCarty that confirmed DNA as the genetic material."
+    },
+    {
+      "id": 92,
+      "subject": "Botany",
+      "question": "Which nitrogenous base is found only in RNA and not in DNA?",
+      "options": {
+        "a": "Thymine",
+        "b": "Cytosine",
+        "c": "Uracil",
+        "d": "Guanine"
+      },
+      "correct_option": "c",
+      "explanation": "Uracil is unique to RNA and replaces thymine, which is found in DNA. During transcription, uracil pairs with adenine in RNA synthesis. This substitution is one of the major chemical differences between RNA and DNA, affecting stability and function."
+    },
+    {
+      "id": 93,
+      "subject": "Botany",
+      "question": "In which of the following phases does the plant cell prepare for elongation and structural development?",
+      "options": {
+        "a": "Maturation phase",
+        "b": "Cell division phase",
+        "c": "Elongation phase",
+        "d": "Senescence phase"
+      },
+      "correct_option": "c",
+      "explanation": "In the elongation phase of plant growth, cells absorb water into their vacuoles, causing them to expand. This expansion is aided by cell wall-loosening enzymes and plant hormones like auxins and gibberellins. It follows cell division and precedes the maturation phase, during which cells differentiate and specialize."
+    },
+    {
+      "id": 94,
+      "subject": "Botany",
+      "question": "The process by which pollen is transferred from anther to stigma is called:",
+      "options": {
+        "a": "Fertilization",
+        "b": "Germination",
+        "c": "Pollination",
+        "d": "Dissemination"
+      },
+      "correct_option": "c",
+      "explanation": "Pollination is the first step in sexual reproduction in flowering plants, involving the transfer of pollen grains from the anther (male part) to the stigma (female part) of a flower. It may occur within the same flower, between flowers of the same plant, or between flowers of different plants of the same species."
+    },
+    {
+      "id": 95,
+      "subject": "Botany",
+      "question": "In a typical floral diagram, the position of the ovary with respect to other floral whorls determines the nature of the flower. If the ovary is above all other whorls, the flower is called:",
+      "options": {
+        "a": "Hypogynous",
+        "b": "Perigynous",
+        "c": "Epigynous",
+        "d": "Endogynous"
+      },
+      "correct_option": "a",
+      "explanation": "In hypogynous flowers, the ovary is superior, meaning it is positioned above the attachment of other floral parts such as sepals, petals, and stamens. This arrangement is common in families like Brassicaceae (mustard) and Solanaceae (brinjal). It allows better exposure for pollination."
+    },
+    {
+      "id": 96,
+      "subject": "Botany",
+      "question": "Which of the following is a correct interpretation of the phenotypic outcome of a monohybrid cross in which F₂ generation displays a 3:1 ratio?",
+      "options": {
+        "a": "The trait is determined by codominance",
+        "b": "Both alleles are expressed equally",
+        "c": "The dominant allele masks the recessive one in heterozygotes",
+        "d": "The alleles blend to form an intermediate phenotype"
+      },
+      "correct_option": "c",
+      "explanation": "A 3:1 ratio in the F₂ generation of a monohybrid cross, as seen by Mendel in pea plants, indicates that one allele is dominant over the other. The dominant allele expresses its trait in both homozygous and heterozygous forms, masking the expression of the recessive allele."
+    },
+    {
+      "id": 97,
+      "subject": "Botany",
+      "question": "In eukaryotic cells, what is the name of the coding regions of genes that are expressed during protein synthesis?",
+      "options": {
+        "a": "Exons",
+        "b": "Introns",
+        "c": "Promoters",
+        "d": "Operators"
+      },
+      "correct_option": "a",
+      "explanation": "Exons are the coding sequences of a gene that remain in the mature mRNA after splicing and are translated into proteins. Introns, by contrast, are non-coding sequences removed during RNA processing, ensuring that only the relevant information is expressed."
+    },
+    {
+      "id": 98,
+      "subject": "Botany",
+      "question": "Which mechanism allows plant species with bisexual flowers to avoid self-pollination at the genetic level?",
+      "options": {
+        "a": "Dichogamy",
+        "b": "Self-incompatibility",
+        "c": "Heterostyly",
+        "d": "Cleistogamy"
+      },
+      "correct_option": "b",
+      "explanation": "Self-incompatibility is a genetically controlled mechanism in which pollen is rejected by the stigma of the same genetic type (matching S-alleles). This prevents self-fertilization, promoting cross-pollination and maintaining genetic diversity."
+    },
+    {
+      "id": 99,
+      "subject": "Botany",
+      "question": "Which of the following is not a component of a DNA nucleotide?",
+      "options": {
+        "a": "Phosphate group",
+        "b": "Ribose sugar",
+        "c": "Deoxyribose sugar",
+        "d": "Nitrogenous base"
+      },
+      "correct_option": "b",
+      "explanation": "DNA nucleotides contain deoxyribose sugar, a phosphate group, and a nitrogenous base (adenine, thymine, cytosine, or guanine). Ribose sugar is found in RNA nucleotides instead, making this a key chemical difference between DNA and RNA."
+    },
+    {
+      "id": 100,
+      "subject": "Botany",
+      "question": "When a true-breeding tall pea plant is crossed with a true-breeding dwarf plant, and the F₁ hybrid is then self-pollinated, what fraction of the F₂ generation will be homozygous tall?",
+      "options": {
+        "a": "1/4",
+        "b": "1/2",
+        "c": "1/3",
+        "d": "1/8"
+      },
+      "correct_option": "a",
+      "explanation": "When TT (tall) is crossed with tt (dwarf), all F₁ plants are heterozygous Tt and tall due to dominance. Self-pollinating the F₁ gives an F₂ genotypic ratio of 1 TT : 2 Tt : 1 tt. Only TT individuals are homozygous tall, making up 25% (1/4) of the F₂ population."
+    },
+    {
+      "id": 101,
+      "subject": "Botany",
+      "question": "The first stable product in C₃ plants is:",
+      "options": {
+        "a": "Oxaloacetic acid",
+        "b": "Phosphoenolpyruvate",
+        "c": "PGA",
+        "d": "RuBP"
+      },
+      "correct_option": "c",
+      "explanation": "In C₃ plants, carbon fixation in the Calvin cycle involves RuBisCO attaching CO₂ to RuBP, producing two molecules of phosphoglyceric acid (PGA). Since PGA is the first stable compound, these plants are called C₃ plants. In contrast, C₄ plants produce oxaloacetic acid first."
+    },
+    {
+      "id": 102,
+      "subject": "Botany",
+      "question": "A desert rodent species shows behavioral adaptations such as remaining underground during the day and becoming active only at night. Which of the following best describes this adaptation?",
+      "options": {
+        "a": "Seasonal migration",
+        "b": "Physiological regulation",
+        "c": "Temporal niche partitioning",
+        "d": "Structural adaptation"
+      },
+      "correct_option": "c",
+      "explanation": "Temporal niche partitioning occurs when organisms use the same habitat at different times to reduce competition and environmental stress. The nocturnal activity of desert rodents minimizes water loss and avoids extreme daytime heat."
+    },
+    {
+      "id": 103,
+      "subject": "Botany",
+      "question": "The major reason for the extinction of amphibian species worldwide is:",
+      "options": {
+        "a": "Global warming",
+        "b": "Habitat fragmentation and fungal infections",
+        "c": "Pesticide use in agriculture",
+        "d": "Predation by birds"
+      },
+      "correct_option": "b",
+      "explanation": "Amphibians face massive population declines due to habitat loss and chytridiomycosis, a fungal disease caused by Batrachochytrium dendrobatidis. Their permeable skin makes them highly sensitive to environmental changes."
+    },
+    {
+      "id": 104,
+      "subject": "Botany",
+      "question": "In an alpine plant species, leaf surface area decreases with altitude. This is best interpreted as:",
+      "options": {
+        "a": "Genetic drift",
+        "b": "Morphological adaptation",
+        "c": "Speciation",
+        "d": "Commensalism"
+      },
+      "correct_option": "b",
+      "explanation": "Reduced leaf surface area is a morphological adaptation that helps alpine plants minimize water loss and withstand cold, dry winds. This structural trait improves survival in high-altitude conditions."
+    },
+    {
+      "id": 105,
+      "subject": "Botany",
+      "question": "The green pigment that absorbs light for photosynthesis is:",
+      "options": {
+        "a": "Xanthophyll",
+        "b": "Chlorophyll",
+        "c": "Anthocyanin",
+        "d": "Carotene"
+      },
+      "correct_option": "b",
+      "explanation": "Chlorophyll, particularly chlorophyll-a, is the main photosynthetic pigment. It absorbs red and blue wavelengths and reflects green, giving plants their color. It plays a central role in light-dependent reactions."
+    },
+    {
+      "id": 106,
+      "subject": "Botany",
+      "question": "In a particular inflorescence, each flower is subtended by a bract, the flowers arise in a centripetal manner on an elongated axis, and the younger flowers are at the tip. What is the correct term for this arrangement?",
+      "options": {
+        "a": "Cymose",
+        "b": "Racemose",
+        "c": "Umbel",
+        "d": "Capitulum"
+      },
+      "correct_option": "b",
+      "explanation": "In racemose inflorescences, the main axis grows indefinitely and flowers are produced in acropetal order, meaning older flowers are at the base and younger ones at the tip. This arrangement ensures continuous blooming."
+    },
+    {
+      "id": 107,
+      "subject": "Botany",
+      "question": "In a pteridophyte undergoing reproduction, which of the following events occurs on the gametophyte but results in the formation of a sporophyte?",
+      "options": {
+        "a": "Meiosis in sporangia",
+        "b": "Formation of archegonia",
+        "c": "Fertilization within the archegonium",
+        "d": "Spore release"
+      },
+      "correct_option": "c",
+      "explanation": "In pteridophytes, the gametophyte produces archegonia and antheridia. Fertilization occurs within the archegonium, forming a diploid zygote that develops into the sporophyte generation."
+    },
+    {
+      "id": 108,
+      "subject": "Botany",
+      "question": "Mendel chose Pisum sativum (garden pea) for his experiments because:",
+      "options": {
+        "a": "It grows only in Europe",
+        "b": "It has short generation time and clear contrasting traits",
+        "c": "It has two sexes in separate plants",
+        "d": "It reproduces only vegetatively"
+      },
+      "correct_option": "b",
+      "explanation": "Pea plants have easily distinguishable traits, short life cycles, and the ability to self-pollinate while also allowing controlled cross-pollination. These features made them ideal for Mendel's inheritance experiments."
+    },
+    {
+      "id": 109,
+      "subject": "Botany",
+      "question": "In a typical energy pyramid, if producers have 10,000 kcal of energy, how much energy would be transferred to secondary consumers?",
+      "options": {
+        "a": "10 kcal",
+        "b": "1,000 kcal",
+        "c": "100 kcal",
+        "d": "500 kcal"
+      },
+      "correct_option": "c",
+      "explanation": "Following the 10% law of energy transfer, primary consumers receive 1,000 kcal from producers, and secondary consumers receive 10% of that, which is 100 kcal. Energy loss occurs mainly due to respiration and heat."
+    },
+    {
+      "id": 110,
+      "subject": "Botany",
+      "question": "Monocot roots do not exhibit secondary growth, unlike dicot roots. Which of the following is the most accurate reason?",
+      "options": {
+        "a": "They lack xylem",
+        "b": "They have no pericycle",
+        "c": "They lack vascular cambium",
+        "d": "They have no pith"
+      },
+      "correct_option": "c",
+      "explanation": "Secondary growth requires vascular cambium to produce secondary xylem and phloem. Monocot roots lack this cambium, so they remain primarily with primary growth structure throughout their life."
+    },
+    {
+      "id": 111,
+      "subject": "Botany",
+      "question": "Which of the following graphs best represents the relationship between light intensity and photosynthesis rate in C₃ plants?",
+      "options": {
+        "a": "Initially decreasing",
+        "b": "Initially increasing then plateauing",
+        "c": "Constant rate",
+        "d": "Fluctuating up and down"
+      },
+      "correct_option": "b",
+      "explanation": "In C₃ plants, photosynthetic rate increases with light intensity up to a saturation point where enzymes and other factors limit further increase. Beyond this point, the rate levels off, showing a plateau phase."
+    },
+    {
+      "id": 112,
+      "subject": "Botany",
+      "question": "Which statement regarding plant growth regulators (PGRs) is incorrect?",
+      "options": {
+        "a": "ABA causes stomatal closure",
+        "b": "Cytokinins delay senescence",
+        "c": "Ethylene promotes bolting in cabbage",
+        "d": "Auxins help in rooting"
+      },
+      "correct_option": "c",
+      "explanation": "Bolting in rosette plants like cabbage is promoted by gibberellins, not ethylene. Ethylene is a gaseous PGR that mainly induces fruit ripening, senescence, and abscission, while gibberellins stimulate stem elongation and bolting."
+    },
+    {
+      "id": 113,
+      "subject": "Botany",
+      "question": "Which of the following statements is true regarding the Species-Area Relationship?",
+      "options": {
+        "a": "Number of species is inversely proportional to area",
+        "b": "It follows a bell-shaped curve",
+        "c": "It is represented by the equation: S = CA^z",
+        "d": "It indicates that biodiversity is unrelated to habitat size"
+      },
+      "correct_option": "c",
+      "explanation": "The Species–Area Relationship states that species richness (S) increases with habitat area (A) and is represented mathematically as S = CA^z, where C and z are constants. This ecological principle is used to predict biodiversity patterns and losses."
+    },
+    {
+      "id": 114,
+      "subject": "Botany",
+      "question": "A phylloclade is a modified plant structure that performs photosynthesis. Which of the following is an example of a plant with phylloclade?",
+      "options": {
+        "a": "Opuntia",
+        "b": "Bougainvillea",
+        "c": "Pisum",
+        "d": "Cucumber"
+      },
+      "correct_option": "a",
+      "explanation": "In xerophytes like Opuntia, the stem is modified into a flattened or cylindrical phylloclade for photosynthesis. Leaves are reduced to spines to minimize water loss, making the stem the primary photosynthetic organ."
+    },
+    {
+      "id": 115,
+      "subject": "Botany",
+      "question": "In the interphase of the cell cycle, the phase during which DNA replication takes place is:",
+      "options": {
+        "a": "G₁ phase",
+        "b": "S phase",
+        "c": "G₂ phase",
+        "d": "M phase"
+      },
+      "correct_option": "b",
+      "explanation": "The S (Synthesis) phase of interphase is when DNA replication occurs, ensuring that each daughter cell receives an identical set of genetic material. Histone proteins are also synthesized during this phase."
+    },
+    {
+      "id": 116,
+      "subject": "Botany",
+      "question": "A scientist discovers a new species of fungus in the Eastern Himalayas. Which conservation strategy ensures this species is protected within its natural habitat?",
+      "options": {
+        "a": "Establishing a botanical garden",
+        "b": "Collecting its spores and storing them",
+        "c": "Creating a micro-reserve in its habitat",
+        "d": "Transferring it to another forest ecosystem"
+      },
+      "correct_option": "c",
+      "explanation": "In-situ conservation strategies, such as creating a micro-reserve, protect the species in its natural habitat. This preserves ecological interactions and allows the species to adapt naturally to environmental changes."
+    },
+    {
+      "id": 117,
+      "subject": "Botany",
+      "question": "In a population of pea plants, the gene for seed shape follows classical Mendelian inheritance. A farmer selects all heterozygous plants with round seeds. What genotypic outcome is expected in the offspring when these plants self-pollinate?",
+      "options": {
+        "a": "All round-seeded plants",
+        "b": "3 round : 1 wrinkled",
+        "c": "1:2:1 genotypic ratio",
+        "d": "Both B and C"
+      },
+      "correct_option": "d",
+      "explanation": "When heterozygous Rr plants are self-pollinated, the F₂ generation has genotypes RR, Rr, and rr in a 1:2:1 ratio. Phenotypically, 3 plants are round (RR and Rr) for every 1 wrinkled (rr) plant."
+    },
+    {
+      "id": 118,
+      "subject": "Botany",
+      "question": "The longest phase in the life of a cell, during which the cell grows and performs normal metabolic functions, is:",
+      "options": {
+        "a": "M phase",
+        "b": "Interphase",
+        "c": "G₂ phase",
+        "d": "Telophase"
+      },
+      "correct_option": "b",
+      "explanation": "Interphase, consisting of G₁, S, and G₂ phases, occupies about 90% of the cell cycle. During this time, the cell grows, metabolizes, and prepares for division, including DNA replication in the S phase."
+    },
+    {
+      "id": 119,
+      "subject": "Botany",
+      "question": "DNA is a polymer made up of repeating units called:",
+      "options": {
+        "a": "Nucleotides",
+        "b": "Amino acids",
+        "c": "Fatty acids",
+        "d": "Monosaccharides"
+      },
+      "correct_option": "a",
+      "explanation": "DNA is a polynucleotide, with each nucleotide consisting of a nitrogenous base, deoxyribose sugar, and a phosphate group. The sequence of nucleotides forms the genetic code of an organism."
+    },
+    {
+      "id": 120,
+      "subject": "Botany",
+      "question": "In which of the following organisms does cell division occur by amitotic division, without the formation of spindle fibers or chromosomal condensation?",
+      "options": {
+        "a": "Amoeba",
+        "b": "Human skin cells",
+        "c": "Onion root tip cells",
+        "d": "Liver cells"
+      },
+      "correct_option": "a",
+      "explanation": "Amitosis is a direct method of cell division seen in unicellular organisms like Amoeba, where the nucleus divides simply without spindle formation or distinct chromosome structures."
+    },
+    {
+      "id": 121,
+      "subject": "Botany",
+      "question": "Which one of the following pairs is correctly matched?",
+      "options": {
+        "a": "Nitrification – Conversion of nitrates to nitrogen gas",
+        "b": "Ammonification – Conversion of proteins into ammonia",
+        "c": "Denitrification – Formation of nitrites from nitrogen",
+        "d": "Nitrogen fixation – Conversion of ammonia to nitrate"
+      },
+      "correct_option": "b",
+      "explanation": "Ammonification is the process where decomposer microbes break down nitrogen-containing organic matter, such as proteins, into ammonia. This ammonia can be further converted into nitrites and nitrates in the nitrogen cycle."
+    },
+    {
+      "id": 122,
+      "subject": "Botany",
+      "question": "The phenomenon where a single gene controls the synthesis of multiple proteins through alternate mRNA processing is called:",
+      "options": {
+        "a": "Gene silencing",
+        "b": "Alternative splicing",
+        "c": "Frameshift mutation",
+        "d": "DNA fingerprinting"
+      },
+      "correct_option": "b",
+      "explanation": "Alternative splicing allows a single gene to produce multiple proteins by selectively including or excluding certain exons during mRNA processing. This greatly increases the diversity of proteins in plants without requiring additional genes."
+    },
+    {
+      "id": 123,
+      "subject": "Botany",
+      "question": "During secondary growth in dicot roots, a new protective layer called periderm replaces the epidermis. What is the correct sequence of tissues involved in the formation of this protective periderm?",
+      "options": {
+        "a": "Epidermis → Cortex → Phellogen → Phellem and Phelloderm",
+        "b": "Cortex → Phellogen → Phellem and Phelloderm",
+        "c": "Vascular cambium → Phellogen → Phelloderm",
+        "d": "Pericycle → Phellem → Endodermis"
+      },
+      "correct_option": "b",
+      "explanation": "In dicot roots, secondary growth leads to the development of cork cambium (phellogen) from cortical cells. This phellogen produces phellem (cork) towards the outside and phelloderm towards the inside, together forming the periderm that replaces the epidermis."
+    },
+    {
+      "id": 124,
+      "subject": "Botany",
+      "question": "A gene that is expressed only in the homozygous condition is referred to as:",
+      "options": {
+        "a": "Dominant",
+        "b": "Recessive",
+        "c": "Codominant",
+        "d": "Incomplete dominant"
+      },
+      "correct_option": "b",
+      "explanation": "A recessive gene expresses its trait only when present in two copies (homozygous condition). If a dominant allele is present, it will mask the expression of the recessive allele in the phenotype."
+    },
+    {
+      "id": 125,
+      "subject": "Botany",
+      "question": "Which of the following evolutionary traits first appeared in gymnosperms and gave them an advantage in terrestrial habitats?",
+      "options": {
+        "a": "Flagellated male gametes",
+        "b": "Development of seed habit",
+        "c": "Dominant gametophyte stage",
+        "d": "Absence of vascular tissues"
+      },
+      "correct_option": "b",
+      "explanation": "Gymnosperms were the first vascular plants to develop seeds, which protect the embryo, provide stored food, and enable survival in harsh terrestrial environments. This adaptation greatly reduced dependence on water for reproduction."
+    },
+    {
+      "id": 126,
+      "subject": "Botany",
+      "question": "Which combination of hormones is involved in fruit ripening and leaf abscission?",
+      "options": {
+        "a": "Ethylene and ABA",
+        "b": "Auxin and Cytokinin",
+        "c": "Gibberellin and Cytokinin",
+        "d": "Auxin and Ethylene"
+      },
+      "correct_option": "a",
+      "explanation": "Ethylene promotes fruit ripening and accelerates senescence, while abscisic acid (ABA) is associated with stress responses and promotes leaf abscission, particularly under adverse conditions."
+    },
+    {
+      "id": 127,
+      "subject": "Botany",
+      "question": "Which type of pollination is genetically most diverse?",
+      "options": {
+        "a": "Autogamy",
+        "b": "Geitonogamy",
+        "c": "Xenogamy",
+        "d": "Cleistogamy"
+      },
+      "correct_option": "c",
+      "explanation": "Xenogamy is the transfer of pollen between flowers of different plants of the same species. It introduces maximum genetic variation, improving adaptability and survival."
+    },
+    {
+      "id": 128,
+      "subject": "Botany",
+      "question": "The equatorial arrangement of chromosomes is a key characteristic of which mitotic phase?",
+      "options": {
+        "a": "Prophase",
+        "b": "Metaphase",
+        "c": "Anaphase",
+        "d": "Telophase"
+      },
+      "correct_option": "b",
+      "explanation": "In metaphase, chromosomes align along the metaphase plate, ensuring each daughter cell will receive an identical set of chromosomes when sister chromatids separate during anaphase."
+    },
+    {
+      "id": 129,
+      "subject": "Botany",
+      "question": "Interpreting the replication fork diagram: What is the correct sequence of events on the lagging strand?",
+      "options": {
+        "a": "Primer → DNA Ligase → DNA Pol III → Okazaki",
+        "b": "Helicase → Primer → DNA Pol III → DNA Ligase",
+        "c": "DNA Pol III → Helicase → DNA Ligase → Primer",
+        "d": "Primer → Helicase → DNA Ligase → DNA Pol III"
+      },
+      "correct_option": "b",
+      "explanation": "In the lagging strand, helicase first unwinds DNA, primase lays RNA primers, DNA polymerase III synthesizes short Okazaki fragments, and DNA ligase finally joins them into a continuous strand."
+    },
+    {
+      "id": 130,
+      "subject": "Botany",
+      "question": "Which tissue lies immediately inside the endodermis in the root observed in the section?",
+      "options": {
+        "a": "Pericycle",
+        "b": "Phloem",
+        "c": "Epidermis",
+        "d": "Pith"
+      },
+      "correct_option": "a",
+      "explanation": "The pericycle lies just inside the endodermis and is responsible for the initiation of lateral roots. It also contributes to secondary growth in dicot roots."
+    },
+    {
+      "id": 131,
+      "subject": "Botany",
+      "question": "Which life cycle pattern, illustrated in the diagram, is characterized by a dominant multicellular haploid phase?",
+      "options": {
+        "a": "Diplontic",
+        "b": "Haplodiplontic",
+        "c": "Haplontic",
+        "d": "Aplodiplontic"
+      },
+      "correct_option": "c",
+      "explanation": "In the haplontic life cycle, the main vegetative phase is haploid. The diploid stage is limited to the zygote, which undergoes meiosis to produce haploid spores. This is typical of certain algae like Chlamydomonas."
+    },
+    {
+      "id": 132,
+      "subject": "Botany",
+      "question": "Which racemose inflorescence type would be most advantageous for pollination when flowers are densely grouped at the top in a spike-like fashion?",
+      "options": {
+        "a": "Umbel",
+        "b": "Corymb",
+        "c": "Spike",
+        "d": "Capitulum"
+      },
+      "correct_option": "c",
+      "explanation": "In a spike inflorescence, numerous sessile flowers are arranged directly along an elongated axis, creating a dense and visually prominent display that attracts pollinators and facilitates efficient pollen transfer."
+    },
+    {
+      "id": 133,
+      "subject": "Botany",
+      "question": "Which of the following features is considered a defining property of living organisms?",
+      "options": {
+        "a": "Increase in body size due to water absorption",
+        "b": "Ability to perform metabolism in test tubes",
+        "c": "Presence of consciousness and self-awareness",
+        "d": "Accumulation of minerals on the body surface"
+      },
+      "correct_option": "c",
+      "explanation": "Consciousness and self-awareness are unique to living organisms, enabling them to perceive environmental changes and respond accordingly. While growth and metabolism may occur in non-living systems under artificial conditions, consciousness is exclusive to life."
+    },
+    {
+      "id": 134,
+      "subject": "Botany",
+      "question": "Which of the following statements is incorrect regarding anaerobic respiration?",
+      "options": {
+        "a": "It occurs in the absence of oxygen",
+        "b": "Pyruvate is converted to ethanol or lactic acid",
+        "c": "It yields less energy compared to aerobic respiration",
+        "d": "It involves the Krebs cycle"
+      },
+      "correct_option": "d",
+      "explanation": "Anaerobic respiration occurs without oxygen and does not involve the mitochondria or the Krebs cycle. Instead, pyruvate undergoes fermentation to ethanol or lactic acid, yielding only 2 ATP per glucose molecule."
+    },
+    {
+      "id": 135,
+      "subject": "Botany",
+      "question": "What is the total number of ATP molecules produced when one glucose molecule is completely oxidized in aerobic respiration in plants?",
+      "options": {
+        "a": "36",
+        "b": "38",
+        "c": "40",
+        "d": "32"
+      },
+      "correct_option": "b",
+      "explanation": "In plant aerobic respiration, complete oxidation of one glucose molecule produces about 38 ATP: Glycolysis contributes 8 ATP equivalents, pyruvate oxidation to acetyl-CoA yields 6 ATP, and the Krebs cycle generates 24 ATP through substrate-level phosphorylation and oxidative phosphorylation."
+    },
+    {
+      "id": 170,
+      "subject": "Zoology",
+      "question": "Which part of the brain controls voluntary movements?",
+      "options": {
+        "a": "Medulla oblongata",
+        "b": "Cerebellum",
+        "c": "Pons",
+        "d": "Cerebrum"
+      },
+      "correct_option": "d",
+      "explanation": "The cerebrum is responsible for voluntary movements and decision making."
+    }
+  ]
+}

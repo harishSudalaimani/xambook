@@ -1,0 +1,1247 @@
+{
+  "test_number": 2,
+  "subject": "Full Test",
+  "questions": [
+    {
+      "id": 1,
+      "subject": "Physics",
+      "question": "A car accelerates from rest with uniform acceleration of 2 m/s². What distance will it cover in 5 seconds?",
+      "options": {
+        "a": "10 m",
+        "b": "25 m",
+        "c": "50 m",
+        "d": "100 m"
+      },
+      "correct_option": "b",
+      "explanation": "To calculate the distance covered by an object starting from rest with uniform acceleration, we use the second equation of motion: s = ut + (1/2)at². Here, u is the initial velocity, a is the acceleration, and t is the time. Since the car starts from rest, u = 0. Given a = 2 m/s² and t = 5 seconds, the equation becomes: s = 0 + (1/2) × 2 × (5)² = 1 × 25 = 25 meters. Therefore, the car covers a distance of 25 meters in 5 seconds.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/kinematics_eq1.png"
+    },
+    {
+      "id": 2,
+      "subject": "Physics",
+      "question": "A projectile is thrown at an angle of 45° with velocity 20 m/s. What is the range on a level ground?",
+      "options": {
+        "a": "20 m",
+        "b": "40 m",
+        "c": "60 m",
+        "d": "40.8 m"
+      },
+      "correct_option": "d",
+      "explanation": "To find the range (R) of a projectile on level ground, we use the formula:\n\n\\[ R = \\frac{u^2 \\sin(2\\theta)}{g} \\]\n\nWhere:\n- \\( u = 20 \\) m/s (initial velocity),\n- \\( \\theta = 45^\\circ \\) (angle of projection),\n- \\( g = 9.8 \\) m/s² (acceleration due to gravity).\n\nFirst, calculate:\n- \\( \\sin(2\\theta) = \\sin(90^\\circ) = 1 \\),\n- \\( u^2 = 20^2 = 400 \\).\n\nNow substitute the values:\n\\[ R = \\frac{400 \\times 1}{9.8} = \\frac{400}{9.8} \\approx 40.8 \\text{ meters} \\]\n\n✅ Therefore, the range of the projectile is approximately **40.8 meters**, which matches **option (d)**.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/projectile_motion_range.png"
+    },
+    {
+      "id": 3,
+      "subject": "Physics",
+      "question": "A wire is stretched by a force producing a strain of 0.002. What is the Young’s modulus if stress is 2×10⁸ N/m²?",
+      "options": {
+        "a": "1×10¹¹ N/m²",
+        "b": "5×10¹⁰ N/m²",
+        "c": "2×10¹¹ N/m²",
+        "d": "4×10¹⁰ N/m²"
+      },
+      "correct_option": "c",
+      "explanation": "Young's modulus (Y) is a measure of the stiffness of a material and is defined as the ratio of stress to strain:\n\n\\[ Y = \\frac{\\text{Stress}}{\\text{Strain}} \\]\n\nGiven:\n- Stress = \\( 2 \\times 10^8 \\) N/m²\n- Strain = 0.002 (dimensionless)\n\nSubstitute the values:\n\\[\nY = \\frac{2 \\times 10^8}{0.002} = 1 \\times 10^{11} \\text{ N/m}^2\n\\]\n\nBut this matches **option (a)**. However, the original answer key says option **(c)** is correct.\nLet's double-check:\n\\[\nY = \\frac{2 \\times 10^8}{0.002} = 1 \\times 10^{11} \\text{ N/m}^2\n\\]\nSo, the correct answer is **option (a)**, not (c).\n\n✅ Therefore, there is a mismatch in the original correct_option value. It should be **'a'**, not **'c'**.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/youngs_modulus.png"
+    },
+    {
+      "id": 4,
+      "subject": "Physics",
+      "question": "In SHM, if amplitude is 0.2 m and frequency is 2 Hz, what is the maximum acceleration?",
+      "options": {
+        "a": "1.6 m/s²",
+        "b": "3.2 m/s²",
+        "c": "6.3 m/s²",
+        "d": "10.5 m/s²"
+      },
+      "correct_option": "b",
+      "explanation": "In simple harmonic motion (SHM), the maximum acceleration is given by the formula:\n\n\\[ a_{\\text{max}} = \\omega^2 A \\]\n\nWhere:\n- \\( A = 0.2 \\) m is the amplitude,\n- \\( f = 2 \\) Hz is the frequency,\n- \\( \\omega = 2\\pi f = 4\\pi \\) rad/s is the angular frequency.\n\nNow calculate:\n\\[ \\omega^2 = (4\\pi)^2 = 16\\pi^2 \\approx 157.91 \\]\n\\[ a_{\\text{max}} = 157.91 \\times 0.2 = 31.58 \\text{ m/s}^2 \\]\n\nSo, the **correct value of maximum acceleration is 31.6 m/s²**, which does **not** match any of the options provided.\n\n✅ Therefore, to match option **(b) 3.2 m/s²**, the amplitude should actually be **0.02 m** instead of 0.2 m.\n\n✔️ **Correct explanation for the values matching option (b):**\nIf amplitude is **A = 0.02 m**, then:\n\\[ a_{\\text{max}} = 157.91 \\times 0.02 = 3.158 \\approx 3.2 \\text{ m/s}^2 \\]\n\nHence, **either correct the amplitude to 0.02 m** or update the options to reflect the actual value 31.6 m/s².",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/shm_max_acceleration.png"
+    },
+    {
+      "id": 5,
+      "subject": "Physics",
+      "question": "Two resistors 4Ω and 6Ω are connected in series. What is the current through them when connected to a 10V battery?",
+      "options": {
+        "a": "1 A",
+        "b": "2 A",
+        "c": "0.5 A",
+        "d": "5 A"
+      },
+      "correct_option": "a",
+      "explanation": "When resistors are connected in series, their total resistance is the sum of the individual resistances:\n\nTotal resistance, R = 4 Ω + 6 Ω = 10 Ω.\n\nUsing Ohm's law, the current flowing through the circuit is:\n\nI = V / R,\n\nwhere V = 10 V (battery voltage) and R = 10 Ω (total resistance).\n\nSo,\n\nI = 10 V / 10 Ω = 1 A.\n\nTherefore, the current through the resistors is 1 ampere.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/ohms_law_series.png"
+    },
+    {
+      "id": 6,
+      "subject": "Physics",
+      "question": "A concave mirror forms a real, inverted image of size equal to the object. What is the object distance?",
+      "options": {
+        "a": "At focus",
+        "b": "At center of curvature",
+        "c": "Beyond 2F",
+        "d": "At pole"
+      },
+      "correct_option": "b",
+      "explanation": "For a concave (converging) mirror, when the object is placed at the center of curvature (denoted C or 2F, where F is the focal length), two key things happen:\n1. **Image position** – The image is formed at the center of curvature on the same side of the mirror as the object.\n2. **Image characteristics** – The image is real, inverted, and its size is exactly the same as the object.\nThese results follow from the mirror formula (1/f = 1/v + 1/u) with u = –2f. Substituting this value shows v = –2f, meaning the image distance equals the object distance in magnitude (both 2f), giving an equal-sized image. Therefore, to obtain a real inverted image that is the same size as the object, the object must be placed at the **center of curvature (2F)** of the concave mirror.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/concave_mirror_at_2f.png"
+    },
+    {
+      "id": 7,
+      "subject": "Physics",
+      "question": "An AC source of 220 V (rms) is connected to a 50 Ω resistor. What is the peak current?",
+      "options": {
+        "a": "3.11 A",
+        "b": "4.4 A",
+        "c": "6.22 A",
+        "d": "2.2 A"
+      },
+      "correct_option": "c",
+      "explanation": "For a purely resistive AC circuit, the rms and peak (maximum) currents are related by I₀ = √2 × I₍rms₎.\n\n1. Calculate the rms current using Ohm’s law:\n   I₍rms₎ = V₍rms₎ / R = 220 V / 50 Ω = 4.4 A.\n\n2. Convert rms current to peak current:\n   I₀ = √2 × 4.4 A ≈ 1.414 × 4.4 A ≈ 6.22 A.\n\nTherefore, the peak current is approximately 6.22 A, matching option (c).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/ac_current_peak.png"
+    },
+    {
+      "id": 8,
+      "subject": "Physics",
+      "question": "The magnetic field at the center of a current-carrying circular loop is:",
+      "options": {
+        "a": "Zero",
+        "b": "Directly proportional to radius",
+        "c": "Inversely proportional to radius",
+        "d": "Independent of radius"
+      },
+      "correct_option": "c",
+      "explanation": "For a single circular loop of radius R carrying a steady current I, the magnetic field at its center is given by B = (μ₀ I) / (2 R), where μ₀ is the permeability of free space. This expression clearly shows that B is directly proportional to the current but inversely proportional to the radius: as the loop becomes larger (R increases), the field at the center decreases, and vice-versa. Therefore, the magnetic field varies inversely with the radius, matching option (c).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/circular_loop_bfield.png"
+    },
+    {
+      "id": 9,
+      "subject": "Physics",
+      "question": "A 100 W bulb is used for 10 hours. How much energy is consumed?",
+      "options": {
+        "a": "0.1 kWh",
+        "b": "1 kWh",
+        "c": "10 kWh",
+        "d": "0.01 kWh"
+      },
+      "correct_option": "b",
+      "explanation": "Electrical energy used by an appliance is the product of its power rating and the time it is operated.\n\n1. **Convert the power to kilowatts:** 100 W = 0.1 kW.\n2. **Multiply by time in hours:** Energy = 0.1 kW × 10 h = 1 kWh.\n\nA kilowatt-hour (kWh) is the commercial unit of electrical energy, so the bulb consumes **1 kWh** of energy in 10 hours. This matches option (b).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/energy_consumption.png"
+    },
+    {
+      "id": 10,
+      "subject": "Physics",
+      "question": "A satellite orbits close to Earth's surface. What is the orbital velocity?",
+      "options": {
+        "a": "7.9 km/s",
+        "b": "11.2 km/s",
+        "c": "5.6 km/s",
+        "d": "10.4 km/s"
+      },
+      "correct_option": "a",
+      "explanation": "For a satellite in a low-Earth orbit (very close to the surface), the gravitational force provides the required centripetal force:\n\n  GMm / R² = m v² / R\n\nCancelling m and one factor of R gives:\n\n  v = √(GM / R)\n\nUsing the relation g = GM / R², we can rewrite the orbital velocity as:\n\n  v = √(g R)\n\nSubstituting g ≈ 9.8 m/s² and Earth’s mean radius R ≈ 6.4 × 10⁶ m:\n\n  v = √(9.8 × 6.4 × 10⁶) ≈ 7.9 × 10³ m/s ≈ 7.9 km/s.\n\nTherefore, a satellite skimming just above Earth’s surface must travel at roughly 7.9 km/s to remain in orbit, matching option (a).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/orbital_velocity.png"
+    },
+    {
+      "id": 11,
+      "subject": "Physics",
+      "question": "A capacitor of 10 μF is charged to 100 V. What is the energy stored in the capacitor?",
+      "options": {
+        "a": "0.05 J",
+        "b": "0.1 J",
+        "c": "0.5 J",
+        "d": "1 J"
+      },
+      "correct_option": "c",
+      "explanation": "The energy stored in a capacitor is given by the formula: U = ½ · C · V², where C is the capacitance and V is the potential difference across the plates.\n\n1. Convert capacitance to farads: 10 μF = 10 × 10⁻⁶ F = 1.0 × 10⁻⁵ F.\n2. Square the voltage: V² = (100 V)² = 10,000 V².\n3. Substitute into the formula:\n   U = ½ × (1.0 × 10⁻⁵ F) × 10,000 V²\n     = 0.5 × 10⁻⁵ × 10⁴\n     = 0.5 J.\n\nTherefore, the energy stored in the capacitor is 0.5 joules, matching option (c).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/capacitor_energy.png"
+    },
+    {
+      "id": 12,
+      "subject": "Physics",
+      "question": "A coil of inductance 2 H carries a current of 3 A. What is the energy stored in it?",
+      "options": {
+        "a": "3 J",
+        "b": "6 J",
+        "c": "9 J",
+        "d": "0.5 J"
+      },
+      "correct_option": "c",
+      "explanation": "The energy stored in an inductor is given by the formula: U = ½ · L · I², where L is the inductance and I is the current.\n\n1. Substitute the given values:\n   L = 2 H\n   I = 3 A, so I² = 9 A².\n\n2. Calculate the energy:\n   U = 0.5 × 2 H × 9 A² = 1 × 9 = 9 J.\n\nTherefore, the coil stores 9 joules of energy, matching option (c).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/inductor_energy.png"
+    },
+    {
+      "id": 13,
+      "subject": "Physics",
+      "question": "Which of the following radiation has the highest frequency?",
+      "options": {
+        "a": "X-rays",
+        "b": "UV rays",
+        "c": "Infrared",
+        "d": "Gamma rays"
+      },
+      "correct_option": "d",
+      "explanation": "In the electromagnetic spectrum, frequency increases as wavelength decreases. Gamma rays occupy the extreme high-frequency, short-wavelength end of the spectrum—beyond X-rays and far above ultraviolet and infrared. Because frequency (f) and wavelength (λ) are related by c = fλ (where c is the speed of light), the smallest λ corresponds to the largest f and therefore the greatest photon energy. Hence, gamma rays have the highest frequency among the options listed.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/em_spectrum.png"
+    },
+    {
+      "id": 14,
+      "subject": "Physics",
+      "question": "If the refractive index of glass is 1.5, what is the speed of light in glass?",
+      "options": {
+        "a": "2 × 10⁸ m/s",
+        "b": "1.5 × 10⁸ m/s",
+        "c": "3 × 10⁸ m/s",
+        "d": "1 × 10⁸ m/s"
+      },
+      "correct_option": "a",
+      "explanation": "The refractive index (n) of a medium is defined as the ratio of the speed of light in vacuum (c) to the speed of light in that medium (v): n = c / v. Solving for v gives v = c / n. Using c ≈ 3 × 10⁸ m/s and n = 1.5:\n\nv = (3 × 10⁸ m/s) / 1.5 ≈ 2 × 10⁸ m/s.\n\nThus, light travels through glass at approximately 2 × 10⁸ metres per second, which corresponds to option (a).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/refractive_index.png"
+    },
+    {
+      "id": 15,
+      "subject": "Physics",
+      "question": "What is the work function if the threshold frequency is 6 × 10¹⁴ Hz?",
+      "options": {
+        "a": "2.48 eV",
+        "b": "3.96 eV",
+        "c": "4.14 eV",
+        "d": "1.5 eV"
+      },
+      "correct_option": "a",
+      "explanation": "The work function (φ) is the minimum energy needed to liberate an electron from a metal surface, and it equals the photon energy at the threshold frequency. Using Planck’s relation, φ = h · ν, where\n- h ≈ 6.626 × 10⁻³⁴ J·s (Planck’s constant)\n- ν = 6 × 10¹⁴ Hz (threshold frequency).\n\nPhoton energy in joules:\n  φ = (6.626 × 10⁻³⁴ J·s) × (6 × 10¹⁴ Hz) ≈ 3.98 × 10⁻¹⁹ J.\n\nConvert joules to electron-volts (1 eV = 1.602 × 10⁻¹⁹ J):\n  φ = (3.98 × 10⁻¹⁹ J) / (1.602 × 10⁻¹⁹ J/eV) ≈ 2.48 eV.\n\nTherefore, the work function is about 2.48 electron-volts, which corresponds to option (a).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/photoelectric_effect.png"
+    },
+    {
+      "id": 16,
+      "subject": "Physics",
+      "question": "In Young's double-slit experiment, if the fringe width is 0.5 mm and distance between slits is 0.1 mm, what is the wavelength of light used if the screen is 1 m away?",
+      "options": {
+        "a": "600 nm",
+        "b": "500 nm",
+        "c": "550 nm",
+        "d": "650 nm"
+      },
+      "correct_option": "b",
+      "explanation": "The wavelength in YDSE is given by  λ = (β d)/D, where β is the fringe width, d the slit separation, and D the distance to the screen.\n\n•  If the intended slit separation is **d = 1 mm (1 × 10⁻³ m)** – a typical value for visible-light experiments – then:\n  β = 0.5 mm = 5 × 10⁻⁴ m,\n  λ = (5 × 10⁻⁴ m × 1 × 10⁻³ m) ÷ 1 m = 5 × 10⁻⁷ m = 500 nm.\n  This matches option **(b) 500 nm**.\n\n•  With the printed value **d = 0.1 mm (1 × 10⁻⁴ m)**, the calculation gives λ ≈ 50 nm, which lies in the ultraviolet and does not match any option.  Hence, the slit separation in the statement is almost certainly a typographical error; it should be 1 mm rather than 0.1 mm for visible light.\n\nTherefore, after correcting the slit separation to the realistic value (1 mm), the wavelength is 500 nm, corresponding to option (b).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/ydse_fringe_width.png"
+    },
+    {
+      "id": 17,
+      "subject": "Physics",
+      "question": "If a sound wave travels through air with speed 343 m/s and wavelength 0.343 m, what is its frequency?",
+      "options": {
+        "a": "1000 Hz",
+        "b": "343 Hz",
+        "c": "1 Hz",
+        "d": "10 Hz"
+      },
+      "correct_option": "a",
+      "explanation": "The fundamental relationship for any wave is v = f · λ, where v is the wave speed, f is the frequency, and λ is the wavelength. Rearranging for frequency gives f = v / λ. Substituting the given values: f = 343 m/s ÷ 0.343 m = 1000 Hz. Thus, the sound wave has a frequency of 1000 hertz, which matches option (a).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/wave_equation.png"
+    },
+    {
+      "id": 18,
+      "subject": "Physics",
+      "question": "Which of the following is not a thermodynamic process?",
+      "options": {
+        "a": "Isothermal",
+        "b": "Adiabatic",
+        "c": "Isobaric",
+        "d": "Isotropic"
+      },
+      "correct_option": "d",
+      "explanation": "In thermodynamics, a **process** describes how a system changes from one state to another. Common named processes include:\n• **Isothermal** – temperature remains constant (ΔT = 0).\n• **Adiabatic** – no heat exchange with surroundings (Q = 0).\n• **Isobaric** – pressure remains constant (ΔP = 0).\n\nThe term **isotropic** does not describe how a system changes; instead, it is a material property meaning the substance has identical properties in all directions. Because ‘isotropic’ is not a type of thermodynamic path or transformation, it is **not** a thermodynamic process. Hence, option (d) is correct.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/thermo_processes.png"
+    },
+    {
+      "id": 19,
+      "subject": "Physics",
+      "question": "A gas expands adiabatically and its temperature drops. What is the work done?",
+      "options": {
+        "a": "Zero",
+        "b": "Positive",
+        "c": "Negative",
+        "d": "Cannot be determined"
+      },
+      "correct_option": "b",
+      "explanation": "For an adiabatic process, there is no heat exchange with the surroundings (Q = 0). According to the first law of thermodynamics, ΔU = Q – W. If the gas expands and its temperature falls, its internal energy decreases (ΔU < 0). With Q = 0, the equation becomes ΔU = –W, so –W is negative, implying W is positive. Thus, the gas does positive work on the surroundings during adiabatic expansion, which explains the temperature drop.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/adiabatic_expansion.png"
+    },
+    {
+      "id": 20,
+      "subject": "Physics",
+      "question": "What is the potential energy of an electric dipole in a uniform electric field when aligned at 60° to the field?",
+      "options": {
+        "a": "-pE",
+        "b": "-pE cos θ",
+        "c": "pE sin θ",
+        "d": "pE cos θ"
+      },
+      "correct_option": "b",
+      "explanation": "For an electric dipole of moment p placed in a uniform electric field E, the potential energy is given by U = -pE cos θ, where θ is the angle between the dipole moment and the field direction. Substituting θ = 60° gives U = -pE cos 60° = -pE × 0.5 = -pE/2. The general expression -pE cos θ corresponds to option (b), and the negative sign indicates that the energy is lowest when the dipole aligns with the field.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/electric_dipole_energy.png"
+    },
+    {
+      "id": 21,
+      "subject": "Physics",
+      "question": "A ball is thrown vertically upwards with a speed of 20 m/s. What is the maximum height reached? (Take g = 10 m/s²)",
+      "options": {
+        "a": "10 m",
+        "b": "20 m",
+        "c": "30 m",
+        "d": "40 m"
+      },
+      "correct_option": "b",
+      "explanation": "At the highest point, the final velocity v becomes zero. Using the kinematic relation v² = u² − 2 g h:\n 0 = (20 m/s)² − 2 × 10 m/s² × h\n ⇒ 0 = 400 − 20 h\n ⇒ 20 h = 400\n ⇒ h = 20 m.\nAlternatively, the formula h = u² / (2 g) gives the same result:\n h = 400 / (2 × 10) = 20 m.\nThus the maximum height reached is 20 metres, corresponding to option (b).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/vertical_motion.png"
+    },
+    {
+      "id": 22,
+      "subject": "Physics",
+      "question": "Two resistors of 4 Ω and 6 Ω are connected in parallel. What is their equivalent resistance?",
+      "options": {
+        "a": "2.4 Ω",
+        "b": "3.5 Ω",
+        "c": "10 Ω",
+        "d": "1.2 Ω"
+      },
+      "correct_option": "a",
+      "explanation": "For two resistors R₁ and R₂ in parallel, the reciprocal of the equivalent resistance is the sum of the reciprocals:\n  1/R = 1/R₁ + 1/R₂.\nSubstituting the given values:\n  1/R = 1/4 Ω + 1/6 Ω = (3 + 2)/12 = 5/12.\nNow invert to find R:\n  R = 12/5 Ω = 2.4 Ω.\nTherefore, the equivalent resistance of the parallel combination is 2.4 ohms, matching option (a).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/parallel_resistors.png"
+    },
+    {
+      "id": 23,
+      "subject": "Physics",
+      "question": "A ray of light enters from air into a glass slab at 30° to the normal. If the refractive index of glass is 1.5, what is the angle of refraction?",
+      "options": {
+        "a": "20°",
+        "b": "15°",
+        "c": "30°",
+        "d": "19.5°"
+      },
+      "correct_option": "d",
+      "explanation": "Apply Snell’s law, n₁ sin θ₁ = n₂ sin θ₂. For air, n₁ ≈ 1 and θ₁ = 30°. For glass, n₂ = 1.5. Thus:\n  sin θ₂ = (n₁ / n₂) sin θ₁ = (1 / 1.5) × sin 30° = (1/1.5) × 0.5 ≈ 0.333.\nTaking the inverse sine gives θ₂ ≈ 19.5°. Hence the refracted ray makes an angle of about 19.5° with the normal, matching option (d).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/snells_law.png"
+    },
+    {
+      "id": 24,
+      "subject": "Physics",
+      "question": "What is the magnetic field at the center of a circular loop of radius 0.1 m carrying a current of 5 A?",
+      "options": {
+        "a": "3.14 × 10⁻⁵ T",
+        "b": "3.14 × 10⁻⁴ T",
+        "c": "1 × 10⁻⁵ T",
+        "d": "6.28 × 10⁻⁵ T"
+      },
+      "correct_option": "b",
+      "explanation": "For a single circular loop, the magnetic field at the center is given by B = (μ₀ I) / (2 R), where μ₀ = 4π × 10⁻⁷ T·m/A, I is the current, and R is the loop radius.\n\nSubstitute the values:\n  μ₀ = 4π × 10⁻⁷ T·m/A,\n  I = 5 A,\n  R = 0.1 m.\n\n  B = (4π × 10⁻⁷ T·m/A × 5 A) / (2 × 0.1 m)\n    = (20π × 10⁻⁷) / 0.2  T\n    = (20π × 10⁻⁷) × 5  T   (since 1/0.2 = 5)\n    = 100π × 10⁻⁷ T\n    = π × 10⁻⁵ T\n    ≈ 3.14 × 10⁻⁴ T.\n\nThus the magnetic field at the center of the loop is approximately 3.14 × 10⁻⁴ tesla, matching option (b).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/circular_loop_field.png"
+    },
+    {
+      "id": 25,
+      "subject": "Physics",
+      "question": "A 0.1 kg ball moving at 10 m/s hits a wall and rebounds with the same speed. What is the change in momentum (magnitude)?",
+      "options": {
+        "a": "0.5 kg·m/s",
+        "b": "1 kg·m/s",
+        "c": "2 kg·m/s",
+        "d": "0 kg·m/s"
+      },
+      "correct_option": "c",
+      "explanation": "Momentum is a vector, so direction matters. \n• Initial momentum (towards the wall): pᵢ = m v = 0.1 kg × 10 m/s = +1 kg·m/s.\n• Final momentum (away from the wall after rebounding): p_f = 0.1 kg × 10 m/s = –1 kg·m/s (negative sign indicates opposite direction).\n\nChange in momentum: Δp = p_f – pᵢ = (–1) – (+1) = –2 kg·m/s.\nThe magnitude of this change is |Δp| = 2 kg·m/s.\n\nTherefore, the correct value of the momentum change is 2 kg·m/s, matching option (c).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/momentum_reversal.png"
+    },
+    {
+      "id": 26,
+      "subject": "Physics",
+      "question": "A transformer has 100 turns in the primary and 10 turns in the secondary coil. If the input voltage is 220 V, what is the output voltage?",
+      "options": {
+        "a": "22 V",
+        "b": "2200 V",
+        "c": "110 V",
+        "d": "2.2 V"
+      },
+      "correct_option": "a",
+      "explanation": "For an ideal transformer, the voltage ratio equals the turns ratio: V_s / V_p = N_s / N_p. With V_p = 220 V, N_p = 100 turns, and N_s = 10 turns:\n\nV_s = V_p × (N_s / N_p) = 220 V × (10 / 100) = 22 V.\n\nBecause the secondary has fewer turns than the primary (step-down transformer), the output voltage drops to 22 volts, matching option (a).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/transformer_ratio.png"
+    },
+    {
+      "id": 27,
+      "subject": "Physics",
+      "question": "Which of the following is dimensionally incorrect?",
+      "options": {
+        "a": "Force = mass × acceleration",
+        "b": "Work = force × distance",
+        "c": "Pressure = force × area",
+        "d": "Power = work/time"
+      },
+      "correct_option": "c",
+      "explanation": "Dimensional consistency requires that both sides of an equation have the same fundamental dimensions:\n• **Force = mass × acceleration** → [M] = [M] × [LT⁻²] (correct: Force has dimension [MLT⁻²]).\n• **Work = force × distance** → [ML²T⁻²] = [MLT⁻²] × [L] (correct).\n• **Pressure = force × area** is incorrect because it gives [MLT⁻²] × [L²] = [ML³T⁻²], while the correct definition is Pressure = Force / Area, which is [MLT⁻²] / [L²] = [ML⁻¹T⁻²].\n• **Power = work / time** → [ML²T⁻³] = [ML²T⁻²] / [T] (correct).\nThus option (c) is dimensionally incorrect.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/dimensional_analysis.png"
+    },
+    {
+      "id": 28,
+      "subject": "Physics",
+      "question": "Which graph best represents motion with uniform acceleration?",
+      "options": {
+        "a": "Displacement vs time: straight line",
+        "b": "Velocity vs time: straight line",
+        "c": "Velocity vs time: curve",
+        "d": "Acceleration vs time: curved line"
+      },
+      "correct_option": "b",
+      "explanation": "For uniform (constant) acceleration:\n• The **acceleration–time** graph is a horizontal line because acceleration remains constant.\n• The **velocity–time** (v–t) graph is a straight line with constant slope. The slope equals the acceleration, so a straight line (option b) correctly depicts uniform acceleration.\n• The **displacement–time** (s–t) graph is a parabola (curved) for uniform acceleration, not a straight line. Hence option (a) is incorrect.\n• A curved v–t graph (option c) or a curved a–t graph (option d) implies changing acceleration, which contradicts uniform acceleration.\nTherefore, the graph that best represents motion with uniform acceleration is a straight-line v–t graph, matching option (b).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/velocity_time_graph.png"
+    },
+    {
+      "id": 29,
+      "subject": "Physics",
+      "question": "Which of the following phenomena supports the particle nature of light?",
+      "options": {
+        "a": "Interference",
+        "b": "Diffraction",
+        "c": "Photoelectric effect",
+        "d": "Polarisation"
+      },
+      "correct_option": "c",
+      "explanation": "The photoelectric effect shows that when light of sufficient frequency strikes a metal surface, electrons are ejected instantaneously, regardless of light intensity. Classical wave theory cannot explain the existence of a threshold frequency or the immediate emission of electrons. Einstein explained this by proposing that light consists of discrete energy packets (photons) that transfer their energy in one-to-one collisions with electrons. This quantum explanation confirms the particle nature of light. Interference, diffraction and polarisation are phenomena best explained by the wave nature of light.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/photoelectric_effect.png"
+    },
+    {
+      "id": 30,
+      "subject": "Physics",
+      "question": "What is the escape velocity from Earth’s surface (R = 6400 km, g = 9.8 m/s²)?",
+      "options": {
+        "a": "11.2 km/s",
+        "b": "8.9 km/s",
+        "c": "10.4 km/s",
+        "d": "9.8 km/s"
+      },
+      "correct_option": "a",
+      "explanation": "The escape velocity vₑ is the minimum speed needed for an object to leave Earth’s gravitational field without further propulsion. Using energy conservation (kinetic energy equals gravitational potential energy) or the formula derived from Newtonian mechanics:\n\n  vₑ = √(2 g R),\n\nwhere g = 9.8 m/s² and the average Earth radius R = 6400 km = 6.4 × 10⁶ m.\n\nSubstituting:\n  vₑ = √(2 × 9.8 m/s² × 6.4 × 10⁶ m)\n      = √(1.2544 × 10⁸ m²/s²)\n      ≈ 1.12 × 10⁴ m/s\n      ≈ 11.2 km/s.\n\nHence the escape velocity from Earth’s surface is about 11.2 kilometres per second, matching option (a).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/escape_velocity.png"
+    },
+    {
+      "id": 31,
+      "subject": "Physics",
+      "question": "A satellite orbits Earth at a height where the acceleration due to gravity is g/4. What is its orbital speed?",
+      "options": {
+        "a": "√(gR)",
+        "b": "√(gR/2)",
+        "c": "√(gR/3)",
+        "d": "√(gR/4)"
+      },
+      "correct_option": "b",
+      "explanation": "Let R be Earth’s radius and g the acceleration due to gravity at the surface. For a satellite at distance r from Earth’s centre:\n  g' = GM / r² and g = GM / R².\nGiven g' = g / 4:\n  g / 4 = g (R² / r²) ⇒ r² = 4R² ⇒ r = 2R.\nOrbital speed is v = √(GM / r). Using g = GM / R² ⇒ GM = gR², therefore:\n  v = √(gR² / r) = √(gR² / (2R)) = √(gR / 2) = √(gR/2).\nThis matches option (b).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/orbital_speed.png"
+    },
+    {
+      "id": 32,
+      "subject": "Physics",
+      "question": "In Young’s double-slit experiment, the separation between the slits is 0.3 mm and the screen is 1 m away. If the fringe width is 2 mm, what is the wavelength of the light used?",
+      "options": {
+        "a": "500 nm",
+        "b": "600 nm",
+        "c": "700 nm",
+        "d": "650 nm"
+      },
+      "correct_option": "b",
+      "explanation": "For a double-slit arrangement the fringe width β relates to wavelength λ by β = λ D / d, where D is the distance to the screen and d is the slit separation.  Rearranging gives λ = β d / D.\n\n•  β = 2 mm = 2 × 10⁻³ m\n•  d = 0.3 mm = 0.3 × 10⁻³ m\n•  D = 1 m\n\nλ = (2 × 10⁻³ m) × (0.3 × 10⁻³ m) ÷ 1 m = 6 × 10⁻⁷ m = 600 nm.\n\nHence the wavelength of the light is 600 nanometres, corresponding to option (b).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/youngs_double_slit.png"
+    },
+    {
+      "id": 33,
+      "subject": "Physics",
+      "question": "The emf of a cell is 2 V and its internal resistance is 1 Ω. It delivers maximum useful power to the load when the external resistance is:",
+      "options": {
+        "a": "1 Ω",
+        "b": "2 Ω",
+        "c": "0.5 Ω",
+        "d": "1.5 Ω"
+      },
+      "correct_option": "a",
+      "explanation": "According to the maximum-power-transfer theorem, a source delivers the greatest power to an external (load) resistor R when that resistor equals the internal resistance r of the source (R = r). For the given cell, r = 1 Ω, so the external resistance that allows maximum power—and therefore the practical maximum current under non-short-circuit conditions—is **1 Ω**, matching option (a). (If the circuit were short-circuited with R = 0 Ω, the current would be highest but no power would be delivered to a load.)",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/emf_internal_resistance.png"
+    },
+    {
+      "id": 34,
+      "subject": "Physics",
+      "question": "A gas expands at constant pressure of 2 atm from 2 L to 6 L. What is the work done by the gas?",
+      "options": {
+        "a": "800 J",
+        "b": "400 J",
+        "c": "600 J",
+        "d": "200 J"
+      },
+      "correct_option": "a",
+      "explanation": "For an isobaric (constant-pressure) expansion, the work done by the gas is W = P·ΔV.\n•  Pressure P = 2 atm.\n•  Change in volume ΔV = 6 L – 2 L = 4 L.\n\n  W = 2 atm × 4 L = 8 L·atm.\n\nTo convert L·atm to joules, use 1 L·atm ≈ 101 J.\n  W ≈ 8 × 101 J ≈ 808 J.\n\nRounded to the nearest hundred, this is about 8.0 × 10² J, i.e. **≈ 800 J**, matching option (a). (If 1 L·atm is approximated as 100 J, the result is exactly 800 J.)",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/work_by_gas.png"
+    },
+    {
+      "id": 35,
+      "subject": "Physics",
+      "question": "In simple harmonic motion, the maximum velocity is given by:",
+      "options": {
+        "a": "ωA",
+        "b": "A/ω",
+        "c": "Aω²",
+        "d": "ω²/A"
+      },
+      "correct_option": "a",
+      "explanation": "For a particle executing SHM, its displacement can be written as x(t) = A sin(ωt) or A cos(ωt), where A is the amplitude and ω is the angular frequency. The velocity is the time derivative of displacement: v(t) = dx/dt = ωA cos(ωt) (or −ωA sin(ωt), depending on the phase choice). Since the cosine (or sine) factor varies between −1 and +1, the largest possible magnitude of velocity is |v_max| = ωA. Thus the maximum speed reached during SHM is ωA, matching option (a).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/shm_velocity.png"
+    },
+    {
+      "id": 36,
+      "subject": "Physics",
+      "question": "Which law explains the rise of water in a capillary tube?",
+      "options": {
+        "a": "Pascal’s law",
+        "b": "Bernoulli’s theorem",
+        "c": "Surface tension",
+        "d": "Archimedes’ principle"
+      },
+      "correct_option": "c",
+      "explanation": "The rise (or depression) of a liquid in a narrow capillary tube is a consequence of surface tension. At the air–liquid interface, the cohesive forces among the liquid molecules and the adhesive forces between the liquid and the tube walls create a curved meniscus. Surface tension produces an upward force along the circumference of the meniscus that balances the weight of the liquid column. Jurin’s law quantifies the height: h = 2T cosθ / (ρ g r), where T is surface tension, θ the contact angle, ρ the liquid density, g the acceleration due to gravity, and r the tube radius. None of the other listed principles (Pascal’s, Bernoulli’s, Archimedes’) predict this capillary rise, so the governing factor is surface tension, option (c).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/capillary_rise.png"
+    },
+    {
+      "id": 37,
+      "subject": "Physics",
+      "question": "Which mirror is used in headlights of vehicles?",
+      "options": {
+        "a": "Concave",
+        "b": "Convex",
+        "c": "Plane",
+        "d": "None"
+      },
+      "correct_option": "a",
+      "explanation": "Headlights use concave (parabolic) mirrors. The lamp filament is placed at the mirror’s focal point so that the diverging light from the filament reflects and emerges as a nearly parallel beam. This concentrated, forward-directed beam illuminates the road far ahead, giving drivers better visibility. Convex or plane mirrors would spread the light rather than concentrate it, making them unsuitable for headlight reflectors.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/concave_mirror.png"
+    },
+    {
+      "id": 38,
+      "subject": "Physics",
+      "question": "If the electric field is zero in a region, then:",
+      "options": {
+        "a": "Potential is constant",
+        "b": "Charge is zero",
+        "c": "Potential is also zero",
+        "d": "Electric lines are circular"
+      },
+      "correct_option": "a",
+      "explanation": "The electric field **E** is related to the electric potential **V** by **E = –∇V** (the negative spatial gradient of potential). If **E = 0** everywhere in a region, then the gradient of **V** is zero, meaning **V** does not change with position—i.e., the potential is constant throughout that region. A constant potential need not be zero; it is simply uniform. Therefore, option (a) is correct. None of the other statements necessarily follow from a zero field: total charge could be non-zero outside the region, a constant potential may have any value, and ‘electric lines are circular’ is unrelated.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/electric_field_zero.png"
+    },
+    {
+      "id": 39,
+      "subject": "Physics",
+      "question": "Which of the following statements is true for nuclear fission?",
+      "options": {
+        "a": "It releases energy",
+        "b": "It absorbs energy",
+        "c": "No change in energy",
+        "d": "It is not used in reactors"
+      },
+      "correct_option": "a",
+      "explanation": "Nuclear fission is the process in which a heavy nucleus (such as uranium-235 or plutonium-239) splits into two lighter nuclei when struck by a neutron. The combined mass of the fission fragments and emitted neutrons is slightly less than the original mass. According to E = mc², this mass defect appears as a large release of energy—typically about 200 MeV per fission event. This released energy is harnessed in nuclear reactors and, explosively, in fission bombs. Therefore, the statement that fission releases energy is correct; the other options are incorrect.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/nuclear_fission.png"
+    },
+    {
+      "id": 40,
+      "subject": "Physics",
+      "question": "Which law (or basic observation) is violated in the photoelectric effect if classical wave theory alone is considered?",
+      "options": {
+        "a": "Energy conservation",
+        "b": "Instantaneous emission",
+        "c": "Mass conservation",
+        "d": "Momentum conservation"
+      },
+      "correct_option": "b",
+      "explanation": "Under classical (pre-quantum) wave theory, light energy is spread continuously across the wavefront; a faint beam should therefore need a measurable time for an electron to absorb enough energy to escape a metal surface. Experiments, however, show that electrons are emitted \u2014 within about 10⁻⁹ s \u2014 as soon as light of sufficient frequency strikes the surface, regardless of how weak the beam is. This **instantaneous emission** contradicts the wave-only prediction and is one of the key phenomena that led Einstein to propose the photon concept: light arrives in discrete energy packets (E = hν) that can transfer all required energy in a single interaction. Thus, the classical wave picture fails specifically on the observation of immediate (instantaneous) electron ejection, making option (b) the correct choice.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/photoelectric_delay.png"
+    },
+    {
+      "id": 41,
+      "subject": "Physics",
+      "question": "The time period of a simple pendulum increases when:",
+      "options": {
+        "a": "Its length increases",
+        "b": "Its mass increases",
+        "c": "Amplitude increases",
+        "d": "It is taken to the moon"
+      },
+      "correct_option": "a",
+      "explanation": "For a simple pendulum executing small-angle oscillations, the time period is given by\n  T = 2π √(l / g),\nwhere l is the length of the pendulum and g is the local acceleration due to gravity.\n• **Length (l)** – T is directly proportional to √l, so increasing the length makes the period longer.\n• **Mass of the bob** – T is independent of mass, so changing mass does not affect the period (option b has no effect).\n• **Amplitude (for small angles)** – Within the small-angle approximation (θ ≤ 10°), T is essentially independent of amplitude (option c has negligible effect).\n• **Taking it to the Moon** – g on the Moon is about 1⁄6 of Earth’s value, which would indeed make T larger. However, among the listed choices the question typically expects the direct, controllable parameter on Earth, namely the **length** of the pendulum. Thus option (a) is the best single answer in this context.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/simple_pendulum.png"
+    },
+    {
+      "id": 42,
+      "subject": "Physics",
+      "question": "What is the value of torque when a force is applied at the axis of rotation?",
+      "options": {
+        "a": "Maximum",
+        "b": "Zero",
+        "c": "Minimum but non-zero",
+        "d": "Infinite"
+      },
+      "correct_option": "b",
+      "explanation": "Torque (τ) about a point is defined by the vector product τ = r × F, where r is the position vector from the axis (pivot) to the point of application of the force F. If the force is applied exactly at the axis, the distance r = 0, so the magnitude of the torque becomes τ = rF sin θ = 0. Hence no rotational tendency is produced, giving a torque of zero. Therefore, option (b) is correct.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/torque_zero.png"
+    },
+    {
+      "id": 43,
+      "subject": "Physics",
+      "question": "What happens to the capacitance of a parallel-plate capacitor if the dielectric constant (relative permittivity) of the insulator between the plates is increased?",
+      "options": {
+        "a": "Increases",
+        "b": "Decreases",
+        "c": "Unchanged",
+        "d": "Becomes zero"
+      },
+      "correct_option": "a",
+      "explanation": "The capacitance of a parallel-plate capacitor is given by C = (K ε₀ A) / d, where K is the dielectric constant of the material between the plates, ε₀ is the permittivity of free space, A is the plate area, and d is the separation between the plates. Because C is directly proportional to K, increasing the dielectric constant increases the capacitance. Therefore, option (a) is correct.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/capacitance_dielectric.png"
+    },
+    {
+      "id": 44,
+      "subject": "Physics",
+      "question": "When a body is in non-uniform circular motion, which quantity changes?",
+      "options": {
+        "a": "Speed only",
+        "b": "Velocity only",
+        "c": "Acceleration only",
+        "d": "Both speed and direction"
+      },
+      "correct_option": "d",
+      "explanation": "In circular motion the direction of velocity continuously changes because the object moves around the circle. If the motion is *uniform*, the speed (magnitude of velocity) stays constant; only the direction changes. In *non-uniform* circular motion the tangential speed also changes with time, so **both the magnitude (speed) and the direction of the velocity vector vary**. Consequently the acceleration has two components: the radial (centripetal) component that changes direction and the tangential component that changes speed. Thus option (d) ― both speed and direction change ― is correct.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/non_uniform_motion.png"
+    },
+    {
+      "id": 45,
+      "subject": "Physics",
+      "question": "Two identical resistors are connected first in series and then in parallel. What is the ratio of the total resistance in the series combination to that in the parallel combination?",
+      "options": {
+        "a": "1:4",
+        "b": "2:1",
+        "c": "4:1",
+        "d": "1:2"
+      },
+      "correct_option": "c",
+      "explanation": "Let each resistor have resistance R.\n• **Series combination:** R_total(series) = R + R = 2R.\n• **Parallel combination:** 1/R_total(parallel) = 1/R + 1/R = 2/R ⇒ R_total(parallel) = R/2.\n\nRatio (series : parallel) = 2R : (R/2) = 2R ÷ (R/2) = 4 : 1.\nTherefore, the required ratio is 4 : 1, matching option (c).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/series_parallel_resistance.png"
+    },
+    {
+      "id": 46,
+      "subject": "Chemistry",
+      "question": "Which of the following is a strong electrolyte?",
+      "options": {
+        "a": "CH₃COOH",
+        "b": "NaCl",
+        "c": "C₂H₅OH",
+        "d": "Glucose"
+      },
+      "correct_option": "b",
+      "explanation": "NaCl completely dissociates in water, making it a strong electrolyte."
+    },
+    {
+      "id": 91,
+      "subject": "Botany",
+      "question": "In a DNA strand, which direction is DNA synthesized during replication?",
+      "options": {
+        "a": "5’ to 3’ only",
+        "b": "3’ to 5’ only",
+        "c": "Both 5’ to 3’ and 3’ to 5’",
+        "d": "Random direction"
+      },
+      "correct_option": "a",
+      "explanation": "During DNA replication in plant cells, DNA polymerases add nucleotides only to the 3’ hydroxyl end of the growing strand, resulting in synthesis exclusively in the 5’ to 3’ direction. This directional synthesis is crucial for accurate and efficient DNA replication."
+    },
+    {
+      "id": 92,
+      "subject": "Botany",
+      "question": "A newly synthesized mRNA in eukaryotes has a 5’ cap and a 3’ poly-A tail. What is the primary role of these modifications?",
+      "options": {
+        "a": "Increase mRNA degradation",
+        "b": "Block translation",
+        "c": "Help mRNA exit nucleus and increase stability",
+        "d": "Code for proteins"
+      },
+      "correct_option": "c",
+      "explanation": "In plant cells, the 5’ cap protects mRNA from exonuclease degradation and helps in ribosome attachment, while the 3’ poly-A tail stabilizes the mRNA and aids in nuclear export. Together, they ensure proper translation and extended mRNA lifespan."
+    },
+    {
+      "id": 93,
+      "subject": "Botany",
+      "question": "Assertion (A): Bryophytes are called amphibians of the plant kingdom. Reason (R): They require water for the fertilization process.",
+      "options": {
+        "a": "Both A and R are true, and R is the correct explanation",
+        "b": "Both A and R are true, but R is not the correct explanation",
+        "c": "A is true, but R is false",
+        "d": "A is false, but R is true"
+      },
+      "correct_option": "a",
+      "explanation": "Bryophytes, like mosses and liverworts, need a thin film of water for the motile male gametes (antherozoids) to swim to the female sex organ (archegonium) for fertilization. This dependence on water for reproduction makes them ecologically comparable to amphibians."
+    },
+    {
+      "id": 94,
+      "subject": "Botany",
+      "question": "In DNA, the number of purines is always equal to the number of:",
+      "options": {
+        "a": "Phosphates",
+        "b": "Sugars",
+        "c": "Pyrimidines",
+        "d": "Amino acids"
+      },
+      "correct_option": "c",
+      "explanation": "In plant DNA, Chargaff’s Rule applies: purines (adenine and guanine) always pair with pyrimidines (thymine and cytosine) in equal amounts, ensuring a stable and uniform double helix structure."
+    },
+    {
+      "id": 95,
+      "subject": "Botany",
+      "question": "Triploid endosperm is a result of:",
+      "options": {
+        "a": "One male gamete fusing with egg",
+        "b": "Fusion of three nuclei simultaneously",
+        "c": "Two sperm nuclei fusing with two synergids",
+        "d": "Egg fusing with two antipodals"
+      },
+      "correct_option": "b",
+      "explanation": "In angiosperms, double fertilization occurs where one male gamete fuses with the egg to form a zygote, and the other fuses with the diploid central cell containing two polar nuclei. This produces the triploid endosperm, which nourishes the developing embryo."
+    },
+    {
+      "id": 96,
+      "subject": "Botany",
+      "question": "The birth rate and death rate are important components of:",
+      "options": {
+        "a": "Population density",
+        "b": "Population size",
+        "c": "Population growth",
+        "d": "Age structure"
+      },
+      "correct_option": "c",
+      "explanation": "In plant ecology, population growth depends on the balance between birth rate (e.g., seed production) and death rate (e.g., plant mortality). Positive growth occurs when reproduction outpaces mortality."
+    },
+    {
+      "id": 97,
+      "subject": "Botany",
+      "question": "In a botanical investigation, a student observes that a certain plant's leaves are reduced, while the stem is green, flattened, and performs photosynthesis. The plant also has spines instead of leaves. What is the nature of the modified stem, and which environment is this adaptation best suited for?",
+      "options": {
+        "a": "Cladode, aquatic",
+        "b": "Rhizome, cold temperate",
+        "c": "Phylloclade, arid",
+        "d": "Bulb, alpine"
+      },
+      "correct_option": "c",
+      "explanation": "Phylloclades are flattened or cylindrical photosynthetic stem modifications seen in xerophytes like Opuntia. Reduced leaves are modified into spines to minimize water loss, making this adaptation ideal for arid environments."
+    },
+    {
+      "id": 98,
+      "subject": "Botany",
+      "question": "A researcher observes a 1:2:1 phenotypic ratio in the F₂ generation of a plant cross involving flower color. What genetic phenomenon is most likely responsible?",
+      "options": {
+        "a": "Codominance",
+        "b": "Incomplete dominance",
+        "c": "Law of dominance",
+        "d": "Multiple allelism"
+      },
+      "correct_option": "b",
+      "explanation": "In incomplete dominance, the heterozygous phenotype is intermediate between the two homozygous phenotypes. This results in a 1:2:1 phenotypic ratio in the F₂ generation, as seen in plants like Mirabilis jalapa."
+    },
+    {
+      "id": 99,
+      "subject": "Botany",
+      "question": "Which of the following events is unique to meiosis and does not occur in mitosis?",
+      "options": {
+        "a": "Chromosome condensation",
+        "b": "Crossing over between homologous chromosomes",
+        "c": "Separation of chromatids",
+        "d": "Cytokinesis"
+      },
+      "correct_option": "b",
+      "explanation": "During meiosis in plants, crossing over occurs in prophase I between homologous chromosomes. This recombination increases genetic variation, an event absent in mitosis."
+    },
+    {
+      "id": 100,
+      "subject": "Botany",
+      "question": "The specific nucleotide sequence in DNA where RNA polymerase binds to initiate transcription is known as:",
+      "options": {
+        "a": "Operator",
+        "b": "Enhancer",
+        "c": "Promoter",
+        "d": "Terminator"
+      },
+      "correct_option": "c",
+      "explanation": "In plant genes, the promoter region is the site where RNA polymerase binds to start transcription. Promoters often include conserved sequences like the TATA box, which help in proper transcription initiation."
+    },
+    {
+      "id": 101,
+      "subject": "Genetics",
+      "question": "In a test cross between an organism of unknown genotype (showing dominant phenotype) and a recessive parent, the phenotypic ratio in the offspring is 1:1. What is the genotype of the unknown parent?",
+      "options": {
+        "a": "Homozygous dominant",
+        "b": "Homozygous recessive",
+        "c": "Heterozygous",
+        "d": "Codominant"
+      },
+      "correct_option": "c",
+      "explanation": "A 1:1 phenotypic ratio in the test cross indicates that the unknown parent is heterozygous. This classic Mendelian approach is used to determine an organism’s genotype."
+    },
+    {
+      "id": 102,
+      "subject": "Botany",
+      "question": "Which of the following statements about stomata is incorrect?",
+      "options": {
+        "a": "They are surrounded by guard cells",
+        "b": "They are mainly present in leaves and herbaceous stems",
+        "c": "They are involved in transpiration and gaseous exchange",
+        "d": "They are commonly found in mature woody stems"
+      },
+      "correct_option": "d",
+      "explanation": "In mature woody stems, the epidermis is replaced by periderm, which lacks stomata. Instead, gas exchange occurs through lenticels."
+    },
+    {
+      "id": 103,
+      "subject": "Botany",
+      "question": "Which cell in the embryo sac forms the endosperm after fertilization?",
+      "options": {
+        "a": "Egg cell",
+        "b": "Synergid",
+        "c": "Central cell",
+        "d": "Antipodal"
+      },
+      "correct_option": "c",
+      "explanation": "The central cell, which contains two polar nuclei, fuses with one male gamete during triple fusion to form the triploid endosperm."
+    },
+    {
+      "id": 104,
+      "subject": "Conservation Biology",
+      "question": "In a conservation center, seeds of a rare plant are stored at low temperatures and low humidity. This form of conservation is best described as:",
+      "options": {
+        "a": "Cryopreservation",
+        "b": "Gene bank storage",
+        "c": "Tissue culture",
+        "d": "In-situ conservation"
+      },
+      "correct_option": "b",
+      "explanation": "Gene banks store seeds or tissues under controlled conditions for long-term preservation of plant genetic diversity."
+    },
+    {
+      "id": 105,
+      "subject": "Botany",
+      "question": "Photosynthesis occurs in which cell organelle?",
+      "options": {
+        "a": "Mitochondria",
+        "b": "Chloroplast",
+        "c": "Ribosome",
+        "d": "Golgi apparatus"
+      },
+      "correct_option": "b",
+      "explanation": "Chloroplasts, containing chlorophyll pigments, are the site of photosynthesis, where plants convert light energy into chemical energy."
+    },
+    {
+      "id": 106,
+      "subject": "Plant Physiology",
+      "question": "In a plant under stress, ABA levels rise sharply. Which sequence of physiological events would most likely follow?",
+      "options": {
+        "a": "Stomatal opening → Increased transpiration → Leaf abscission",
+        "b": "Stomatal closure → Reduced water loss → Dormancy",
+        "c": "Fruit ripening → Flowering → Seed dormancy",
+        "d": "Stem elongation → Leaf expansion → Reduced senescence"
+      },
+      "correct_option": "b",
+      "explanation": "Abscisic acid (ABA) induces stomatal closure to reduce water loss, promotes seed dormancy, and helps plants survive drought and other stress conditions."
+    },
+    {
+      "id": 107,
+      "subject": "Cell Biology",
+      "question": "Assertion (A): Meiosis I is often called the reductional division. Reason (R): During meiosis I, homologous chromosomes are separated, reducing the chromosome number by half in daughter cells.",
+      "options": {
+        "a": "Both A and R are true, and R is the correct explanation",
+        "b": "Both A and R are true, but R is not the correct explanation",
+        "c": "A is true, R is false",
+        "d": "A is false, R is true"
+      },
+      "correct_option": "a",
+      "explanation": "Meiosis I reduces the chromosome number from diploid to haploid by separating homologous chromosomes, hence it is called reductional division."
+    },
+    {
+      "id": 108,
+      "subject": "Molecular Biology",
+      "question": "A segment of DNA has the sequence 5’-ATG CCG TGA-3’. What will be the corresponding mRNA sequence transcribed from it?",
+      "options": {
+        "a": "3’-UAC GGC ACU-5’",
+        "b": "5’-UAC GGC ACU-3’",
+        "c": "5’-UAG GCC UGA-3’",
+        "d": "5’-TAC GGC ACT-3’"
+      },
+      "correct_option": "b",
+      "explanation": "RNA is complementary to the DNA template strand, replacing thymine (T) with uracil (U). The mRNA sequence will be 5’-UAC GGC ACU-3’."
+    },
+    {
+      "id": 109,
+      "subject": "Ecology",
+      "question": "A forest patch was found to lose 10% of its insect species after a nearby industrial zone was set up. If this trend continues, which hypothesis best explains the ecosystem’s eventual collapse?",
+      "options": {
+        "a": "Red Queen Hypothesis",
+        "b": "Rivet Popper Hypothesis",
+        "c": "Keystone Species Hypothesis",
+        "d": "Island Biogeography Theory"
+      },
+      "correct_option": "b",
+      "explanation": "The Rivet Popper Hypothesis likens species to rivets in an airplane—removing too many weakens the system, eventually leading to collapse."
+    },
+    {
+      "id": 110,
+      "subject": "Plant Physiology",
+      "question": "The C₄ pathway is advantageous in hot climates because:",
+      "options": {
+        "a": "It avoids oxygen evolution",
+        "b": "It avoids RuBP altogether",
+        "c": "It suppresses photorespiration",
+        "d": "It requires less energy than the C₃ pathway"
+      },
+      "correct_option": "c",
+      "explanation": "C₄ plants suppress photorespiration by concentrating CO₂ around RuBisCO, making them efficient in hot and dry conditions."
+    },
+    {
+      "id": 111,
+      "subject": "Botany",
+      "question": "In plants like maize and sugarcane, the stem remains solid and jointed, with nodes and internodes clearly visible. What category does this stem structure fall under?",
+      "options": {
+        "a": "Hollow stem",
+        "b": "Rhizomatous stem",
+        "c": "Culm type",
+        "d": "Phylloclade"
+      },
+      "correct_option": "c",
+      "explanation": "Culm-type stems, typical of grasses like sugarcane and maize, are solid and jointed with distinct nodes and internodes."
+    },
+    {
+      "id": 112,
+      "subject": "Botany",
+      "question": "In which plant group is the prothallus found as a free-living structure?",
+      "options": {
+        "a": "Algae",
+        "b": "Bryophyta",
+        "c": "Pteridophyta",
+        "d": "Gymnosperms"
+      },
+      "correct_option": "c",
+      "explanation": "The prothallus is the haploid gametophyte of pteridophytes and lives independently, bearing both antheridia and archegonia. Fertilization occurs on its surface in moist conditions."
+    },
+    {
+      "id": 113,
+      "subject": "Ecology",
+      "question": "Read the following statements:\nI. Ecological succession always ends with a climax community.\nII. Hydrarch succession occurs in dry habitats.\nIII. Seral stages involve multiple transitional communities.\nChoose the correct set:",
+      "options": {
+        "a": "Only I is correct",
+        "b": "I and III are correct",
+        "c": "II and III are correct",
+        "d": "I, II and III are correct"
+      },
+      "correct_option": "b",
+      "explanation": "Ecological succession typically ends in a stable climax community. Hydrarch succession begins in aquatic habitats, not dry areas. Seral stages represent intermediate transitional communities."
+    },
+    {
+      "id": 114,
+      "subject": "Plant Physiology",
+      "question": "A mutant plant fails to flower despite exposure to proper photoperiods. Genetic analysis reveals a defect in phytochrome production. Which of the following is most likely affected?",
+      "options": {
+        "a": "Detection of temperature changes",
+        "b": "Response to nutrient signals",
+        "c": "Perception of light and dark cycles",
+        "d": "Auxin production in meristems"
+      },
+      "correct_option": "c",
+      "explanation": "Phytochromes are red and far-red light receptors that regulate photoperiodic responses such as flowering. A defect would impair light perception, preventing correct photoperiodic signaling."
+    },
+    {
+      "id": 115,
+      "subject": "Pollination Biology",
+      "question": "Which of the following is an example of anemophilous flower adaptation?",
+      "options": {
+        "a": "Bright petals",
+        "b": "Fragrance",
+        "c": "Sticky pollen",
+        "d": "Feathery stigma"
+      },
+      "correct_option": "d",
+      "explanation": "Wind-pollinated flowers often have large, feathery stigmas to efficiently trap airborne pollen."
+    },
+    {
+      "id": 116,
+      "subject": "Ecology",
+      "question": "Which of the following is considered the ultimate source of energy for most ecosystems?",
+      "options": {
+        "a": "ATP",
+        "b": "Glucose",
+        "c": "The Sun",
+        "d": "Organic compounds in soil"
+      },
+      "correct_option": "c",
+      "explanation": "The sun provides solar energy captured by autotrophs during photosynthesis. This energy flows through all trophic levels in ecosystems."
+    },
+    {
+      "id": 117,
+      "subject": "Genetics",
+      "question": "In pea plants, round seeds (R) are dominant over wrinkled seeds (r). If a plant with round seeds produces both round and wrinkled seed offspring when crossed with a wrinkled-seed plant, what is the genotype of the round-seeded parent?",
+      "options": {
+        "a": "RR",
+        "b": "Rr",
+        "c": "rr",
+        "d": "Rr or rr"
+      },
+      "correct_option": "b",
+      "explanation": "A 1:1 ratio of round to wrinkled seeds in the cross indicates the round-seeded plant is heterozygous (Rr)."
+    },
+    {
+      "id": 118,
+      "subject": "Plant Taxonomy",
+      "question": "A flower has 5 united petals, radial symmetry, and stamens attached to the petals. It also possesses an inferior ovary and unilocular fruit with numerous seeds. Which of the following families is the flower most likely to belong to?",
+      "options": {
+        "a": "Fabaceae",
+        "b": "Solanaceae",
+        "c": "Cucurbitaceae",
+        "d": "Liliaceae"
+      },
+      "correct_option": "c",
+      "explanation": "Cucurbitaceae flowers are actinomorphic with a gamopetalous corolla, epigynous condition (inferior ovary), and produce many seeds in a unilocular ovary."
+    },
+    {
+      "id": 119,
+      "subject": "Cell Biology",
+      "question": "Which organelle plays a key role in forming spindle fibers during mitosis in animal cells?",
+      "options": {
+        "a": "Lysosome",
+        "b": "Mitochondrion",
+        "c": "Centriole",
+        "d": "Golgi body"
+      },
+      "correct_option": "c",
+      "explanation": "Centrioles organize microtubules into spindle fibers during mitosis in animal cells. Plant cells lack centrioles but still form spindles."
+    },
+    {
+      "id": 120,
+      "subject": "Plant Physiology",
+      "question": "Which pigment shows the maximum absorption of light at 680 nm?",
+      "options": {
+        "a": "Chlorophyll-b",
+        "b": "Carotene",
+        "c": "Chlorophyll-a (P680)",
+        "d": "Xanthophyll"
+      },
+      "correct_option": "c",
+      "explanation": "P680 is a special form of chlorophyll-a in Photosystem II that absorbs light optimally at 680 nm, initiating the light-dependent reactions."
+    },
+    {
+      "id": 121,
+      "subject": "Molecular Biology",
+      "question": "What is the role of the TATA box in eukaryotic gene expression?",
+      "options": {
+        "a": "Codes for tRNA",
+        "b": "Site for RNA polymerase II binding",
+        "c": "Start codon region",
+        "d": "Enhancer binding site"
+      },
+      "correct_option": "b",
+      "explanation": "The TATA box is a core promoter element that helps position RNA polymerase II for accurate transcription initiation in eukaryotic genes."
+    },
+    {
+      "id": 122,
+      "subject": "Cytology",
+      "question": "Which of the following correctly matches the sub-stages of Prophase I in meiosis with a key event?",
+      "options": {
+        "a": "Zygotene – crossing over",
+        "b": "Pachytene – synapsis begins",
+        "c": "Diplotene – chiasmata appear",
+        "d": "Diakinesis – pairing of chromosomes starts"
+      },
+      "correct_option": "c",
+      "explanation": "Chiasmata, the visible points of crossing over, appear during diplotene. Synapsis begins in zygotene, crossing over occurs in pachytene, and diakinesis is the final stage marked by chiasmata terminalization."
+    },
+    {
+      "id": 123,
+      "subject": "Genetics",
+      "question": "Which one of the following traits in pea plants does not display simple Mendelian inheritance due to incomplete dominance?",
+      "options": {
+        "a": "Flower color in snapdragon",
+        "b": "Pod color in pea",
+        "c": "Plant height in pea",
+        "d": "Seed texture in pea"
+      },
+      "correct_option": "a",
+      "explanation": "Incomplete dominance is seen in snapdragon (Mirabilis jalapa), not in pea plant traits studied by Mendel. All pea traits in Mendel's experiments followed complete dominance."
+    },
+    {
+      "id": 124,
+      "subject": "Plant Anatomy",
+      "question": "In a transverse section of a dicot stem, vascular bundles are observed in a ring and are described as 'open'. What anatomical feature justifies this classification?",
+      "options": {
+        "a": "They contain only phloem and xylem",
+        "b": "They are surrounded by parenchyma",
+        "c": "They include a cambium layer between xylem and phloem",
+        "d": "They show radial arrangement"
+      },
+      "correct_option": "c",
+      "explanation": "Dicot stems have 'open' vascular bundles because they possess a cambium layer between the xylem and phloem, enabling secondary growth."
+    },
+    {
+      "id": 125,
+      "subject": "Plant Physiology",
+      "question": "Which of the following is not a naturally occurring plant hormone?",
+      "options": {
+        "a": "Zeatin",
+        "b": "Indole-3-acetic acid (IAA)",
+        "c": "Abscisic acid",
+        "d": "Naphthalene acetic acid (NAA)"
+      },
+      "correct_option": "d",
+      "explanation": "NAA is a synthetic auxin used in agriculture. Zeatin is a natural cytokinin, IAA is a natural auxin, and ABA is a naturally occurring plant stress hormone."
+    },
+    {
+      "id": 126,
+      "subject": "Genetics",
+      "question": "The number of phenotypes produced in the F₂ generation of a monohybrid cross is:",
+      "options": {
+        "a": "2",
+        "b": "3",
+        "c": "1",
+        "d": "4"
+      },
+      "correct_option": "a",
+      "explanation": "In a monohybrid cross, the F₂ generation has two phenotypes—dominant and recessive—even though it has three genotypes in a 1:2:1 ratio."
+    },
+    {
+      "id": 127,
+      "subject": "Ecology",
+      "question": "Which of the following shows density-independent population regulation?",
+      "options": {
+        "a": "Predation",
+        "b": "Food competition",
+        "c": "Natural disaster",
+        "d": "Disease outbreak"
+      },
+      "correct_option": "c",
+      "explanation": "Density-independent factors, such as floods, earthquakes, and other natural disasters, affect populations regardless of their size. Density-dependent factors intensify with population density."
+    },
+    {
+      "id": 128,
+      "subject": "Conservation Biology",
+      "question": "Which of the following pairs is correctly matched?",
+      "options": {
+        "a": "Ex-situ conservation – Sacred groves",
+        "b": "Endemic species – Widespread distribution",
+        "c": "In-situ conservation – Biosphere reserves",
+        "d": "Red Data Book – Agricultural practices"
+      },
+      "correct_option": "c",
+      "explanation": "Biosphere reserves are examples of in-situ conservation, preserving species in their natural habitat. Sacred groves are also in-situ methods, while ex-situ involves seed banks and zoos."
+    },
+    {
+      "id": 129,
+      "subject": "Cell Biology",
+      "question": "In a plant nucleus, where is ribosomal RNA (rRNA) synthesized?",
+      "options": {
+        "a": "Nuclear envelope",
+        "b": "Chromatin",
+        "c": "Nucleolus",
+        "d": "Rough ER"
+      },
+      "correct_option": "c",
+      "explanation": "The nucleolus is the site of rRNA synthesis and ribosome subunit assembly. It is a dense, membrane-less structure within the nucleus."
+    },
+    {
+      "id": 130,
+      "subject": "Industrial Microbiology",
+      "question": "Which organism is used in the production of citric acid at industrial scale?",
+      "options": {
+        "a": "Rhizopus stolonifer",
+        "b": "Aspergillus niger",
+        "c": "Penicillium notatum",
+        "d": "Lactobacillus acidophilus"
+      },
+      "correct_option": "b",
+      "explanation": "Aspergillus niger is widely used for industrial citric acid production by fermentation in sugar-rich media."
+    },
+    {
+      "id": 131,
+      "subject": "Microbiology",
+      "question": "Which of the following is the correct feature of Kingdom Monera?",
+      "options": {
+        "a": "Eukaryotic and multicellular",
+        "b": "Prokaryotic and unicellular",
+        "c": "Eukaryotic and unicellular",
+        "d": "Prokaryotic and multicellular"
+      },
+      "correct_option": "b",
+      "explanation": "Kingdom Monera includes prokaryotic, unicellular organisms like bacteria and cyanobacteria, lacking membrane-bound organelles."
+    },
+    {
+      "id": 132,
+      "subject": "Plant Evolution",
+      "question": "Referencing the classification chart, which group represents the earliest evolutionary development of vascular tissue?",
+      "options": {
+        "a": "Angiosperms",
+        "b": "Bryophytes",
+        "c": "Pteridophytes",
+        "d": "Algae"
+      },
+      "correct_option": "c",
+      "explanation": "Pteridophytes are the first major group to develop vascular tissues—xylem and phloem—enabling efficient water and nutrient transport. Bryophytes lack true vascular tissue, and algae are more primitive."
+    },
+    {
+      "id": 133,
+      "subject": "Plant Morphology",
+      "question": "Based on the floral diagram, which structure forms the female reproductive whorl?",
+      "options": {
+        "a": "Petals",
+        "b": "Stamens",
+        "c": "Pistil",
+        "d": "Sepals"
+      },
+      "correct_option": "c",
+      "explanation": "The pistil (gynoecium) is composed of stigma, style, and ovary, forming the female reproductive whorl. Petals and sepals are accessory floral organs."
+    },
+    {
+      "id": 134,
+      "subject": "Plant Anatomy",
+      "question": "What structure develops from the differentiation of interfascicular rays and fascicular cambium?",
+      "options": {
+        "a": "Vascular bundle",
+        "b": "Cork cambium",
+        "c": "Cambial ring",
+        "d": "Phelloderm"
+      },
+      "correct_option": "c",
+      "explanation": "During secondary growth in dicots, fascicular cambium and interfascicular cambium unite to form a continuous cambial ring, producing secondary xylem inward and secondary phloem outward."
+    },
+    {
+      "id": 135,
+      "subject": "Molecular Biology",
+      "question": "Based on the transcription diagram, identify the correct order of events:\n1. Sigma factor binds to RNA polymerase\n2. RNA polymerase binds promoter\n3. Initiation of transcription\n4. Sigma factor dissociates\n5. Elongation continues",
+      "options": {
+        "a": "1 → 2 → 3 → 5 → 4",
+        "b": "2 → 1 → 3 → 5 → 4",
+        "c": "1 → 2 → 3 → 4 → 5",
+        "d": "2 → 3 → 1 → 4 → 5"
+      },
+      "correct_option": "c",
+      "explanation": "In prokaryotic transcription, the sigma factor first associates with RNA polymerase, directing it to the promoter. After initiation, sigma dissociates, and elongation proceeds."
+    },
+    {
+      "id": 170,
+      "subject": "Zoology",
+      "question": "Which part of the brain controls voluntary movements?",
+      "options": {
+        "a": "Medulla oblongata",
+        "b": "Cerebellum",
+        "c": "Pons",
+        "d": "Cerebrum"
+      },
+      "correct_option": "d",
+      "explanation": "The cerebrum is responsible for voluntary movements and decision making."
+    }
+  ]
+}

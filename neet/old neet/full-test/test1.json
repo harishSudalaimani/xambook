@@ -1,0 +1,1241 @@
+{
+  "test_number": 1,
+  "subject": "Full Test",
+  "questions": [
+    {
+      "id": 1,
+      "subject": "Physics",
+      "question": "A particle moves in a circular path of radius 2 m with constant speed of 3 m/s. What is the magnitude of its acceleration?",
+      "options": {
+        "a": "4.5 m/s²",
+        "b": "3 m/s²",
+        "c": "1.5 m/s²",
+        "d": "6 m/s²"
+      },
+      "correct_option": "a",
+      "explanation": "In uniform circular motion, the acceleration is centripetal and always directed toward the center. Its magnitude is given by a = v² / r, where v is the speed and r is the radius. Substituting: a = (3)² / 2 = 9 / 2 = 4.5 m/s². Hence, the particle experiences an acceleration of 4.5 m/s² toward the center of the circle.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/circular_motion.png"
+    },
+    {
+      "id": 2,
+      "subject": "Physics",
+      "question": "A body is projected vertically upwards with velocity 20 m/s. What will be its velocity after 2 seconds?",
+      "options": {
+        "a": "0 m/s",
+        "b": "10 m/s",
+        "c": "20 m/s",
+        "d": "–20 m/s"
+      },
+      "correct_option": "a",
+      "explanation": "When a body is projected vertically upwards, it decelerates due to gravity. Using the equation v = u – gt, where u = 20 m/s and g = 10 m/s², at t = 2 s: v = 20 – (10 × 2) = 0 m/s. This means the body momentarily comes to rest at its highest point after 2 seconds. Hence, the correct velocity at that instant is 0 m/s.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/vertical_projectile.png"
+    },
+    {
+      "id": 3,
+      "subject": "Physics",
+      "question": "A force of 10 N is applied on a 5 kg block. What is the acceleration of the block?",
+      "options": {
+        "a": "2 m/s²",
+        "b": "0.5 m/s²",
+        "c": "5 m/s²",
+        "d": "10 m/s²"
+      },
+      "correct_option": "a",
+      "explanation": "According to Newton's second law of motion, acceleration (a) is given by a = F/m, where F is the net force and m is the mass of the object. Substituting the values: a = 10 N / 5 kg = 2 m/s². Therefore, the block accelerates at 2 meters per second squared.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/newton_second_law.png"
+    },
+    {
+      "id": 4,
+      "subject": "Physics",
+      "question": "Which of the following graphs represents uniform acceleration?",
+      "options": {
+        "a": "Straight line velocity-time graph with positive slope",
+        "b": "Parabolic displacement-time graph",
+        "c": "Horizontal velocity-time graph",
+        "d": "Curve in displacement-time graph with changing slope"
+      },
+      "correct_option": "a",
+      "explanation": "In uniform acceleration, the rate of change of velocity remains constant. This means the velocity increases or decreases linearly over time. On a velocity-time graph, this is represented by a straight line with constant slope. A positive slope indicates acceleration. Therefore, a straight line with positive slope in the velocity-time graph represents uniform acceleration.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/velocity_time_uniform_acceleration.png"
+    },
+    {
+      "id": 5,
+      "subject": "Physics",
+      "question": "What is the moment of inertia of a thin rod (length L, mass M) about an axis through its center and perpendicular to its length?",
+      "options": {
+        "a": "ML² / 3",
+        "b": "ML² / 12",
+        "c": "ML² / 2",
+        "d": "2ML² / 3"
+      },
+      "correct_option": "b",
+      "explanation": "The moment of inertia of a uniform thin rod of mass M and length L about an axis passing through its center and perpendicular to its length is given by the standard formula I = (1/12)ML². This result comes from integrating mass elements at varying distances from the axis, assuming uniform mass distribution. Hence, the correct answer is ML² / 12.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/moment_of_inertia_rod_center.png"
+    },
+    {
+      "id": 6,
+      "subject": "Physics",
+      "question": "A concave mirror forms an image at the same distance in front of it as the object is placed behind it. What is the focal length?",
+      "options": {
+        "a": "At center of curvature",
+        "b": "Equal to object distance",
+        "c": "Twice the image distance",
+        "d": "Half of the object distance"
+      },
+      "correct_option": "a",
+      "explanation": "In a concave mirror, if the image is formed at the same distance in front of the mirror as the object is placed behind it, then both the object and image lie at the center of curvature. This means the object distance and image distance are equal in magnitude and the mirror forms a real, inverted image. The center of curvature is located at a distance R from the mirror, so the focal length is f = R/2.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/concave_mirror_centre.png"
+    },
+    {
+      "id": 7,
+      "subject": "Physics",
+      "question": "Which law is used to determine the force between two charges?",
+      "options": {
+        "a": "Faraday's Law",
+        "b": "Lenz’s Law",
+        "c": "Coulomb’s Law",
+        "d": "Gauss's Law"
+      },
+      "correct_option": "c",
+      "explanation": "Coulomb’s Law is used to calculate the electrostatic force between two point charges. The law states that the magnitude of the force is directly proportional to the product of the charges and inversely proportional to the square of the distance between them: F = k·q₁q₂ / r², where k is Coulomb's constant. It is the fundamental law governing electrostatic interactions.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/coulombs_law.png"
+    },
+    {
+      "id": 8,
+      "subject": "Physics",
+      "question": "A wire carries a current of 5 A and is placed in a magnetic field of 0.3 T. If the wire is 2 m long and perpendicular to the field, what is the magnetic force?",
+      "options": {
+        "a": "2 N",
+        "b": "3 N",
+        "c": "1.5 N",
+        "d": "None"
+      },
+      "correct_option": "b",
+      "explanation": "The magnetic force on a current-carrying conductor is given by the formula F = I·L·B·sinθ, where I is current, L is length, B is magnetic field strength, and θ is the angle between the wire and the field. Since the wire is perpendicular to the field, sinθ = 1. Substituting values: F = 5 × 2 × 0.3 × 1 = 3 N. Hence, the magnetic force is 3 newtons.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/force_on_current_wire.png"
+    },
+    {
+      "id": 9,
+      "subject": "Physics",
+      "question": "Which of the following has the dimension of energy?",
+      "options": {
+        "a": "ML²T⁻²",
+        "b": "MLT⁻²",
+        "c": "ML²T⁻³",
+        "d": "MLT⁻¹"
+      },
+      "correct_option": "a",
+      "explanation": "Energy has the same dimensional formula as work, which is defined as Force × Displacement. Force has dimensions of MLT⁻² and displacement is L. So, multiplying: (MLT⁻²) × L = ML²T⁻². Therefore, the correct dimensional formula for energy is ML²T⁻².",
+      "diagram_url": ""
+    },
+    {
+      "id": 10,
+      "subject": "Physics",
+      "question": "In Young's double slit experiment, the fringe width is doubled if:",
+      "options": {
+        "a": "Slit separation is doubled",
+        "b": "Distance between slits and screen is doubled",
+        "c": "Wavelength is halved",
+        "d": "None of these"
+      },
+      "correct_option": "b",
+      "explanation": "In Young's double slit experiment (YDSE), the fringe width (β) is given by the formula β = λD / d, where λ is the wavelength of light, D is the distance between the slits and the screen, and d is the slit separation. If D is doubled while keeping λ and d constant, the fringe width also doubles. Hence, increasing the screen distance increases the spacing between bright and dark fringes.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/youngs_experiment_fringe_width.png"
+    },
+    {
+      "id": 11,
+      "subject": "Physics",
+      "question": "A car accelerates uniformly from rest to a speed of 20 m/s in 10 seconds. What is the distance covered?",
+      "options": {
+        "a": "200 m",
+        "b": "100 m",
+        "c": "150 m",
+        "d": "300 m"
+      },
+      "correct_option": "b",
+      "explanation": "To calculate distance under uniform acceleration, we use the equation: s = ut + (1/2)at². The car starts from rest, so u = 0. Final speed v = 20 m/s in time t = 10 s. Acceleration a = (v - u) / t = 20 / 10 = 2 m/s². Substituting: s = 0 + (1/2) × 2 × (10)² = 1 × 100 = 100 m. Thus, the car covers 100 meters.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/linear_motion.png"
+    },
+    {
+      "id": 12,
+      "subject": "Physics",
+      "question": "Which quantity remains conserved during an elastic collision in one dimension?",
+      "options": {
+        "a": "Kinetic energy only",
+        "b": "Momentum only",
+        "c": "Both momentum and kinetic energy",
+        "d": "Only angular momentum"
+      },
+      "correct_option": "c",
+      "explanation": "In a perfectly elastic collision, two fundamental physical quantities remain conserved: linear momentum and kinetic energy. Momentum conservation is a general rule for all collisions, while kinetic energy is conserved only in elastic collisions. In contrast, in inelastic collisions, kinetic energy is not conserved. Angular momentum is not relevant unless rotational motion is involved.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/elastic_collision.png"
+    },
+    {
+      "id": 13,
+      "subject": "Physics",
+      "question": "If a satellite is orbiting close to Earth’s surface, what is its orbital velocity?",
+      "options": {
+        "a": "√(gR)",
+        "b": "√(2gR)",
+        "c": "√(GM/R)",
+        "d": "√(g/R)"
+      },
+      "correct_option": "a",
+      "explanation": "The orbital velocity of a satellite is given by v = √(GM/R), where G is the gravitational constant, M is the mass of Earth, and R is the radius of the Earth. From the relation g = GM/R², substituting GM = gR² into the orbital velocity formula gives v = √(gR). This approximation is valid for satellites very close to Earth's surface, where the altitude is negligible compared to Earth's radius.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/orbital_velocity.png"
+    },
+    {
+      "id": 14,
+      "subject": "Physics",
+      "question": "What is the escape velocity from the Earth’s surface?",
+      "options": {
+        "a": "11.2 km/s",
+        "b": "7.9 km/s",
+        "c": "9.8 km/s",
+        "d": "6.4 km/s"
+      },
+      "correct_option": "a",
+      "explanation": "Escape velocity is the minimum speed needed for an object to escape Earth's gravitational field without further propulsion. It is given by the formula vₑ = √(2GM/R), where G is the gravitational constant, M is Earth's mass, and R is its radius. Since orbital velocity v₀ = √(GM/R), we can write vₑ = √2 × v₀. Substituting v₀ ≈ 7.9 km/s gives vₑ ≈ √2 × 7.9 ≈ 11.2 km/s.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/escape_velocity.png"
+    },
+    {
+      "id": 15,
+      "subject": "Physics",
+      "question": "Which of the following processes is adiabatic?",
+      "options": {
+        "a": "No heat exchange occurs",
+        "b": "Temperature remains constant",
+        "c": "Pressure remains constant",
+        "d": "Volume remains constant"
+      },
+      "correct_option": "a",
+      "explanation": "An adiabatic process is defined as a thermodynamic process in which no heat is transferred into or out of the system (Q = 0). This can happen either through perfect thermal insulation or if the process occurs so rapidly that there is no time for heat exchange. Unlike isothermal or isobaric processes, the defining characteristic of an adiabatic process is zero heat transfer.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/adiabatic_process.png"
+    },
+    {
+      "id": 16,
+      "subject": "Physics",
+      "question": "In a transverse wave, the particles of the medium:",
+      "options": {
+        "a": "Move parallel to wave direction",
+        "b": "Move anti-parallel to wave direction",
+        "c": "Oscillate perpendicular to wave direction",
+        "d": "Do not move at all"
+      },
+      "correct_option": "c",
+      "explanation": "In a transverse wave, the particles of the medium vibrate or oscillate in a direction perpendicular to the direction of wave propagation. This type of wave motion is characteristic of waves on a string and electromagnetic waves. The wave moves forward, while particles move up and down relative to the direction of energy transfer.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/transverse_wave.png"
+    },
+    {
+      "id": 17,
+      "subject": "Physics",
+      "question": "Which color of light bends the most in a prism?",
+      "options": {
+        "a": "Red",
+        "b": "Green",
+        "c": "Blue",
+        "d": "Violet"
+      },
+      "correct_option": "d",
+      "explanation": "When white light passes through a prism, it disperses into its constituent colors due to varying refractive indices. Violet light has the shortest wavelength and the highest refractive index among visible colors, causing it to bend the most. Red light, having the longest wavelength, bends the least. Therefore, violet deviates most in dispersion through a prism.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/prism_dispersion.png"
+    },
+    {
+      "id": 18,
+      "subject": "Physics",
+      "question": "What is the relation between electric field (E) and potential (V)?",
+      "options": {
+        "a": "E = V/r",
+        "b": "E = dV/dx",
+        "c": "E = –dV/dx",
+        "d": "E = –V/dx"
+      },
+      "correct_option": "c",
+      "explanation": "The electric field is defined as the negative spatial rate of change (gradient) of electric potential. Mathematically, E = –dV/dx, where V is the electric potential and x is the position along the field direction. The negative sign indicates that the electric field points in the direction of decreasing potential.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/electric_field_potential.png"
+    },
+    {
+      "id": 19,
+      "subject": "Physics",
+      "question": "The total resistance of two 10 ohm resistors connected in parallel is:",
+      "options": {
+        "a": "20 ohm",
+        "b": "10 ohm",
+        "c": "5 ohm",
+        "d": "2.5 ohm"
+      },
+      "correct_option": "c",
+      "explanation": "For two resistors R₁ and R₂ connected in parallel, the total resistance is given by: R = (R₁·R₂) / (R₁ + R₂). Substituting R₁ = R₂ = 10 Ω, we get R = (10 × 10) / (10 + 10) = 100 / 20 = 5 Ω. Therefore, the total resistance of the parallel combination is 5 ohms.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/parallel_resistance.png"
+    },
+    {
+      "id": 20,
+      "subject": "Physics",
+      "question": "What is the unit of magnetic flux?",
+      "options": {
+        "a": "Tesla",
+        "b": "Weber",
+        "c": "Gauss",
+        "d": "Henry"
+      },
+      "correct_option": "b",
+      "explanation": "Magnetic flux (Φ) is defined as the product of the magnetic field (B) and the area (A) through which the field lines pass, i.e., Φ = B × A. The SI unit of magnetic field (B) is Tesla and area is measured in square meters (m²), so the unit of magnetic flux becomes Tesla·m², which is called the Weber (Wb). Therefore, the correct unit of magnetic flux is Weber.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/magnetic_flux.png"
+    },
+    {
+      "id": 21,
+      "subject": "Physics",
+      "question": "A wire of resistance 10 ohms is stretched to double its length. What will be its new resistance?",
+      "options": {
+        "a": "20 Ω",
+        "b": "40 Ω",
+        "c": "10 Ω",
+        "d": "30 Ω"
+      },
+      "correct_option": "b",
+      "explanation": "When a wire is stretched to double its original length without changing its volume, its cross-sectional area becomes one-fourth. Since resistance R = ρL/A, and volume (A×L) is constant, the new resistance becomes R' = ρ(2L)/(A/4) = 4 × (ρL/A) = 4R. So, the resistance becomes 4 × 10 = 40 Ω.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/stretched_wire_resistance.png"
+    },
+    {
+      "id": 22,
+      "subject": "Physics",
+      "question": "The emf of a cell is 2V and internal resistance is 1Ω. What is the maximum current it can deliver?",
+      "options": {
+        "a": "1 A",
+        "b": "2 A",
+        "c": "Infinite",
+        "d": "0 A"
+      },
+      "correct_option": "b",
+      "explanation": "The maximum current a cell can deliver occurs when the external resistance is zero (short-circuit condition). Using Ohm’s law, I = ε / (R + r), where ε is the emf, R is the external resistance, and r is the internal resistance. When R = 0, I = ε / r = 2V / 1Ω = 2 A. Therefore, the maximum possible current is 2 amperes.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/internal_resistance.png"
+    },
+    {
+      "id": 23,
+      "subject": "Physics",
+      "question": "What is the function of a transformer?",
+      "options": {
+        "a": "Change DC to AC",
+        "b": "Change AC voltage levels",
+        "c": "Store charge",
+        "d": "Convert mechanical to electrical energy"
+      },
+      "correct_option": "b",
+      "explanation": "A transformer is an electrical device used to change the voltage level of alternating current (AC) using the principle of electromagnetic induction. It can either step up (increase) or step down (decrease) the AC voltage depending on the ratio of turns in the primary and secondary coils. It does not work with direct current (DC) and is not used to store charge or convert mechanical energy.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/transformer.png"
+    },
+    {
+      "id": 24,
+      "subject": "Physics",
+      "question": "A concave mirror has a focal length of 20 cm. Where should an object be placed to get a real image of the same size?",
+      "options": {
+        "a": "10 cm",
+        "b": "20 cm",
+        "c": "40 cm",
+        "d": "At infinity"
+      },
+      "correct_option": "c",
+      "explanation": "For a concave mirror, when the object is placed at a distance equal to 2f (twice the focal length), the image formed is real, inverted, and of the same size as the object. Given that the focal length f = 20 cm, the object should be placed at 2f = 40 cm to meet the condition. Therefore, the correct position is 40 cm in front of the mirror.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/concave_mirror_real_image.png"
+    },
+    {
+      "id": 25,
+      "subject": "Physics",
+      "question": "Which radiation has the shortest wavelength?",
+      "options": {
+        "a": "Infrared",
+        "b": "Ultraviolet",
+        "c": "Gamma rays",
+        "d": "Microwaves"
+      },
+      "correct_option": "c",
+      "explanation": "In the electromagnetic spectrum, gamma rays have the shortest wavelength and correspondingly the highest frequency and energy. They lie beyond X-rays and are typically emitted by radioactive nuclei and certain cosmic sources. In contrast, infrared and microwaves have much longer wavelengths, and ultraviolet lies between visible light and X-rays.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/em_spectrum.png"
+    },
+    {
+      "id": 26,
+      "subject": "Physics",
+      "question": "According to Bohr’s model, which quantity is quantized?",
+      "options": {
+        "a": "Electron speed",
+        "b": "Electron mass",
+        "c": "Angular momentum",
+        "d": "Radius of orbit"
+      },
+      "correct_option": "c",
+      "explanation": "In Bohr’s atomic model, the angular momentum of the electron is quantized. Bohr proposed that an electron can revolve in certain stable orbits without radiating energy, and its angular momentum in those orbits is an integer multiple of ħ (h/2π): L = nħ, where n is a positive integer. This was a key step in explaining the stability of atoms and the discrete spectral lines.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/bohr_model.png"
+    },
+    {
+      "id": 27,
+      "subject": "Physics",
+      "question": "Which material is used as a moderator in a nuclear reactor?",
+      "options": {
+        "a": "Uranium",
+        "b": "Graphite",
+        "c": "Plutonium",
+        "d": "Thorium"
+      },
+      "correct_option": "b",
+      "explanation": "In a nuclear reactor, a moderator is used to slow down fast-moving neutrons so that they can be more effectively captured by the fuel nuclei (like Uranium-235) to sustain the chain reaction. Graphite is a common moderator because it is a form of carbon with a low neutron absorption cross-section and good slowing-down power. It helps maintain a controlled and sustained fission reaction.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/nuclear_reactor.png"
+    },
+    {
+      "id": 28,
+      "subject": "Physics",
+      "question": "What is the dimensional formula of force?",
+      "options": {
+        "a": "[MLT⁻²]",
+        "b": "[ML²T⁻¹]",
+        "c": "[M²LT⁻³]",
+        "d": "[MLT⁻¹]"
+      },
+      "correct_option": "a",
+      "explanation": "Force is defined by Newton’s second law as F = mass × acceleration. The dimensional formula of mass is [M], and acceleration is [LT⁻²]. Multiplying them gives: [M] × [LT⁻²] = [MLT⁻²]. Therefore, the correct dimensional formula for force is [MLT⁻²].",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/dimensional_analysis.png"
+    },
+    {
+      "id": 29,
+      "subject": "Physics",
+      "question": "Two capacitors of 6 μF and 12 μF are connected in series. Find the equivalent capacitance.",
+      "options": {
+        "a": "18 μF",
+        "b": "4 μF",
+        "c": "8 μF",
+        "d": "3 μF"
+      },
+      "correct_option": "b",
+      "explanation": "When capacitors are connected in series, the reciprocal of the equivalent capacitance is the sum of reciprocals of individual capacitances: 1/C = 1/C₁ + 1/C₂. Here, 1/C = 1/6 + 1/12 = (2 + 1)/12 = 3/12 ⇒ C = 12/3 = 4 μF. Hence, the equivalent capacitance of the series combination is 4 microfarads.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/capacitor_series.png"
+    },
+    {
+      "id": 30,
+      "subject": "Physics",
+      "question": "In an AC circuit with pure inductance, the current:",
+      "options": {
+        "a": "Leads the voltage by 90°",
+        "b": "Lags the voltage by 90°",
+        "c": "Is in phase with voltage",
+        "d": "Is zero"
+      },
+      "correct_option": "b",
+      "explanation": "In a purely inductive AC circuit, the voltage across the inductor leads the current by 90° (or π/2 radians). This means the current lags the voltage by 90°. This phase difference arises because the inductor resists changes in current, causing a delay in current response to the alternating voltage.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/ac_inductor_phase.png"
+    },
+    {
+      "id": 31,
+      "subject": "Physics",
+      "question": "What is the escape velocity from Earth's surface?",
+      "options": {
+        "a": "7.9 km/s",
+        "b": "9.8 km/s",
+        "c": "11.2 km/s",
+        "d": "8.6 km/s"
+      },
+      "correct_option": "c",
+      "explanation": "Escape velocity is the minimum speed required for an object to break free from Earth's gravitational pull without further propulsion. It is given by the formula: vₑ = √(2gR), where g is the acceleration due to gravity (9.8 m/s²) and R is Earth's radius (~6.4 × 10⁶ m). Substituting values gives vₑ ≈ 11.2 km/s. This value is independent of the mass of the escaping object.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/escape_velocity.png"
+    },
+    {
+      "id": 32,
+      "subject": "Physics",
+      "question": "Which law governs electromagnetic induction?",
+      "options": {
+        "a": "Lenz’s Law",
+        "b": "Coulomb’s Law",
+        "c": "Ohm’s Law",
+        "d": "Faraday’s Law"
+      },
+      "correct_option": "d",
+      "explanation": "Faraday’s Law of Electromagnetic Induction states that an electromotive force (emf) is induced in a circuit whenever there is a change in magnetic flux through the loop. The magnitude of the induced emf is proportional to the rate of change of magnetic flux. Lenz’s Law complements this by determining the direction of the induced emf. Therefore, Faraday’s Law governs the phenomenon of electromagnetic induction.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/faradays_law.png"
+    },
+    {
+      "id": 33,
+      "subject": "Physics",
+      "question": "What is the wavelength of visible light in vacuum?",
+      "options": {
+        "a": "1 – 10 nm",
+        "b": "100 – 400 nm",
+        "c": "400 – 700 nm",
+        "d": "1 mm – 1 cm"
+      },
+      "correct_option": "c",
+      "explanation": "Visible light is the portion of the electromagnetic spectrum that can be detected by the human eye. In a vacuum, its wavelength ranges approximately from 400 nm (violet) to 700 nm (red). Wavelengths shorter than 400 nm fall in the ultraviolet range, while wavelengths longer than 700 nm are in the infrared range.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/visible_light_range.png"
+    },
+    {
+      "id": 34,
+      "subject": "Physics",
+      "question": "The potential energy of a spring in stretched state is given by:",
+      "options": {
+        "a": "½mv²",
+        "b": "½kx²",
+        "c": "k/x",
+        "d": "kx²"
+      },
+      "correct_option": "b",
+      "explanation": "The potential energy stored in a stretched or compressed spring is called elastic potential energy. It is given by the formula: U = 1/2·k·x², where k is the spring constant (a measure of stiffness) and x is the displacement from the equilibrium position. This energy is stored due to the deformation of the spring and can be fully recovered if the spring is ideal (no energy loss).",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/spring_energy.png"
+    },
+    {
+      "id": 35,
+      "subject": "Physics",
+      "question": "When a body performs simple harmonic motion(SHM), its acceleration is:",
+      "options": {
+        "a": "Always constant",
+        "b": "Zero at extreme positions",
+        "c": "Maximum at mean position",
+        "d": "Maximum at extreme positions"
+      },
+      "correct_option": "d",
+      "explanation": "In simple harmonic motion (SHM), acceleration is given by the equation: a = –ω²x, where ω is the angular frequency and x is the displacement from the mean position. The negative sign indicates that the acceleration is directed toward the mean position (restoring force). At the extreme positions, the displacement |x| is maximum, so the magnitude of acceleration is also maximum. Therefore, acceleration is maximum at the extreme positions.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/shm_acceleration.png"
+    },
+    {
+      "id": 36,
+      "subject": "Physics",
+      "question": "For projectile motion, the time of flight is maximum when angle of projection is:",
+      "options": {
+        "a": "30°",
+        "b": "45°",
+        "c": "60°",
+        "d": "90°"
+      },
+      "correct_option": "d",
+      "explanation": "In projectile motion, the time of flight is given by the formula: T = (2u·sinθ) / g, where u is the initial velocity, θ is the angle of projection, and g is the acceleration due to gravity. The value of sinθ is maximum when θ = 90°, i.e., sin(90°) = 1. Therefore, the time of flight is maximum when the projectile is thrown vertically upward at 90°, making option (d) the correct answer.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/projectile_motion.png"
+    },
+    {
+      "id": 37,
+      "subject": "Physics",
+      "question": "An isothermal process is characterized by:",
+      "options": {
+        "a": "Constant pressure",
+        "b": "Constant temperature",
+        "c": "Constant volume",
+        "d": "Constant entropy"
+      },
+      "correct_option": "b",
+      "explanation": "In thermodynamics, an isothermal process is one in which the temperature of the system remains constant throughout the process. This implies that any heat energy added to the system is used entirely to do work, without changing the internal energy of the gas. For an ideal gas, internal energy depends only on temperature, so in an isothermal process, internal energy remains unchanged.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/isothermal_process.png"
+    },
+    {
+      "id": 38,
+      "subject": "Physics",
+      "question": "Which of the following instruments uses the principle of torque due to a magnetic field?",
+      "options": {
+        "a": "Voltmeter",
+        "b": "Galvanometer",
+        "c": "Ammeter",
+        "d": "Potentiometer"
+      },
+      "correct_option": "b",
+      "explanation": "A galvanometer is a sensitive instrument that detects and measures small electric currents. It works on the principle that when a current flows through a coil placed in a magnetic field, the coil experiences a torque. This torque causes the coil (and the attached needle) to rotate, providing a measurable deflection proportional to the current. This is the fundamental working principle of the moving coil galvanometer.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/galvanometer.png"
+    },
+    {
+      "id": 39,
+      "subject": "Physics",
+      "question": "If a body is placed at the center of Earth, its weight is:",
+      "options": {
+        "a": "Infinite",
+        "b": "Maximum",
+        "c": "Zero",
+        "d": "Same as surface"
+      },
+      "correct_option": "c",
+      "explanation": "Weight is the gravitational force acting on a body. As we go deeper into the Earth, the gravitational force decreases linearly with depth due to the shell theorem. At the center of the Earth, the net gravitational force from all directions cancels out, resulting in **zero** weight. This is because only the mass enclosed within a radius contributes to the gravitational pull, and at the center, this enclosed mass becomes zero.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/weight_inside_earth.png"
+    },
+    {
+      "id": 40,
+      "subject": "Physics",
+      "question": "A photon has energy but no rest mass. Which principle does this support?",
+      "options": {
+        "a": "Heisenberg Uncertainty",
+        "b": "Relativity",
+        "c": "Pauli Exclusion",
+        "d": "Classical Mechanics"
+      },
+      "correct_option": "b",
+      "explanation": "According to Einstein’s theory of relativity, energy and mass are related by the equation: E² = (pc)² + (m₀c²)². For a photon, the rest mass m₀ = 0, so it simplifies to E = pc, where p is momentum. This shows that a massless particle like a photon can still carry energy. Additionally, according to quantum theory, E = h·ν, which means a photon has energy due to its frequency, even though it has no rest mass.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/photon_energy.png"
+    },
+    {
+      "id": 41,
+      "subject": "Physics",
+      "question": "Which effect proves the particle nature of light?",
+      "options": {
+        "a": "Refraction",
+        "b": "Diffraction",
+        "c": "Photoelectric effect",
+        "d": "Interference"
+      },
+      "correct_option": "c",
+      "explanation": "The photoelectric effect demonstrates that light consists of discrete packets of energy called photons. When light of sufficient frequency shines on a metal surface, electrons are ejected instantly, which cannot be explained by wave theory alone. Only the photon (particle) theory, as proposed by Einstein, explains this by stating that each photon transfers its energy to a single electron, thus proving the particle nature of light.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/photoelectric_effect.png"
+    },
+    {
+      "id": 42,
+      "subject": "Physics",
+      "question": "Which color deviates the most in a prism?",
+      "options": {
+        "a": "Red",
+        "b": "Yellow",
+        "c": "Green",
+        "d": "Violet"
+      },
+      "correct_option": "d",
+      "explanation": "When white light passes through a prism, it splits into its constituent colors due to dispersion. The amount of deviation depends on the wavelength—the shorter the wavelength, the more it bends. Violet has the shortest wavelength among visible light and hence deviates the most. Red, with the longest wavelength, deviates the least.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/prism_dispersion.png"
+    },
+    {
+      "id": 43,
+      "subject": "Physics",
+      "question": "Which radiation has maximum penetrating power?",
+      "options": {
+        "a": "Alpha",
+        "b": "Beta",
+        "c": "Gamma",
+        "d": "X-ray"
+      },
+      "correct_option": "c",
+      "explanation": "Gamma rays are electromagnetic waves with the highest frequency and energy in the spectrum. Unlike alpha (helium nuclei) and beta (electrons or positrons) particles, which are massive and can be stopped by paper or aluminum, gamma rays can penetrate most materials and require thick lead or concrete to block. X-rays also penetrate but not as deeply as gamma rays.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/radiation_penetration.png"
+    },
+    {
+      "id": 44,
+      "subject": "Physics",
+      "question": "Two resistors of 3 Ω and 6 Ω are connected in parallel. Their equivalent resistance is:",
+      "options": {
+        "a": "9 Ω",
+        "b": "2 Ω",
+        "c": "1.5 Ω",
+        "d": "4.5 Ω"
+      },
+      "correct_option": "b",
+      "explanation": "For resistors in parallel, the reciprocal of the equivalent resistance is the sum of reciprocals of individual resistances: 1/R = 1/3 + 1/6 = (2 + 1)/6 = 3/6 ⇒ R = 6/3 = 2 Ω. Hence, the equivalent resistance is 2 ohms.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/resistor_parallel.png"
+    },
+    {
+      "id": 45,
+      "subject": "Physics",
+      "question": "The power factor of a purely resistive circuit is:",
+      "options": {
+        "a": "1",
+        "b": "0",
+        "c": "0.5",
+        "d": "Infinite"
+      },
+      "correct_option": "a",
+      "explanation": "In a purely resistive AC circuit, the current and voltage are in phase (θ = 0°). The power factor is defined as cos(θ). Since cos(0°) = 1, the power factor is 1. This means all the power supplied is effectively used, with no reactive power.",
+      "diagram_url": "https://xambook-cdn.s3.ap-south-1.amazonaws.com/diagrams/power_factor.png"
+    },
+    {
+      "id": 46,
+      "subject": "Chemistry",
+      "question": "Which of the following is a strong electrolyte?",
+      "options": {
+        "a": "CH₃COOH",
+        "b": "NaCl",
+        "c": "C₂H₅OH",
+        "d": "Glucose"
+      },
+      "correct_option": "b",
+      "explanation": "NaCl completely dissociates in water, making it a strong electrolyte."
+    },
+    {
+      "id": 91,
+      "subject": "Botany",
+      "question": "Assertion (A): The number of annual rings visible in a cross-section of a tree trunk can be used to estimate the tree's age. Reason (R): The seasonal activity of vascular cambium results in alternating bands of lighter and darker wood due to differential secondary xylem formation.",
+      "options": {
+        "a": "Both A and R are true, and R is the correct explanation",
+        "b": "Both A and R are true, but R is not the correct explanation",
+        "c": "A is true, R is false",
+        "d": "A is false, R is true"
+      },
+      "correct_option": "a",
+      "explanation": "In temperate climates, cambium is active during spring and less so in autumn, producing spring wood (lighter) and autumn wood (darker). Each pair of rings forms a growth ring, and counting them gives the tree’s approximate age. Hence, R correctly explains the mechanism behind A."
+    },
+    {
+      "id": 92,
+      "subject": "Botany",
+      "question": "Identify the correct combination of ecosystem services:",
+      "options": {
+        "a": "Pollination, climate regulation, spiritual enrichment – All are provisioning services",
+        "b": "Soil formation, nutrient cycling – Supporting services",
+        "c": "Timber, fiber, genetic material – Cultural services",
+        "d": "Education, tourism, oxygen generation – Regulating services"
+      },
+      "correct_option": "b",
+      "explanation": "Supporting services maintain conditions for other ecosystem functions. Provisioning includes food and timber; cultural includes tourism and recreation. Regulating includes climate control and disease regulation."
+    },
+    {
+      "id": 93,
+      "subject": "Botany",
+      "question": "The sequence of events by which a cell duplicates its genome and divides into two daughter cells is collectively known as:",
+      "options": {
+        "a": "Mitosis",
+        "b": "Meiosis",
+        "c": "Cell cycle",
+        "d": "Interphase"
+      },
+      "correct_option": "c",
+      "explanation": "The cell cycle refers to the complete series of events that a cell undergoes for growth and division. It includes interphase (G₁, S, G₂) and the M phase (mitosis or meiosis). It ensures continuity of genetic material during reproduction."
+    },
+    {
+      "id": 94,
+      "subject": "Botany",
+      "question": "Which of the following is not a gaseous biogeochemical cycle?",
+      "options": {
+        "a": "Nitrogen cycle",
+        "b": "Phosphorus cycle",
+        "c": "Carbon cycle",
+        "d": "Oxygen cycle"
+      },
+      "correct_option": "b",
+      "explanation": "Phosphorus is cycled through soil and sediment, not atmosphere. It moves slowly compared to gaseous cycles. It’s vital for ATP, DNA, and phospholipids."
+    },
+    {
+      "id": 95,
+      "subject": "Botany",
+      "question": "Identify the correct sequence of electron transport during the light reaction:",
+      "options": {
+        "a": "PSII → Cyt b₆f → PSI → Ferredoxin → NADP⁺",
+        "b": "PSI → Cyt b₆f → PSII → Plastocyanin → NADP⁺",
+        "c": "PSII → PSI → Plastocyanin → NADP⁺",
+        "d": "PSII → Ferredoxin → PSI → NADP⁺"
+      },
+      "correct_option": "a",
+      "explanation": "Electrons flow linearly from water to NADP⁺. They pass through PSII → PQ → Cyt b₆f → PC → PSI → Fd → NADP⁺ reductase. This is called the Z-scheme."
+    },
+    {
+      "id": 96,
+      "subject": "Botany",
+      "question": "The removal of supercoils from DNA ahead of the replication fork is carried out by:",
+      "options": {
+        "a": "DNA polymerase",
+        "b": "Helicase",
+        "c": "Ligase",
+        "d": "Topoisomerase"
+      },
+      "correct_option": "d",
+      "explanation": "As helicase unwinds the DNA, supercoils form ahead of the fork. Topoisomerase relieves this torsional strain by cutting and rejoining the DNA strands. It’s essential to prevent tangling and breaks during replication."
+    },
+    {
+      "id": 97,
+      "subject": "Botany",
+      "question": "Match the plant hormone with its primary function:\nI. Gibberellin — a. Delays senescence\nII. Cytokinin — b. Stimulates stem elongation\nIII. ABA — c. Induces dormancy\nIV. Ethylene — d. Promotes fruit ripening",
+      "options": {
+        "a": "I–b, II–a, III–c, IV–d",
+        "b": "I–c, II–b, III–d, IV–a",
+        "c": "I–a, II–b, III–c, IV–d",
+        "d": "I–b, II–c, III–a, IV–d"
+      },
+      "correct_option": "a",
+      "explanation": "Gibberellins elongate stems, cytokinins delay aging, ABA induces dormancy and stress response, and ethylene promotes ripening and leaf abscission."
+    },
+    {
+      "id": 98,
+      "subject": "Botany",
+      "question": "Which part of the ovule becomes the seed coat after fertilization?",
+      "options": {
+        "a": "Micropyle",
+        "b": "Integuments",
+        "c": "Funicle",
+        "d": "Chalaza"
+      },
+      "correct_option": "b",
+      "explanation": "Integuments are protective layers of the ovule that develop into the seed coat, safeguarding the embryo after fertilization."
+    },
+    {
+      "id": 99,
+      "subject": "Botany",
+      "question": "A paleobotanist discovers a fossil plant with well-defined vascular tissues but no seeds. What group does the plant most likely belong to?",
+      "options": {
+        "a": "Bryophyta",
+        "b": "Algae",
+        "c": "Pteridophyta",
+        "d": "Gymnosperms"
+      },
+      "correct_option": "c",
+      "explanation": "Pteridophytes were the first terrestrial plants to evolve vascular tissues but did not yet produce seeds. They reproduced via spores. This makes them intermediate between bryophytes and seed plants."
+    },
+    {
+      "id": 100,
+      "subject": "Botany",
+      "question": "In a monohybrid cross between two heterozygous pea plants (Aa × Aa), the phenotypic ratio observed in the F₂ generation is:",
+      "options": {
+        "a": "1:1",
+        "b": "2:1",
+        "c": "3:1",
+        "d": "1:2:1"
+      },
+      "correct_option": "c",
+      "explanation": "A monohybrid cross between Aa × Aa results in the genotypes: AA, Aa, Aa, and aa. While the genotypic ratio is 1:2:1, the phenotypic ratio is 3 dominant:1 recessive, as both AA and Aa express the dominant trait."
+    },
+    {
+      "id": 101,
+      "subject": "Botany",
+      "question": "What feature of the genetic code ensures that it is the same in nearly all living organisms?",
+      "options": {
+        "a": "Degeneracy",
+        "b": "Specificity",
+        "c": "Universality",
+        "d": "Overlapping nature"
+      },
+      "correct_option": "c",
+      "explanation": "The universality of the genetic code means that the same codon codes for the same amino acid in almost all organisms, from bacteria to humans. This supports the theory of common ancestry and enables genetic engineering across species."
+    },
+    {
+      "id": 102,
+      "subject": "Botany",
+      "question": "Which hormone is known to promote apical dominance in plants?",
+      "options": {
+        "a": "Cytokinin",
+        "b": "ABA",
+        "c": "Ethylene",
+        "d": "Auxin"
+      },
+      "correct_option": "d",
+      "explanation": "Auxins inhibit the growth of lateral buds and promote the dominance of the apical bud. Removing the apex often leads to side bud growth due to reduced auxin concentration."
+    },
+    {
+      "id": 103,
+      "subject": "Botany",
+      "question": "Which base is absent in DNA but present in RNA?",
+      "options": {
+        "a": "Thymine",
+        "b": "Uracil",
+        "c": "Cytosine",
+        "d": "Guanine"
+      },
+      "correct_option": "b",
+      "explanation": "Uracil is found in RNA, replacing thymine, which is exclusive to DNA. This structural difference contributes to the instability and transient nature of RNA. Uracil pairs with adenine during transcription."
+    },
+    {
+      "id": 104,
+      "subject": "Botany",
+      "question": "Which combination of floral traits is most likely to be found in a plant that relies entirely on entomophily but prevents geitonogamy?",
+      "options": {
+        "a": "Bright petals, absence of nectar, cleistogamy",
+        "b": "Fragrant flowers, stamens mature after carpels, unisexual flowers",
+        "c": "Sticky pollen, bisexual flowers, herkogamy",
+        "d": "Nectar guides, synchronized maturation of stamens and carpels, dichogamy"
+      },
+      "correct_option": "b",
+      "explanation": "To attract insects (entomophily), flowers often have scent and nectar. To avoid geitonogamy (transfer between flowers on the same plant), unisexuality or temporal separation of sexual organs (dichogamy) ensures cross-pollination between different plants, promoting genetic diversity."
+    },
+    {
+      "id": 105,
+      "subject": "Botany",
+      "question": "Which part of the stamen produces pollen grains?",
+      "options": {
+        "a": "Anther",
+        "b": "Filament",
+        "c": "Style",
+        "d": "Ovary"
+      },
+      "correct_option": "a",
+      "explanation": "The anther is the terminal part of the stamen that contains microsporangia. Inside the microsporangia, microspore mother cells undergo meiosis to form pollen grains."
+    },
+    {
+      "id": 106,
+      "subject": "Botany",
+      "question": "Which property of the genetic code ensures that multiple codons can code for the same amino acid?",
+      "options": {
+        "a": "Universality",
+        "b": "Non-overlapping",
+        "c": "Degeneracy",
+        "d": "Specificity"
+      },
+      "correct_option": "c",
+      "explanation": "The degeneracy of the genetic code means that more than one codon can specify the same amino acid. For example, both UUU and UUC code for phenylalanine. This feature provides a buffer against point mutations, ensuring correct protein synthesis in many cases."
+    },
+    {
+      "id": 107,
+      "subject": "Botany",
+      "question": "In gymnosperms, the seeds are:",
+      "options": {
+        "a": "Formed without fertilization",
+        "b": "Enclosed within a fruit",
+        "c": "Naked and not enclosed in an ovary",
+        "d": "Diploid gametophytes"
+      },
+      "correct_option": "c",
+      "explanation": "Gymnosperm seeds are not enclosed within a fruit (no ovary formation). The ovules are exposed on megasporophylls. This is why they are called “naked-seeded” plants."
+    },
+    {
+      "id": 108,
+      "subject": "Botany",
+      "question": "Assertion (A): Bulb of onion is a type of modified stem used for storage. Reason (R): It contains a disc-like stem and fleshy leaves which store food.",
+      "options": {
+        "a": "Both A and R are true and R is the correct explanation",
+        "b": "Both A and R are true but R is not the correct explanation",
+        "c": "A is true but R is false",
+        "d": "A is false but R is true"
+      },
+      "correct_option": "a",
+      "explanation": "The onion bulb has a short stem (disc) and fleshy scale leaves. These leaves store nutrients, especially carbohydrates. Since both stem and leaves are involved in food storage, R correctly explains A."
+    },
+    {
+      "id": 109,
+      "subject": "Botany",
+      "question": "A taproot system, typically seen in dicots, arises from which embryonic structure?",
+      "options": {
+        "a": "Plumule",
+        "b": "Epicotyl",
+        "c": "Radicle",
+        "d": "Coleorhiza"
+      },
+      "correct_option": "c",
+      "explanation": "The taproot develops directly from the radicle of the embryo and gives rise to lateral roots. This root system penetrates deep into the soil, offering strong anchorage. Monocots usually have fibrous roots which do not originate from the radicle."
+    },
+    {
+      "id": 110,
+      "subject": "Botany",
+      "question": "A researcher observes a eukaryotic cell in which chromatin is condensed, homologous chromosomes are synapsed, crossing over is occurring, and the nucleolus is still present. Which specific sub-stage of meiosis is most likely being observed?",
+      "options": {
+        "a": "Zygotene",
+        "b": "Pachytene",
+        "c": "Diplotene",
+        "d": "Diakinesis"
+      },
+      "correct_option": "b",
+      "explanation": "Pachytene is the stage in Prophase I where crossing over occurs between non-sister chromatids of homologous chromosomes. Synapsis is complete, and the nucleolus is still intact. Chiasmata become visible in the next stage (diplotene)."
+    },
+    {
+      "id": 111,
+      "subject": "Botany",
+      "question": "Which of the following contributes directly to gross primary productivity (GPP) of an ecosystem?",
+      "options": {
+        "a": "Energy stored after respiration",
+        "b": "Energy used by decomposers",
+        "c": "Total photosynthesis by autotrophs",
+        "d": "Energy consumed by herbivores"
+      },
+      "correct_option": "c",
+      "explanation": "GPP is the total energy fixed by green plants via photosynthesis. It includes both the energy used for respiration and that stored. Net Primary Productivity (NPP) = GPP − R (respiration losses)."
+    },
+    {
+      "id": 112,
+      "subject": "Botany",
+      "question": "In the G₂ phase of interphase, which of the following does not occur?",
+      "options": {
+        "a": "DNA replication",
+        "b": "Synthesis of RNA and proteins",
+        "c": "Formation of spindle protein",
+        "d": "Preparation for mitosis"
+      },
+      "correct_option": "a",
+      "explanation": "DNA replication occurs only in the S phase, not in G₂. During G₂, the cell synthesizes proteins and organelles necessary for mitosis. The cell also checks for DNA damage before proceeding to M phase."
+    },
+    {
+      "id": 113,
+      "subject": "Botany",
+      "question": "Match the following compounds with their photosynthetic roles:\nI. RuBP\nII. PGA\nIII. NADPH\nIV. ATP\na. CO₂ acceptor\nb. First stable product\nc. Reducing agent\nd. Energy currency",
+      "options": {
+        "a": "I–a, II–b, III–c, IV–d"
+      },
+      "correct_option": "a",
+      "explanation": "RuBP (ribulose bisphosphate) fixes CO₂, forming PGA (3-phosphoglyceric acid). NADPH reduces 3-PGA to sugars. ATP powers the conversion steps."
+    },
+    {
+      "id": 114,
+      "subject": "Botany",
+      "question": "If a pure tall plant (TT) is crossed with a pure dwarf plant (tt), what will be the genotype and phenotype of the F₁ generation?",
+      "options": {
+        "a": "Genotype – TT; Phenotype – Tall",
+        "b": "Genotype – Tt; Phenotype – Tall",
+        "c": "Genotype – tt; Phenotype – Dwarf",
+        "d": "Genotype – Tt; Phenotype – Dwarf"
+      },
+      "correct_option": "b",
+      "explanation": "A cross between TT (tall) and tt (dwarf) yields Tt offspring—all heterozygous. Since tallness is dominant, all F₁ plants will be phenotypically tall but genotypically heterozygous. This is the basis for Mendel’s law of dominance."
+    },
+    {
+      "id": 115,
+      "subject": "Botany",
+      "question": "In a fragmented rainforest, species richness decreased drastically despite the same total forest area being preserved in smaller patches. Which ecological principle explains this observation?",
+      "options": {
+        "a": "Biotic resistance",
+        "b": "Island biogeography",
+        "c": "Resource partitioning",
+        "d": "Competitive exclusion"
+      },
+      "correct_option": "b",
+      "explanation": "Smaller and isolated patches function like islands with reduced immigration and higher extinction rates. Larger, connected habitats support more stable populations. Fragmentation increases edge effects and biodiversity loss."
+    },
+    {
+      "id": 116,
+      "subject": "Botany",
+      "question": "Consider the following about gibberellins:\nI. Promote seed germination\nII. Induce parthenocarpy\nIII. Delay senescence\nIV. Help in fruit ripening\nWhich statements are correct?",
+      "options": {
+        "a": "I and II only",
+        "b": "I, II, and III",
+        "c": "II and IV only",
+        "d": "All four"
+      },
+      "correct_option": "b",
+      "explanation": "Gibberellins aid in germination (α-amylase production), induce seedless fruit (parthenocarpy), and delay senescence. They do not promote ripening; ethylene does."
+    },
+    {
+      "id": 117,
+      "subject": "Botany",
+      "question": "During secondary growth in dicot stems, which meristematic tissue gives rise to cork (phellem) and phelloderm?",
+      "options": {
+        "a": "Pericycle",
+        "b": "Cortex",
+        "c": "Vascular cambium",
+        "d": "Cork cambium (Phellogen)"
+      },
+      "correct_option": "d",
+      "explanation": "The cork cambium or phellogen arises from the outer layers of the cortex. It divides and forms cork (phellem) externally and phelloderm internally. These three layers together form the periderm, replacing the epidermis in mature stems."
+    },
+    {
+      "id": 118,
+      "subject": "Botany",
+      "question": "Which of the following enzymes is responsible for the removal of RNA primers from Okazaki fragments during DNA replication?",
+      "options": {
+        "a": "DNA polymerase III",
+        "b": "DNA helicase",
+        "c": "DNA ligase",
+        "d": "DNA polymerase I"
+      },
+      "correct_option": "d",
+      "explanation": "DNA polymerase I in prokaryotes removes RNA primers and replaces them with DNA nucleotides. This function is essential for the maturation of Okazaki fragments on the lagging strand. DNA ligase then seals the gaps between fragments."
+    },
+    {
+      "id": 119,
+      "subject": "Botany",
+      "question": "In a plant species, a diploid somatic cell contains 24 chromosomes. How many chromosomes and chromatids will be visible during metaphase I of meiosis?",
+      "options": {
+        "a": "24 chromosomes and 48 chromatids",
+        "b": "12 chromosomes and 24 chromatids",
+        "c": "24 chromosomes and 24 chromatids",
+        "d": "24 chromosomes and 48 chromatids"
+      },
+      "correct_option": "d",
+      "explanation": "During metaphase I, there are 24 chromosomes, each made of two chromatids. So total chromatids = 24 × 2 = 48. Even though homologous pairs align, individual chromosomes are counted, not bivalents."
+    },
+    {
+      "id": 120,
+      "subject": "Botany",
+      "question": "Match the organism with its adaptation:\nI. Polar bear\nII. Desert fox\nIII. Camel\nIV. Kangaroo rat\na. Fat insulation\nb. Large ears for heat dissipation\nc. Tolerates high body temperature\nd. Efficient water conservation",
+      "options": {
+        "a": "I–a, II–b, III–c, IV–d"
+      },
+      "correct_option": "a",
+      "explanation": "These are classic examples of physiological and morphological adaptations. Each organism shows traits suited to extreme environments. Such adaptations help with thermoregulation and water balance."
+    },
+    {
+      "id": 121,
+      "subject": "Botany",
+      "question": "Which gas is released during the light reaction of photosynthesis?",
+      "options": {
+        "a": "CO₂",
+        "b": "O₂",
+        "c": "N₂",
+        "d": "CH₄"
+      },
+      "correct_option": "b",
+      "explanation": "Water is photolyzed during the light reaction (photolysis), releasing O₂. This occurs at PSII via the oxygen-evolving complex. This is the only step that releases molecular oxygen."
+    },
+    {
+      "id": 122,
+      "subject": "Botany",
+      "question": "Which of the following statements about leaf modifications are correct?\nI. In Australian Acacia, the petiole is modified into a photosynthetic structure.\nII. In Citrus, the leaf base is modified into a spine.\nIII. In Pisum sativum, tendrils are modified leaflets.\nIV. Onion bulb is a modified underground stem with fleshy leaves for storage.",
+      "options": {
+        "a": "I, III, IV",
+        "b": "I, II, IV",
+        "c": "II, III, IV",
+        "d": "I, II, III"
+      },
+      "correct_option": "a",
+      "explanation": "In Australian Acacia, the petiole becomes a phyllode for photosynthesis. Citrus has a winged petiole, not a spine. In Pisum (pea), leaflets turn into tendrils for climbing. Onion bulb stores food in fleshy leaves, while the stem is reduced."
+    },
+    {
+      "id": 123,
+      "subject": "Botany",
+      "question": "Which of the following traits was not studied by Mendel in his pea plant experiments?",
+      "options": {
+        "a": "Flower color",
+        "b": "Leaf shape",
+        "c": "Pod shape",
+        "d": "Seed color"
+      },
+      "correct_option": "b",
+      "explanation": "Mendel studied seven contrasting traits, including flower color, seed shape, pod shape, and seed color—but not leaf shape. His chosen traits had clear dominance and recessiveness, making inheritance patterns easy to follow."
+    },
+    {
+      "id": 124,
+      "subject": "Botany",
+      "question": "Crossing a heterozygous tall plant with a dwarf plant results in:",
+      "options": {
+        "a": "All tall",
+        "b": "All dwarf",
+        "c": "1 tall : 1 dwarf",
+        "d": "3 tall : 1 dwarf"
+      },
+      "correct_option": "c",
+      "explanation": "Tt × tt yields 50% tall (Tt) and 50% dwarf (tt). This 1:1 ratio confirms heterozygosity in the tall parent."
+    },
+    {
+      "id": 125,
+      "subject": "Botany",
+      "question": "A dihybrid cross between two heterozygous plants (RrYy × RrYy) was conducted. What is the probability of obtaining an offspring with recessive phenotypes for both traits?",
+      "options": {
+        "a": "1/16",
+        "b": "3/16",
+        "c": "9/16",
+        "d": "4/16"
+      },
+      "correct_option": "a",
+      "explanation": "Both rr and yy must appear together for double recessive phenotype (wrinkled, green). Probability of rr = 1/4, yy = 1/4 → 1/4 × 1/4 = 1/16."
+    },
+    {
+      "id": 126,
+      "subject": "Botany",
+      "question": "Assertion (A): Tropical rainforests show higher biodiversity than temperate forests.\nReason (R): Tropical areas have more stable climates and greater primary productivity.",
+      "options": {
+        "a": "Both A and R are true, and R is the correct explanation",
+        "b": "Both A and R are true, but R is not the correct explanation",
+        "c": "A is true, but R is false",
+        "d": "A is false, but R is true"
+      },
+      "correct_option": "a",
+      "explanation": "Biodiversity is richest in tropical zones due to consistent sunlight, temperature, and productivity. These stable conditions support high speciation and coexistence."
+    },
+    {
+      "id": 127,
+      "subject": "Botany",
+      "question": "Assertion (A): Kangaroo rats can survive in deserts without drinking water.\nReason (R): They excrete concentrated urine and minimize respiratory water loss.",
+      "options": {
+        "a": "Both A and R are true, and R is the correct explanation",
+        "b": "Both A and R are true, but R is not the correct explanation",
+        "c": "A is true, but R is false",
+        "d": "A is false, but R is true"
+      },
+      "correct_option": "a",
+      "explanation": "Kangaroo rats are adapted to desert life. They produce highly concentrated urine and obtain water from metabolic oxidation. They also have nocturnal habits to reduce water loss."
+    },
+    {
+      "id": 128,
+      "subject": "Botany",
+      "question": "In eukaryotes, transcription and translation are separated spatially and temporally. This means:",
+      "options": {
+        "a": "They occur in the same place at the same time",
+        "b": "Transcription occurs in the cytoplasm",
+        "c": "Translation occurs in the nucleus",
+        "d": "Transcription occurs in the nucleus, and translation in the cytoplasm"
+      },
+      "correct_option": "d",
+      "explanation": "In eukaryotic cells, transcription occurs inside the nucleus, and after processing, the mature mRNA is exported to the cytoplasm for translation. This compartmentalization is absent in prokaryotes."
+    },
+    {
+      "id": 129,
+      "subject": "Biology",
+      "question": "Which combination correctly pairs the structural feature and its role?",
+      "options": {
+        "a": "Okazaki fragments – stability of helix",
+        "b": "Base stacking – replication fork progression",
+        "c": "Sugar-phosphate backbone – protects genetic information and facilitates semi-conservative replication",
+        "d": "Helicase – forms the double helix"
+      },
+      "correct_option": "c",
+      "explanation": "The sugar-phosphate backbone is crucial for protecting the genetic code and enabling replication mechanisms, including semi-conservative duplication. Okazaki fragments and helicase serve entirely different roles, and base stacking contributes to structural stability, not replication fork movement."
+    },
+    {
+      "id": 130,
+      "subject": "Botany",
+      "question": "Identify the labeled tissue that forms the outermost protective layer of the plant organ.",
+      "options": {
+        "a": "Cortex",
+        "b": "Epidermis",
+        "c": "Phloem",
+        "d": "Cambium"
+      },
+      "correct_option": "b",
+      "explanation": "The epidermis is the outermost layer of cells in plant organs, serving as a protective covering. It is typically a single layer that may bear root hairs or cuticle and forms part of the dermal tissue system."
+    },
+    {
+      "id": 131,
+      "subject": "Botany",
+      "question": "In the given floral diagram, which whorl includes both petals and sepals?",
+      "options": {
+        "a": "Perianth",
+        "b": "Androecium",
+        "c": "Gynoecium",
+        "d": "Calyx"
+      },
+      "correct_option": "a",
+      "explanation": "The perianth refers collectively to the calyx (sepals) and corolla (petals)—the non-reproductive outer floral whorls. The androecium and gynoecium are reproductive parts."
+    },
+    {
+      "id": 132,
+      "subject": "Botany",
+      "question": "In the life cycle of a fern, which structure is correctly paired with its ploidy level?",
+      "options": {
+        "a": "Prothallus – Diploid",
+        "b": "Sporangium – Haploid",
+        "c": "Gametophyte – Haploid",
+        "d": "Sporophyte – Haploid"
+      },
+      "correct_option": "c",
+      "explanation": "In ferns, the gametophyte (prothallus) is haploid, giving rise to gametes. Sporangia in the sporophyte (diploid) produce haploid spores via meiosis. The sporophyte generation is diploid and arises post-fertilization."
+    },
+    {
+      "id": 133,
+      "subject": "Biology",
+      "question": "During which phase do chromosomes condense and the nuclear envelope break down?",
+      "options": {
+        "a": "Interphase",
+        "b": "Prophase",
+        "c": "Metaphase",
+        "d": "Telophase"
+      },
+      "correct_option": "b",
+      "explanation": "In prophase, chromatin condenses into visible chromosomes, and the nuclear envelope dissolves—an early event in mitotic division."
+    },
+    {
+      "id": 134,
+      "subject": "Microbiology",
+      "question": "Which characteristic allows Mycoplasma to survive without a cell wall?",
+      "options": {
+        "a": "Their ability to photosynthesize",
+        "b": "Their resistance to osmotic pressure due to sterol-rich membranes",
+        "c": "Presence of a chitinous outer membrane",
+        "d": "Anaerobic respiration"
+      },
+      "correct_option": "b",
+      "explanation": "Mycoplasma are the smallest known living cells and lack a cell wall. Instead, their plasma membrane contains sterols, which provide stability and help resist osmotic lysis."
+    },
+    {
+      "id": 135,
+      "subject": "Microbiology",
+      "question": "Which of the following microbes is commonly used to curdle milk?",
+      "options": {
+        "a": "Rhizobium",
+        "b": "Lactobacillus",
+        "c": "Aspergillus",
+        "d": "Penicillium"
+      },
+      "correct_option": "b",
+      "explanation": "Lactobacillus is a lactic acid bacterium that ferments lactose into lactic acid, reducing the pH of milk. This causes casein proteins to coagulate, forming curd."
+    },
+    {
+      "id": 170,
+      "subject": "Zoology",
+      "question": "Which part of the brain controls voluntary movements?",
+      "options": {
+        "a": "Medulla oblongata",
+        "b": "Cerebellum",
+        "c": "Pons",
+        "d": "Cerebrum"
+      },
+      "correct_option": "d",
+      "explanation": "The cerebrum is responsible for voluntary movements and decision making."
+    }
+  ]
+}

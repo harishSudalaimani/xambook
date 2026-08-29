@@ -18,16 +18,32 @@ jobs:
           GITLAB_TOKEN: ${{ secrets.GITLAB_MIRROR_XAMBOOK }}
 
         run: |
+          set -e
+
           MIRROR_DIR="$(mktemp -d)"
           trap 'rm -rf "$MIRROR_DIR"' EXIT
 
-          echo "Cloning from GitHub: https://github.com/${GITHUB_REPOSITORY}.git"
+          echo "========================================"
+          echo "GitHub → GitLab mirror"
+          echo "========================================"
+
+          echo "Cloning:"
+          echo "https://github.com/${GITHUB_REPOSITORY}.git"
 
           git clone --mirror \
             "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" \
             "$MIRROR_DIR/repo.git"
 
-          echo "Pushing to GitLab: https://git.harish8.com/harish/xambook.git"
+          echo "Clone completed."
 
-          git -C "$MIRROR_DIR/repo.git" push --mirror \
+          echo "Pushing to:"
+          echo "https://git.harish8.com/harish/xambook.git"
+
+          git -C "$MIRROR_DIR/repo.git" \
+            -c http.version=HTTP/1.1 \
+            push --mirror \
             "https://oauth2:${GITLAB_TOKEN}@git.harish8.com/harish/xambook.git"
+
+          echo "========================================"
+          echo "Mirror completed successfully"
+          echo "========================================"

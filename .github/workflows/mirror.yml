@@ -12,62 +12,43 @@ jobs:
     runs-on: self-hosted
 
     steps:
-      - name: Mirror repository to GitLab-SH
+      - name: Checkout current GitHub files
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Push current snapshot to GitLab
         env:
-          GITHUB_TOKEN: ${{ github.token }}
           GITLAB_TOKEN: ${{ secrets.GITLAB_MIRROR_XAMBOOK }}
 
         run: |
           set -e
 
-          MIRROR_DIR="$(mktemp -d)"
-          trap 'rm -rf "$MIRROR_DIR"' EXIT
-
-          GITLAB_URL="https://oauth2:${GITLAB_TOKEN}@git.harish8.com/harish/xambook.git"
-
           echo "========================================"
-          echo "GitHub → GitLab mirror"
+          echo "GitHub → GitLab snapshot"
           echo "========================================"
 
-          echo "Cloning:"
-          echo "https://github.com/${GITHUB_REPOSITORY}.git"
+          # Remove GitHub's existing Git history
+          rm -rf .git
 
-          git clone --mirror \
-            "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" \
-            "$MIRROR_DIR/repo.git"
+          # Create a completely new repository
+          git init
+          git branch -M main
 
-          echo "Clone completed."
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          cd "$MIRROR_DIR/repo.git"
+          git add .
 
-          echo "========================================"
-          echo "Pushing branches one by one"
-          echo "========================================"
+          git commit -m "Initial snapshot from GitHub"
 
-          for branch in $(git for-each-ref --format='%(refname:strip=2)' refs/heads/); do
-            echo "----------------------------------------"
-            echo "Pushing branch: $branch"
-            echo "----------------------------------------"
+          echo "Pushing current snapshot to:"
+          echo "https://git.harish8.com/harish/xambook.git"
 
-            git -c http.version=HTTP/1.1 push \
-              "$GITLAB_URL" \
-              "refs/heads/$branch:refs/heads/$branch"
-          done
+          git push --force \
+            "https://oauth2:${GITLAB_TOKEN}@git.harish8.com/harish/xambook.git" \
+            main:main
 
           echo "========================================"
-          echo "Pushing tags one by one"
-          echo "========================================"
-
-          for tag in $(git for-each-ref --format='%(refname:strip=2)' refs/tags/); do
-            echo "----------------------------------------"
-            echo "Pushing tag: $tag"
-            echo "----------------------------------------"
-
-            git -c http.version=HTTP/1.1 push \
-              "$GITLAB_URL" \
-              "refs/tags/$tag:refs/tags/$tag"
-          done
-
-          echo "========================================"
-          echo "Mirror completed successfully"
+          echo "Snapshot pushed successfully"
           echo "========================================"
